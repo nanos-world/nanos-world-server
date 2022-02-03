@@ -1,0 +1,44 @@
+# asset pack configurations
+[asset_pack]
+    # asset pack name
+    name =              "My Asset Pack"
+    # contributors
+    author =            "Amazing Creator"
+    # version
+    version =           "0.0.1"
+    # image URL
+    image =             ""
+    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
+    unreal_folder =     "MyPack"
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        # MyMap = "MyFolder/MyAwesomeMap"
+        # ...
+
+    # static meshes
+    [assets.static_meshes]
+        # SM_Flower_01 = "MyFolder/SM_Awesome_Flower_01"
+        # ...
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        # SK_Better_Man = "Characters/SK_BetterMan_0"
+        # ...
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # A_Audio_Rifle_Fire = "Audios/A_Audio_Rifle_Fire_03"
+        # ...
