@@ -37,6 +37,8 @@
     assets = [
         
     ]
+    # nanos world Server authentication token
+    token =             ""
     # default startup map
     map =               "nanos-world::TestingMap"
     # banned IPs
