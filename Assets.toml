@@ -8,8 +8,13 @@
     version =           "0.0.1"
     # image URL
     image =             ""
+
+# unreal engine configurations
+[unreal]
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
     unreal_folder =     "MyPack"
+    # unreal engine version - unreal version this asset pack was compiled on
+    unreal_version =    "4.26.2"
 
 # assets files
 [assets]
