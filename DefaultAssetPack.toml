@@ -721,16 +721,6 @@
         A_Female_07_Pain = "Characters/Common/Audios/Pain/A_Female_07_Pain_Cue"
         A_Female_08_Pain = "Characters/Common/Audios/Pain/A_Female_08_Pain_Cue"
 
-        A_Male_01_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_01_BattleShout_Cue"
-        A_Male_02_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_02_BattleShout_Cue"
-        A_Male_03_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_03_BattleShout_Cue"
-        A_Male_04_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_04_BattleShout_Cue"
-
-        A_Female_01_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_01_BattleShout_Cue"
-        A_Female_02_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_02_BattleShout_Cue"
-        A_Female_03_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_03_BattleShout_Cue"
-        A_Female_04_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_04_BattleShout_Cue"
-
         A_Female_Groan = "Characters/Common/Audios/Groan/A_Female_Groan_Cue"
 
         A_Male_01_Groan = "Characters/Common/Audios/Groan/A_Male_01_Groan_Cue"
@@ -782,6 +772,8 @@
         A_Female_02_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_02_BattleShout_Cue"
         A_Female_03_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_03_BattleShout_Cue"
         A_Female_04_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_04_BattleShout_Cue"
+
+		A_Wilhelm_Scream = "Characters/Common/Audios/Scream/A_Wilhelm_Scream_Cue"
 
         A_Whoosh = "Characters/Common/Audios/Actions/A_Whoosh_Cue"
         A_WhiteNoise = "Effects/Sounds/A_WhiteNoise"
