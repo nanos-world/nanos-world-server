@@ -8,7 +8,7 @@
     version =              "0.0.1"
     # image URL
     image =                ""
-    # package type: 'script' (normal package), 'game-mode' (unique package - can only load one at a time) or 'loading-screen' (special package loaded in loading screen)
+    # package type: 'script' (normal package), 'game-mode' (unique package - can only load one at a time), 'library' (doesn't start a Lua VM) or 'loading-screen' (special package for loading screen)
     type =                 "script"
     # whether to force the custom map Script to do not load
     force_no_map_script =  false
@@ -20,5 +20,9 @@
     ]
     # asset packs requirements
     assets_requirements = [
+        
+    ]
+	# compatible maps - maps to be highlighted when starting a new game through main menu
+    compatible_maps = [
         
     ]
