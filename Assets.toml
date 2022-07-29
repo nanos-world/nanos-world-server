@@ -13,8 +13,8 @@
 [unreal]
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
     unreal_folder =     "MyPack"
-    # unreal engine version - unreal version this asset pack was compiled on
-    unreal_version =    "4.26.2"
+    # unreal engine version - unreal version this asset pack was compiled on supports UE4 and UE5
+    unreal_version =    "5.0.3"
 
 # assets files
 [assets]
