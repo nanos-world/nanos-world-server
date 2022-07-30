@@ -41,7 +41,7 @@
     token =             ""
     # default startup map
     map =               "nanos-world::TestingMap"
-    # banned IPs
-    banned_ips = [
+    # banned nanos account IDs
+    banned_ids = [
         
     ]
