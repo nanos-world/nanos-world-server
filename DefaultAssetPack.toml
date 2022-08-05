@@ -869,6 +869,13 @@
         A_Vehicle_Engine_14 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_14"
         A_Vehicle_Engine_15 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_15"
 
+        # UI
+		A_Button_Click_Cue = "UI/Sounds/A_Button_Click_Cue"
+		A_Button_Click_Down_Cue = "UI/Sounds/A_Button_Click_Down_Cue"
+		A_Button_Click_Up_Cue = "UI/Sounds/A_Button_Click_Up_Cue"
+		A_Button_Hover_Cue = "UI/Sounds/MacKeys/A_MacKeys_Cue"
+
+        # Music
         A_Baiana_Remix = "Packs/UgandanKnuckles/A_Baiana_Remix"
         A_Baiana = "Packs/UgandanKnuckles/A_Baiana"
         A_CoffinMusic = "Packs/Coffin/A_CoffinMusic"
