@@ -773,7 +773,7 @@
         A_Female_03_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_03_BattleShout_Cue"
         A_Female_04_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_04_BattleShout_Cue"
 
-		A_Wilhelm_Scream = "Characters/Common/Audios/Scream/A_Wilhelm_Scream_Cue"
+        A_Wilhelm_Scream = "Characters/Common/Audios/Scream/A_Wilhelm_Scream_Cue"
 
         A_Whoosh = "Characters/Common/Audios/Actions/A_Whoosh_Cue"
         A_WhiteNoise = "Effects/Sounds/A_WhiteNoise"
@@ -870,10 +870,18 @@
         A_Vehicle_Engine_15 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_15"
 
         # UI
-		A_Button_Click_Cue = "UI/Sounds/A_Button_Click_Cue"
-		A_Button_Click_Down_Cue = "UI/Sounds/A_Button_Click_Down_Cue"
-		A_Button_Click_Up_Cue = "UI/Sounds/A_Button_Click_Up_Cue"
-		A_Button_Hover_Cue = "UI/Sounds/MacKeys/A_MacKeys_Cue"
+        A_Button_Click_Cue = "UI/Sounds/A_Button_Click_Cue"
+        A_Button_Click_Down_Cue = "UI/Sounds/A_Button_Click_Down_Cue"
+        A_Button_Click_Up_Cue = "UI/Sounds/A_Button_Click_Up_Cue"
+        A_Button_Hover_Cue = "UI/Sounds/MacKeys/A_MacKeys_Cue"
+
+        # Impact
+		A_Body_Impact_Cue = "Effects/Sounds/BodyImpact/A_Body_Impact_Cue"
+		A_Punch_Cue = "Effects/Punch/A_Punch_Cue"
+		A_Flesh_Impact_MS = "Effects/Sounds/PhysicsHit/A_Flesh_Impact_MS"
+		A_MetalHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_MetalHeavy_Impact_MS"
+		A_Water_Impact_MS = "Effects/Sounds/PhysicsHit/A_Water_Impact_MS"
+		A_WoodHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_WoodHeavy_Impact_MS"
 
         # Music
         A_Baiana_Remix = "Packs/UgandanKnuckles/A_Baiana_Remix"
