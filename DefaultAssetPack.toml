@@ -4,6 +4,8 @@
     [assets.maps]
         TestingMap = "NanosWorldMaps/Maps/Testing/NanosTestingMap"
         BlankMap = "Maps/BlankMap/BlankMap"
+        OceanMap = "Maps/OceanMap/OceanMap"
+        EmptyMap = "Maps/EmptyMap/EmptyMap"
 
     # Static Meshes
     [assets.static_meshes]
@@ -13,6 +15,14 @@
         SM_Cylinder = "Props/BasicShapes/SM_Cylinder"
         SM_Plane = "Props/BasicShapes/SM_Plane"
         SM_Sphere = "Props/BasicShapes/SM_Sphere"
+        SM_Capsule = "Props/BasicShapes/SM_Capsule"
+        SM_Pipe = "Props/BasicShapes/SM_Pipe"
+        SM_QuadPyramid = "Props/BasicShapes/SM_QuadPyramid"
+        SM_Torus = "Props/BasicShapes/SM_Torus"
+        SM_TriPyramid = "Props/BasicShapes/SM_TriPyramid"
+        SM_Tube = "Props/BasicShapes/SM_Tube"
+        SM_Wedge_A = "Props/BasicShapes/SM_Wedge_A"
+        SM_Wedge_B = "Props/BasicShapes/SM_Wedge_B"
 
         SM_Ball_VR = "Props/VRShapes/SM_Ball"
         SM_Cube_VR_01 = "Props/VRShapes/SM_Cube_01"
@@ -77,7 +87,6 @@
 
         SM_WoodenTable = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenTable"
         SM_WoodenChair = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenChair"
-        SM_TireLarge = "NanosWorldMaps/Art/Rural/Extra/SM_TireLarge"
         SM_Stool = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Stool"
         SM_TeaPot_Interior = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_TeaPot_Interior"
         SM_OilDrum = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_OilDrum"
@@ -178,8 +187,6 @@
 
         SM_Grenade_G67 = "Weapons/Grenades/G67/SM_G67"
         SM_Torch = "Weapons/Torch/SM_Torch"
-
-        SM_Tire_01 = "Vehicles/Common/Meshes/SM_Tire_01"
 
         SM_Sunglasses = "Packs/Coffin/SM_Sunglasses"
         SM_TopHat = "Packs/Coffin/SM_TopHat"
@@ -315,6 +322,8 @@
         SM_Lamp = "NanosWorldAssets/Furniture/SM_Lamp"
         SM_Flashlight = "NanosWorldAssets/Tools/SM_Flashlight"
         SM_Balloon = "NanosWorldAssets/Funny/SM_Balloon"
+        SM_MoneyRoll = "NanosWorldAssets/Funny/SM_MoneyRoll"
+        SM_MoneyStack = "NanosWorldAssets/Funny/SM_MoneyStack"
         SM_Crowbar_01 = "NanosWorldAssets/Tools/SM_Crowbar_01"
         SM_Cleaver_01 = "NanosWorldAssets/Tools/SM_Cleaver_01"
         SM_Grave_04 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_04"
@@ -495,6 +504,12 @@
         SM_Violin = "NanosWorldAssets/Instruments/Violin/SM_Violin"
         SM_Violin_Bow = "NanosWorldAssets/Instruments/Violin/SM_Violin_Bow"
 
+        # Vehicles
+        SM_Offroad_Body = "Vehicles/OffroadCar/SM_Offroad_Body"
+        SM_Offroad_Tire = "Vehicles/OffroadCar/SM_Offroad_Tire"
+        SM_Tire_01 = "NanosWorldAssets/Vehicles/Common/Meshes/SM_Tire_01"
+        SM_TireLarge = "NanosWorldMaps/Art/Rural/Extra/SM_TireLarge"
+
     # Skeletal Meshes
     [assets.skeletal_meshes]
         # Characters
@@ -551,12 +566,18 @@
         SK_FlareGun_Short = "Weapons/Tools/FlareGun/SK_FlareGun_Short"
 
         # Vehicles
-        SK_Pickup = "Vehicles/Variety/Pickup/SK_Pickup"
-        SK_SUV = "Vehicles/Variety/SUV/SK_SUV"
-        SK_Truck_Box = "Vehicles/Variety/Truck/SK_Truck_Box"
-        SK_Truck_Chassis = "Vehicles/Variety/Truck/SK_Truck_Chassis"
-        SK_SportsCar = "Vehicles/Variety/SportsCar/SK_SportsCar"
-        SK_Hatchback = "Vehicles/Variety/Hatchback/SK_Hatchback"
+        SK_CamperVan = "NanosWorldAssets/Vehicles/Variety/CamperVan/SK_CamperVan"
+        SK_Van = "NanosWorldAssets/Vehicles/Variety/Van/SK_Van"
+        SK_Wagon = "NanosWorldAssets/Vehicles/Variety/Wagon/SK_Wagon"
+        SK_Sedan = "NanosWorldAssets/Vehicles/Variety/Sedan/SK_Sedan"
+        SK_Pickup = "NanosWorldAssets/Vehicles/Variety/Pickup/SK_Pickup"
+        SK_SUV = "NanosWorldAssets/Vehicles/Variety/SUV/SK_SUV"
+        SK_Truck_Box = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Box"
+        SK_Truck_Chassis = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Chassis"
+        SK_SportsCar = "NanosWorldAssets/Vehicles/Variety/SportsCar/SK_SportsCar"
+        SK_Hatchback = "NanosWorldAssets/Vehicles/Variety/Hatchback/SK_Hatchback"
+        SK_Offroad = "Vehicles/OffroadCar/SK_Offroad"
+
 
     # Sounds
     [assets.sounds]
@@ -627,8 +648,8 @@
         A_ShotgunBlast_Shot = "Weapons/Common/Audios/A_ShotgunBlast_Shot_Cue"
         A_Sniper_Shot = "Weapons/Common/Audios/A_Sniper_Shot_Cue"
         A_SniperRifle_Shot = "Weapons/Common/Audios/A_SniperRifle_Shot_Cue"
-        A_Glock_Suppressed_Mechanic_01 = "NanosWorld/Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_01_Cue"
-        A_Glock_Suppressed_Mechanic_02 = "NanosWorld/Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_02_Cue"
+        A_Glock_Suppressed_Mechanic_01 = "Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_01_Cue"
+        A_Glock_Suppressed_Mechanic_02 = "Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_02_Cue"
         A_Wesson500_Shot = "Weapons/Common/Audios/A_Wesson500_Shot_Cue"
         A_Explosion_Large = "Weapons/Common/Audios/A_Explosion_Large_Cue"
         A_Explosion_Small = "Weapons/Common/Audios/A_Explosion_Small_Cue"
@@ -685,7 +706,7 @@
         A_Walther_P38_Shot = "Weapons/Common/Audios/Shots/A_Walther_P38_Shot_Cue"
 
         A_Weapon_Pickup = "Weapons/Common/Audios/A_Weapon_Pickup_Cue"
-        A_Object_PickUp = "NanosWorld/Effects/Sounds/A_Object_PickUp_Cue"
+        A_Object_PickUp = "Effects/Sounds/A_Object_PickUp_Cue"
 
         A_Balloon_Pop = "Effects/Sounds/A_Balloon_Pop_Cue"
         A_Balloon_Inflate = "Effects/Sounds/A_Balloon_Inflate_Cue"
@@ -830,7 +851,6 @@
         A_Invalid_Action = "Effects/Sounds/A_Invalid_Action"
         A_Laser_Pull = "Effects/Sounds/A_Laser_Pull"
         A_Laser_Push = "Effects/Sounds/A_Laser_Push"
-        A_Object_PickUp = "Effects/Sounds/A_Object_PickUp"
         A_Object_Snaps_To_Grid = "Effects/Sounds/A_Object_Snaps_To_Grid"
         A_Play_Enter = "Effects/Sounds/A_Play_Enter"
         A_Player_Eject = "Effects/Sounds/A_Player_Eject"
@@ -845,6 +865,7 @@
         A_Teleport_Mode_Entered = "Effects/Sounds/A_Teleport_Mode_Entered"
 
         # Vehicle
+        A_Vehicle_Skid = "Vehicles/Common/Sounds/A_Vehicle_Skid_Cue"
         A_Vehicle_Brake = "Vehicles/Common/Sounds/A_Vehicle_Brake_Cue"
         A_Vehicle_Horn_Bike_01 = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_01"
         A_Vehicle_Horn_Bike_02 = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_02"
@@ -868,6 +889,11 @@
         A_Vehicle_Engine_13 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_13"
         A_Vehicle_Engine_14 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_14"
         A_Vehicle_Engine_15 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_15"
+        A_Vehicle_Engine_16 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_16"
+        A_Vehicle_Engine_17 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_17"
+        A_Vehicle_Engine_18 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_18"
+        A_Vehicle_Engine_19 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_19"
+        A_Vehicle_Engine_20 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_20"
 
         # UI
         A_Button_Click_Cue = "UI/Sounds/A_Button_Click_Cue"
@@ -875,13 +901,13 @@
         A_Button_Click_Up_Cue = "UI/Sounds/A_Button_Click_Up_Cue"
         A_Button_Hover_Cue = "UI/Sounds/MacKeys/A_MacKeys_Cue"
 
-        # Impact
-		A_Body_Impact_Cue = "Effects/Sounds/BodyImpact/A_Body_Impact_Cue"
-		A_Punch_Cue = "Effects/Punch/A_Punch_Cue"
-		A_Flesh_Impact_MS = "Effects/Sounds/PhysicsHit/A_Flesh_Impact_MS"
-		A_MetalHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_MetalHeavy_Impact_MS"
-		A_Water_Impact_MS = "Effects/Sounds/PhysicsHit/A_Water_Impact_MS"
-		A_WoodHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_WoodHeavy_Impact_MS"
+        # Effects
+        A_Body_Impact_Cue = "Effects/Sounds/BodyImpact/A_Body_Impact_Cue"
+        A_Punch_Cue = "Effects/Punch/A_Punch_Cue"
+        A_Flesh_Impact_MS = "Effects/Sounds/PhysicsHit/A_Flesh_Impact_MS"
+        A_MetalHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_MetalHeavy_Impact_MS"
+        A_Water_Impact_MS = "Effects/Sounds/PhysicsHit/A_Water_Impact_MS"
+        A_WoodHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_WoodHeavy_Impact_MS"
 
         # Music
         A_Baiana_Remix = "Packs/UgandanKnuckles/A_Baiana_Remix"
@@ -1063,9 +1089,63 @@
 
         AM_Mannequin_CoffinDance = "Packs/Coffin/AM_Mannequin_CoffinDance"
 
-    # Particles
-    [assets.particles]
+        # Zombies
+        A_Zombie_Attack_Arms_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Attack_Arms_Loop"
+        A_Zombie_Attack_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Attack_Loop"
+        A_Zombie_Chase_KnockBack_Chase = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Chase_KnockBack_Chase"
+        A_Zombie_Chase_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Chase_Loop"
+        A_Zombie_Crawl_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Crawl_Loop"
+        A_Zombie_Death_Back_Mid = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Death_Back_Mid"
+        A_Zombie_Death_Hit_Back = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Death_Hit_Back"
+        A_Zombie_HyperAttack_Idle_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperAttack_Idle_Loop"
+        A_Zombie_HyperAttack_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperAttack_Loop"
+        A_Zombie_HyperChase_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperChase_Loop"
+        A_Zombie_Idle_01 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_01"
+        A_Zombie_Idle_01_To_Stand = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_01_To_Stand"
+        A_Zombie_Idle_02 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_02"
+        A_Zombie_OnFire = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_OnFire"
+        A_Zombie_Reach_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Reach_Loop"
+        A_Zombie_Stand_To_Attack = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Attack"
+        A_Zombie_Stand_To_Chase = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Chase"
+        A_Zombie_Stand_To_Crawl = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Crawl"
+        A_Zombie_Stand_To_Idle_01 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Idle_01"
+        A_Zombie_Stand_Walk_F = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_Walk_F"
+        A_Zombie_Turn_L_45_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_L_45_Loop"
+        A_Zombie_Turn_L_90 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_L_90"
+        A_Zombie_Turn_R_45_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_R_45_Loop"
+        A_Zombie_Turn_R_90 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_R_90"
+        A_Zombie_Walk_F_KnockBack_Walk = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Walk_F_KnockBack_Walk"
+        A_Zombie_Walk_F_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Walk_F_Loop"
 
+        A_Zombie_Chase_KnockBack_Chase_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Chase_KnockBack_Chase"
+        A_Zombie_Chase_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Chase_Loop"
+        A_Zombie_Crawl_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Crawl_Loop"
+        A_Zombie_Death_Back_Mid_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Death_Back_Mid"
+        A_Zombie_Death_Hit_Back_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Death_Hit_Back"
+        A_Zombie_HyperChase_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_HyperChase_Loop"
+        A_Zombie_OnFire_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_OnFire"
+        A_Zombie_Stand_To_Attack_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Attack"
+        A_Zombie_Stand_To_Chase_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Chase"
+        A_Zombie_Stand_To_Crawl_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Crawl"
+        A_Zombie_Stand_Walk_F_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_Walk_F"
+        A_Zombie_Turn_L_45_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_L_45_Loop"
+        A_Zombie_Turn_L_90_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_L_90"
+        A_Zombie_Turn_R_45_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_R_45_Loop"
+        A_Zombie_Turn_R_90_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_R_90"
+        A_Zombie_Walk_F_KnockBack_Walk_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Walk_F_KnockBack_Walk"
+        A_Zombie_Walk_F_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Walk_F_Loop"
+
+        # BlendSpaces
+        BS_Mannequin_Standing_IdleWalkRun = "Characters/Common/Animations/Locomotion/Standing/BS_Mannequin_Standing_IdleWalkRun"
+        BS_Mannequin_Crouching_IdleWalkRun = "Characters/Common/Animations/Locomotion/Crouching/BS_Mannequin_Crouching_IdleWalkRun"
+        BS_Mannequin_Proning_IdleWalk = "Characters/Common/Animations/Locomotion/Proning/BS_Mannequin_Proning_IdleWalk"
+
+        A_Mannequin_StandingToCrouching = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToCrouching"
+        A_Mannequin_CrouchingToStanding = "Characters/Common/Animations/TurnInPlace/ALS_CLF_to_N"
+        A_Mannequin_ProningToCrouching = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_LayingFrontToCrouching"
+        A_Mannequin_CrouchingToProne = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToProne"
+
+    [assets.particles]
         # Weapons
         P_Bullet_Trail = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System"
         P_Weapon_BarrelSmoke = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System"
@@ -1213,14 +1293,15 @@
         P_LTGrenadeEXP_Water = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Water"
         P_LTGrenadeEXP_Wood = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Wood"
 
-    # Materials
     [assets.materials]
         # Template Materials
         M_NanosMasked = "MaterialLibrary/M_NanosDefault"
         M_NanosAlphaComposite = "MaterialLibrary/M_NanosDefault_AlphaComposite"
         M_NanosTranslucent = "MaterialLibrary/MI_NanosDefault_Translucent"
         M_NanosTranslucent_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
+        M_NanosSceneCapture = "MaterialLibrary/M_NanosDefault_SceneCapture"
         M_NanosDecal = "MaterialLibrary/M_NanosDefault_Decal"
+        M_NanosWebUI = "MaterialLibrary/M_NanosWebUI"
         M_NanosWireframe = "MaterialLibrary/M_NanosWireframe"
 
         # Util Materials
@@ -1316,3 +1397,7 @@
         MI_Crosshair_ThreeDots = "UI/Crosshair/MI_Crosshair_ThreeDots"
         MI_Crosshair_Triangle = "UI/Crosshair/MI_Crosshair_Triangle"
         MI_Crosshair_Vee = "UI/Crosshair/MI_Crosshair_Vee"
+
+    [assets.blueprints]
+        # Animation Blueprints
+        ABP_Offroad = "Vehicles/OffroadCar/ABP_Offroad"
