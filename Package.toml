@@ -14,6 +14,8 @@
     force_no_map_script =  false
     # auto destroy all entities spawned by this package when it unloads
     auto_cleanup =         true
+    # the game version (major.minor) at the time this package was created, for granting compatibility between breaking changes
+    compatibility_version = "1.21"
     # packages requirements
     packages_requirements = [
         
