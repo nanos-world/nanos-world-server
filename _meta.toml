@@ -1,0 +1,8 @@
+# vault configurations
+[meta]
+    # friendly name
+    title =                 "My Awesome Package"
+    # contributors
+    author =                "Contributor Names"
+    # version
+    version =               "0.1.0"

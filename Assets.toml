@@ -1,13 +1,11 @@
-# asset pack configurations
-[asset_pack]
-    # asset pack name
-    name =              "My Asset Pack"
+# vault configurations
+[meta]
+    # friendly name
+    title =                 "My Awesome Asset Pack"
     # contributors
-    author =            "Amazing Creator"
+    author =                "Contributor Names"
     # version
-    version =           "0.0.1"
-    # image URL
-    image =             ""
+    version =               "0.1.0"
 
 # unreal engine configurations
 [unreal]
@@ -15,6 +13,8 @@
     unreal_folder =     "MyPack"
     # unreal engine version - unreal version this asset pack was compiled on
     unreal_version =    "5.1.0"
+    # whether this asset pack was created as a plugin content"
+    is_plugin_content =  false
 
 # assets files
 [assets]
