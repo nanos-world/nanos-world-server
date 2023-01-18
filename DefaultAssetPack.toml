@@ -1295,16 +1295,16 @@
 
     [assets.materials]
         # Template Materials
-        M_NanosMasked = "MaterialLibrary/M_NanosDefault"
-        M_NanosAlphaComposite = "MaterialLibrary/M_NanosDefault_AlphaComposite"
-        M_NanosTranslucent = "MaterialLibrary/MI_NanosDefault_Translucent"
-        M_NanosTranslucent_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
-        M_NanosSceneCapture = "MaterialLibrary/M_NanosDefault_SceneCapture"
-        M_NanosDecal = "MaterialLibrary/M_NanosDefault_Decal"
-        M_NanosWebUI = "MaterialLibrary/M_NanosWebUI"
-        M_NanosWireframe = "MaterialLibrary/M_NanosWireframe"
+		M_Default_Masked_Lit = "MaterialLibrary/M_NanosDefault"
+		M_Default_Masked_Unlit = "MaterialLibrary/MI_DefaultMaskedUnlit"
+		M_Default_AlphaComposite_Lit = "MaterialLibrary/M_NanosDefault_AlphaComposite"
+		M_Default_Translucent_Lit = "MaterialLibrary/MI_NanosDefault_Translucent"
+		M_Default_Translucent_Lit_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
+		M_Default_Translucent_Lit_Decal = "MaterialLibrary/M_NanosDefault_Decal"
 
         # Util Materials
+		M_Noise = "MaterialLibrary/M_Noise"
+		M_Wireframe = "MaterialLibrary/M_Wireframe"
         M_NanosBillboardError = "MaterialLibrary/MI_NanosBillboardError"
         M_NanosMaterialError = "MaterialLibrary/M_NanosMaterialError"
 
