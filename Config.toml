@@ -1,47 +1,68 @@
-# server configurations
-[server]
+# discover configurations
+[discover]
     # server name
     name =              "nanos world server"
     # server description (max 127 characters)
     description =       ""
-    # server logo URL (recommended size: 150x75)
-    logo =              ""
-    # max players
-    max_players =       10
-    # leave it blank for no password
-    password =          ""
     # server IP. we recommend leaving it 0.0.0.0 for default
     ip =                "0.0.0.0"
-    # server port (TCP and UDP forwarding needed)
+    # server port (TCP and UDP)
     port =              7777
-    # query port (UDP forwarding needed)
+    # query port (UDP)
     query_port =        7778
     # announce server in the master server list
     announce =          true
-    # server tick rate in milliseconds (dangerous! server will tick at each [tick_rate] ms, affecting both server and client performance. 33 ms means 30 ticks per second and is the default and recommended value)
-    tick_rate =         33
-    # log Level. (1) normal - (2) debug - (3) verbose
-    log_level =         2
+    # true if should run as dedicated server or false to run as P2P - dedicated server requires port forwarding - P2P will provide a fake IP to be used to connect
+    dedicated_server =  true
 
-# nanos world configurations
-[world]
-    # game-mode package to load (set the main game-mode package to load - you can load only one 'game-mode' package type at once)
-    game_mode =         ""
-    # loading-screen package to load (the loading screen will be displayed when players join your server)
-    loading_screen =    ""
-    # packages script list (leave it blank to load all packages, this is usually useful when you have tons of packages downloaded and only wants to load one or some)
-    packages = [
-
-    ]
-    # asset packs list (this will additionally load the asset packs you define here)
-    assets = [
-        
-    ]
-    # nanos world Server authentication token
+# general configurations
+[general]
+    # max players
+    max_players =       64
+    # leave it blank for no password
+    password =          ""
+    # nanos world server authentication token
     token =             ""
-    # default startup map
-    map =               "nanos-world::TestingMap"
     # banned nanos account IDs
     banned_ids = [
-        
+
     ]
+
+# game configurations
+[game]
+    # default startup map
+    map =               "nanos-world::BlankMap"
+    # game-mode package to load (set the main game-mode package to load - you can load only one 'game-mode' package type at once)
+    game_mode =         ""
+    # packages list (set the packages you want to load)
+    packages = [
+                        "",
+    ]
+    # asset packs list (additionally loads the asset packs you define here)
+    assets = [
+
+    ]
+    # loading-screen package to load (the loading screen will be displayed when players join your server)
+    loading_screen =    ""
+
+# custom settings values
+# those values can be accessed through Server.GetCustomSettings() method from any package
+[custom_settings]
+    # my_setting_01 = "value"
+    # my_setting_02 = 123
+
+# debug configurations
+[debug]
+    # log Level - (1) normal, (2) debug or (3) verbose
+    log_level =         1
+    # if to use async or sync logs (async provides better performance, disabling async logs can help debugging crashes)
+    async_log =         true
+    # enables performance profiling logs for debugging
+    profiling =         false
+
+# optimization configurations
+[optimization]
+    # server tick rate in milliseconds (dangerous! server will tick at each [tick_rate] ms, affecting both server and client performance. 33 ms means 30 ticks per second and is the default and recommended value)
+    tick_rate =         33
+    # sets the compression level to use in some networking operations (0 - 9) - (0) disables it, (1) is the fastest and (9) is the slowest but has the highest compression ratio
+    compression =       0

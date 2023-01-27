@@ -31,7 +31,7 @@
     ]
 
 # game-mode custom settings configurations
-# those settings can be overriden through new game menu and through command line
-# and are accessed through Server.GetCustomSettings() method
+# those settings can be configured through new game menu, Config.toml and server command line
+# and can be accessed through Server.GetCustomSettings() method from any package
 [custom_settings]
     # my_toggle = { label = "awesome toggle", type = "boolean", description = "press this!", default = true }
