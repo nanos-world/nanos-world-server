@@ -1,0 +1,40 @@
+# vault configurations
+[meta]
+    # friendly name
+    title =                 "My Awesome Map"
+    # contributors
+    author =                "Contributor Names"
+    # version
+    version =               "0.1.0"
+
+# map configurations
+[map]
+    # auto destroy all entities spawned by this package when it unloads
+    auto_cleanup =          true
+    # whether to load all level entities on client - only enable it if your package needs to use level static meshes entities
+    load_level_entities =   false
+    # the game version (major.minor) at the time this package was created, for granting compatibility between breaking changes
+    compatibility_version = "1.25"
+    # packages requirements
+    packages_requirements = [
+
+    ]
+    # asset packs requirements
+    assets_requirements = [
+
+    ]
+    # compatible game modes
+    compatible_game_modes = [
+
+    ]
+    # map asset
+    map_asset =             "nanos-world::BlankMap"
+    # list of spawn points
+    spawn_points = [
+                            { location = "Vector(-140.000000, -120.000000, 100.000000)", rotation = "Rotator(0.000000, -60.000000, 0.000000)" }
+    ]
+
+# map custom data
+# those data can be accessed through Server.GetMapConfig() method from any package
+[custom_data]
+    # something = 123
