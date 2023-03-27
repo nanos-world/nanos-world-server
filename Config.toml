@@ -31,7 +31,7 @@
 # game configurations
 [game]
     # default startup map
-    map =               "nanos-world::BlankMap"
+    map =               "default-blank-map"
     # game-mode package to load (set the main game-mode package to load - you can load only one 'game-mode' package type at once)
     game_mode =         ""
     # packages list (set the packages you want to load)
