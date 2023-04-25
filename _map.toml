@@ -28,7 +28,7 @@
 
     ]
     # map asset
-    map_asset =             "default-blank-map"
+    map_asset =             "nanos-world::BlankMap"
     # list of spawn points
     spawn_points = [
                             { location = "Vector(-140.000000, -120.000000, 100.000000)", rotation = "Rotator(0.000000, -60.000000, 0.000000)" }
