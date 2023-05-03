@@ -10,11 +10,11 @@
 # unreal engine configurations
 [unreal]
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
-    unreal_folder =     "MyPack"
+    unreal_folder =         "MyPack"
     # unreal engine version - unreal version this asset pack was compiled on
-    unreal_version =    "5.1.0"
+    unreal_version =        "5.1.0"
     # whether this asset pack was created as a plugin content"
-    is_plugin_content =  false
+    is_plugin_content =     false
 
 # assets files
 [assets]
@@ -31,6 +31,16 @@
     # skeletal meshes
     [assets.skeletal_meshes]
         # SK_Better_Man = "Characters/SK_BetterMan_0"
+        # ...
+
+    # sounds
+    [assets.sounds]
+        # A_My_Sound = "Sounds/A_My_Sound"
+        # ...
+
+    # animations
+    [assets.animations]
+        # A_Character_Jump = "Animations/A_Character_Jump"
         # ...
 
     # particles
