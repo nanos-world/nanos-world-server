@@ -7,6 +7,13 @@
     # version
     version =               "0.1.0"
 
+# asset pack configurations
+[asset_pack]
+    # asset packs requirements
+    assets_requirements = [
+
+    ]
+
 # unreal engine configurations
 [unreal]
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
