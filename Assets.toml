@@ -33,6 +33,7 @@
     # static meshes
     [assets.static_meshes]
         # SM_Flower_01 = "MyFolder/SM_Awesome_Flower_01"
+        # SM_Rock_01 = { path = "MyFolder/SM_Rock_01", my_tag = "something", thumbnail = "Thumbnails/SM_Rock_01.jpg" }
         # ...
 
     # skeletal meshes
