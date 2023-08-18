@@ -10,518 +10,622 @@
     # Static Meshes
     [assets.static_meshes]
         # Default
-        SM_Cone = "Props/BasicShapes/SM_Cone"
-        SM_Cube = "Props/BasicShapes/SM_Cube"
-        SM_Cylinder = "Props/BasicShapes/SM_Cylinder"
-        SM_Plane = "Props/BasicShapes/SM_Plane"
-        SM_Sphere = "Props/BasicShapes/SM_Sphere"
-        SM_Capsule = "Props/BasicShapes/SM_Capsule"
-        SM_Pipe = "Props/BasicShapes/SM_Pipe"
-        SM_QuadPyramid = "Props/BasicShapes/SM_QuadPyramid"
-        SM_Torus = "Props/BasicShapes/SM_Torus"
-        SM_TriPyramid = "Props/BasicShapes/SM_TriPyramid"
-        SM_Tube = "Props/BasicShapes/SM_Tube"
-        SM_Wedge_A = "Props/BasicShapes/SM_Wedge_A"
-        SM_Wedge_B = "Props/BasicShapes/SM_Wedge_B"
+        SM_Cone = { path = "Props/BasicShapes/SM_Cone", category = "basic" }
+        SM_Cube = { path = "Props/BasicShapes/SM_Cube", category = "basic" }
+        SM_Cylinder = { path = "Props/BasicShapes/SM_Cylinder", category = "basic" }
+        SM_Plane = { path = "Props/BasicShapes/SM_Plane", category = "basic" }
+        SM_Sphere = { path = "Props/BasicShapes/SM_Sphere", category = "basic" }
+        SM_Capsule = { path = "Props/BasicShapes/SM_Capsule", category = "basic" }
+        SM_Pipe = { path = "Props/BasicShapes/SM_Pipe", category = "basic" }
+        SM_QuadPyramid = { path = "Props/BasicShapes/SM_QuadPyramid", category = "basic" }
+        SM_Torus = { path = "Props/BasicShapes/SM_Torus", category = "basic" }
+        SM_TriPyramid = { path = "Props/BasicShapes/SM_TriPyramid", category = "basic" }
+        SM_Tube = { path = "Props/BasicShapes/SM_Tube", category = "basic" }
+        SM_Wedge_A = { path = "Props/BasicShapes/SM_Wedge_A", category = "basic" }
+        SM_Wedge_B = { path = "Props/BasicShapes/SM_Wedge_B", category = "basic" }
 
-        SM_Ball_VR = "Props/VRShapes/SM_Ball"
-        SM_Cube_VR_01 = "Props/VRShapes/SM_Cube_01"
-        SM_Cube_VR_02 = "Props/VRShapes/SM_Cube_02"
-        SM_Cube_VR_03 = "Props/VRShapes/SM_Cube_03"
-        SM_Pyramid_VR = "Props/VRShapes/SM_Pyramid"
+        SM_Ball_VR = { path = "Props/VRShapes/SM_Ball_VR", category = "basic" }
+        SM_Cube_VR_01 = { path = "Props/VRShapes/SM_Cube_VR_01", category = "basic" }
+        SM_Cube_VR_02 = { path = "Props/VRShapes/SM_Cube_VR_02", category = "basic" }
+        SM_Cube_VR_03 = { path = "Props/VRShapes/SM_Cube_VR_03", category = "basic" }
+        SM_Pyramid_VR = { path = "Props/VRShapes/SM_Pyramid_VR", category = "basic" }
 
-        SM_Camera = "Props/Utils/SM_Camera"
+        SM_Camera = { path = "Props/Utils/SM_Camera", category = "funny" }
 
-        SM_Error = "Props/Utils/SM_Error"
-        SM_None = "Props/Utils/SM_None"
+        SM_Error = { path = "Props/Utils/SM_Error", category = "funny" }
+        SM_None = { path = "Props/Utils/SM_None", category = "hidden" }
 
-        SM_RockingChair = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_RockingChair"
-        SM_RoundStand = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_RoundStand"
-        SM_Bottle_01 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bottle_01"
-        SM_Bottle_02 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bottle_02"
-        SM_Bottle = "NanosWorldMaps/Art/Rural/Extra/SM_Bottle"
-        SM_CupC = "NanosWorldMaps/Art/City/House_Props/Meshes/KitchenWare/SM_CupC"
-        SM_OilLamp = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_OilLamp"
-        SM_BarrelTub = "NanosWorldMaps/Art/Rural/Extra/SM_BarrelTub"
-        SM_CoffeeTable = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_CoffeeTable"
-        SM_Toolbox_01 = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_Toolbox_01"
-        SM_Toolbox_06 = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_Toolbox_06"
-        SM_VaseA = "NanosWorldMaps/Art/City/House_Props/Meshes/Vases/SM_VaseA"
-        SM_CupD = "NanosWorldMaps/Art/City/House_Props/Meshes/KitchenWare/SM_CupD"
+        SM_RockingChair = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_RockingChair", category = "furniture" }
+        SM_RoundStand = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_RoundStand", category = "furniture" }
+        SM_Bottle_01 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bottle_01", category = "furniture" }
+        SM_Bottle_02 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bottle_02", category = "furniture" }
+        SM_Bottle = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Bottle", category = "furniture" }
+        SM_CupC = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/KitchenWare/SM_CupC", category = "furniture" }
+        SM_OilLamp = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_OilLamp", category = "furniture" }
+        SM_BarrelTub = { path = "NanosWorldMaps/Art/Rural/Extra/SM_BarrelTub", category = "furniture" }
+        SM_CoffeeTable = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_CoffeeTable", category = "furniture" }
+        SM_Toolbox_01 = { path = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_Toolbox_01", category = "furniture" }
+        SM_Toolbox_06 = { path = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_Toolbox_06", category = "furniture" }
+        SM_VaseA = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/Vases/SM_VaseA", category = "furniture" }
+        SM_CupD = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/KitchenWare/SM_CupD", category = "furniture" }
 
         # Characters Body Part
-        SM_Mannequin_Head = "Characters/Mannequin/SM_Mannequin_Head"
-        SM_Eye = "Characters/Common/BodyParts/Eyes/SM_Eye"
-        SM_Beard_Extra = "Characters/Common/BodyParts/Beard/SM_Beard_Extra"
-        SM_Beard_Middle = "Characters/Common/BodyParts/Beard/SM_Beard_Middle"
-        SM_Beard_Mustache_01 = "Characters/Common/BodyParts/Beard/SM_Beard_Mustache_01"
-        SM_Beard_Mustache_02 = "Characters/Common/BodyParts/Beard/SM_Beard_Mustache_02"
-        SM_Beard_Side = "Characters/Common/BodyParts/Beard/SM_Beard_Side"
-        SM_Hair_Long = "Characters/Common/BodyParts/Hair/Male/SM_Hair_Long"
-        SM_Hair_Short = "Characters/Common/BodyParts/Hair/Male/SM_Hair_Short"
-        SM_Hair_Kwang = "Characters/Common/BodyParts/Hair/Kwang/SM_Hair_Kwang"
+        SM_Mannequin_Head = { path = "Characters/Mannequin/SM_Mannequin_Head", category = "funny" }
+        SM_Eye = { path = "Characters/Common/BodyParts/Eyes/SM_Eye", category = "funny" }
+        SM_Beard_Extra = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Extra", category = "funny" }
+        SM_Beard_Middle = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Middle", category = "funny" }
+        SM_Beard_Mustache_01 = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Mustache_01", category = "funny" }
+        SM_Beard_Mustache_02 = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Mustache_02", category = "funny" }
+        SM_Beard_Side = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Side", category = "funny" }
+        SM_Hair_Long = { path = "Characters/Common/BodyParts/Hair/Male/SM_Hair_Long", category = "funny" }
+        SM_Hair_Short = { path = "Characters/Common/BodyParts/Hair/Male/SM_Hair_Short", category = "funny" }
+        SM_Hair_Kwang = { path = "Characters/Common/BodyParts/Hair/Kwang/SM_Hair_Kwang", category = "funny" }
 
         # Weapons Mag
-        SM_AK47_Mag_Empty = "Weapons/Rifles/AK47/SM_AK47_Mag_Empty"
-        SM_AK74U_Mag_Empty = "Weapons/Rifles/AK74U/SM_AK74U_Mag_Empty"
-        SM_GE36_Mag_Empty = "Weapons/Rifles/GE36/SM_GE36_Mag_Empty"
-        SM_Glock_Mag_Empty = "Weapons/Pistols/Glock/SM_Glock_Mag_Empty"
-        SM_DesertEagle_Mag_Empty = "Weapons/Pistols/DesertEagle/SM_DesertEagle_Mag_Empty"
-        SM_AP5_Mag_Empty = "Weapons/Rifles/AP5/SM_AP5_Mag_Empty"
-        SM_AR4_Mag_Empty = "Weapons/Rifles/AR4/SM_AR4_Mag_Empty"
-        SM_ASVal_Mag_Empty = "Weapons/Rifles/ASVal/SM_ASVal_Mag_Empty"
-        SM_M1911_Mag = "Weapons/Pistols/M1911/SM_M1911_Mag"
-        SM_Makarov_Mag_Empty = "Weapons/Pistols/Makarov/SM_Makarov_Mag_Empty"
-        SM_UMP45_Mag_Empty = "Weapons/SMGs/UMP45/SM_UMP45_Mag_Empty"
-        SM_P90_Mag = "Weapons/SMGs/P90/SM_P90_Mag"
-        SM_GE3_Mag_Empty = "Weapons/Rifles/GE3/SM_GE3_Mag_Empty"
-        SM_SA80_Mag_Empty = "Weapons/Rifles/SA80/SM_SA80_Mag_Empty"
-        SM_AK5C_Mag = "Weapons/Rifles/AK5C/SM_AK5C_Mag"
+        SM_AK47_Mag_Empty = { path = "Weapons/Rifles/AK47/SM_AK47_Mag_Empty", category = "tools" }
+        SM_AK74U_Mag_Empty = { path = "Weapons/Rifles/AK74U/SM_AK74U_Mag_Empty", category = "tools" }
+        SM_GE36_Mag_Empty = { path = "Weapons/Rifles/GE36/SM_GE36_Mag_Empty", category = "tools" }
+        SM_Glock_Mag_Empty = { path = "Weapons/Pistols/Glock/SM_Glock_Mag_Empty", category = "tools" }
+        SM_DesertEagle_Mag_Empty = { path = "Weapons/Pistols/DesertEagle/SM_DesertEagle_Mag_Empty", category = "tools" }
+        SM_AP5_Mag_Empty = { path = "Weapons/Rifles/AP5/SM_AP5_Mag_Empty", category = "tools" }
+        SM_AR4_Mag_Empty = { path = "Weapons/Rifles/AR4/SM_AR4_Mag_Empty", category = "tools" }
+        SM_ASVal_Mag_Empty = { path = "Weapons/Rifles/ASVal/SM_ASVal_Mag_Empty", category = "tools" }
+        SM_M1911_Mag = { path = "Weapons/Pistols/M1911/SM_M1911_Mag", category = "tools" }
+        SM_Makarov_Mag_Empty = { path = "Weapons/Pistols/Makarov/SM_Makarov_Mag_Empty", category = "tools" }
+        SM_UMP45_Mag_Empty = { path = "Weapons/SMGs/UMP45/SM_UMP45_Mag_Empty", category = "tools" }
+        SM_P90_Mag = { path = "Weapons/SMGs/P90/SM_P90_Mag", category = "tools" }
+        SM_GE3_Mag_Empty = { path = "Weapons/Rifles/GE3/SM_GE3_Mag_Empty", category = "tools" }
+        SM_SA80_Mag_Empty = { path = "Weapons/Rifles/SA80/SM_SA80_Mag_Empty", category = "tools" }
+        SM_AK5C_Mag = { path = "Weapons/Rifles/AK5C/SM_AK5C_Mag", category = "tools" }
 
-        # Weapons Acessories
-        SM_T4_Sight = "Weapons/Common/Accessories/SM_T4_Sight"
-        SM_Vertgrip = "Weapons/Common/Accessories/SM_Vertgrip"
-        SM_Suppressor = "Weapons/Common/Accessories/SM_Suppressor"
-        SM_Scope_25x56 = "Weapons/Common/Accessories/SM_Scope_25x56"
-        SM_M9 = "Weapons/Knifes/M9/SM_M9"
+        # Weapons Accessories
+        SM_T4_Sight = { path = "Weapons/Common/Accessories/SM_T4_Sight", category = "tools" }
+        SM_Vertgrip = { path = "Weapons/Common/Accessories/SM_Vertgrip", category = "tools" }
+        SM_Suppressor = { path = "Weapons/Common/Accessories/SM_Suppressor", category = "tools" }
+        SM_Scope_25x56 = { path = "Weapons/Common/Accessories/SM_Scope_25x56", category = "tools" }
+        SM_M9 = { path = "Weapons/Knifes/M9/SM_M9", category = "tools" }
 
-        SM_WoodenTable = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenTable"
-        SM_WoodenChair = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenChair"
-        SM_Stool = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Stool"
-        SM_TeaPot_Interior = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_TeaPot_Interior"
-        SM_OilDrum = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_OilDrum"
-        SM_Bucket5Gallon = "NanosWorldMaps/Art/Rural/Extra/SM_Bucket5Gallon"
-        SM_Crate_07 = "NanosWorldMaps/Art/Rural/Extra/SM_Crate_07"
-        SM_Crate_03 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_03"
-        SM_Crate_04 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_04"
-        SM_Pot_01 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Pot_01"
-        SM_Pot_02 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Pot_02"
-        SM_Plate_Interior = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Plate_Interior"
-        SM_Barrel_02 = "NanosWorldMaps/Art/Rural/Extra/SM_Barrel_02"
-        SM_Bamboo_Roof45_Right = "NanosWorldMaps/Art/Rural/HouseModular/SM_Bamboo_Roof45_Right"
-        SM_MetalBucket_Interior_01 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_MetalBucket_Interior_01"
-        SM_MetalBucket_Interior_02 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_MetalBucket_Interior_02"
-        SM_Basket_01 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Basket_01"
-        SM_Basket_02 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Basket_02"
-        SM_Crate_01 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_01"
-        SM_Crate_02 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_02"
-        SM_Bamboo_Woodplank_01 = "NanosWorldMaps/Art/Rural/Extra/SM_Bamboo_Woodplank_01"
-        SM_Ladder_Interior = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Ladder_Interior"
+        SM_WoodenTable = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenTable", category = "furniture" }
+        SM_WoodenChair = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenChair", category = "furniture" }
+        SM_Stool = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Stool", category = "furniture" }
+        SM_TeaPot_Interior = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_TeaPot_Interior", category = "furniture" }
+        SM_OilDrum = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_OilDrum", category = "construction" }
+        SM_Bucket5Gallon = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Bucket5Gallon", category = "furniture" }
+        SM_Crate_07 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Crate_07", category = "construction" }
+        SM_Crate_03 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_03", category = "construction" }
+        SM_Crate_04 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_04", category = "construction" }
+        SM_Pot_01 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Pot_01", category = "furniture" }
+        SM_Pot_02 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Pot_02", category = "furniture" }
+        SM_Plate_Interior = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Plate_Interior", category = "furniture" }
+        SM_Barrel_02 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Barrel_02", category = "construction" }
+        SM_Bamboo_Roof45_Right = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Bamboo_Roof45_Right", category = "furniture" }
+        SM_MetalBucket_Interior_01 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_MetalBucket_Interior_01", category = "furniture" }
+        SM_MetalBucket_Interior_02 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_MetalBucket_Interior_02", category = "furniture" }
+        SM_Basket_01 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Basket_01", category = "furniture" }
+        SM_Basket_02 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Basket_02", category = "furniture" }
+        SM_Crate_01 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_01", category = "furniture" }
+        SM_Crate_02 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Crate_02", category = "furniture" }
+        SM_Bamboo_Woodplank_01 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Bamboo_Woodplank_01", category = "furniture" }
+        SM_Ladder_Interior = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Ladder_Interior", category = "furniture" }
 
-        SM_Bamboo_Bench_Wall = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Bamboo_Bench_Wall"
-        SM_Bamboo_BoatHouse = "NanosWorldMaps/Art/Rural/HouseFull/SM_Bamboo_BoatHouse"
-        SM_Bamboo_House_03 = "NanosWorldMaps/Art/Rural/HouseFull/SM_Bamboo_House_03"
-        SM_Bamboo_Small_03 = "NanosWorldMaps/Art/Rural/Extra/SM_Bamboo_Small_03"
-        SM_Bamboo_Table = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bamboo_Table"
-        SM_Bamboo_Wall_01 = "NanosWorldMaps/Art/Rural/HouseModular/SM_Bamboo_Wall_01"
-        SM_BeachFence_02 = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_BeachFence_02"
-        SM_Bed = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bed"
-        SM_BedFrame = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_BedFrame"
-        SM_Bed_Interior = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bed_Interior"
-        SM_Bench = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Bench"
-        SM_Boat = "NanosWorldMaps/Art/Rural/Extra/SM_Boat"
-        SM_BunkBed = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_BunkBed"
-        SM_Cantilever = "NanosWorldMaps/Art/Rural/HouseModular/SM_Cantilever"
-        SM_Carpet_01 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Carpet_01"
-        SM_Carpet_02 = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Carpet_02"
-        SM_ClothesLine = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_ClothesLine"
-        SM_Dock_01 = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Dock_01"
-        SM_Dock_02 = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Dock_02"
-        SM_GarageShelfA = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_GarageShelfA"
-        SM_Hoe = "NanosWorldMaps/Art/Rural/Extra/SM_Hoe"
-        SM_House_01 = "NanosWorldMaps/Art/Composings/Houses/SM_House_01"
-        SM_House_02 = "NanosWorldMaps/Art/Composings/Houses/SM_House_02"
-        SM_House_03 = "NanosWorldMaps/Art/Composings/Houses/SM_House_03"
-        SM_House_04 = "NanosWorldMaps/Art/Composings/Houses/SM_House_04"
-        SM_House_05 = "NanosWorldMaps/Art/Composings/Houses/SM_House_05"
-        SM_Ladder_02 = "NanosWorldMaps/Art/Rural/HouseModular/SM_Ladder_02"
-        SM_Metal_Shack_04 = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_04"
-        SM_Metal_Shack_05 = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_05"
-        SM_Metal_Shack_06 = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_06"
-        SM_Metal_Shack_GuardTower = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_GuardTower"
-        SM_Metal_Shack_Outhouse = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_Outhouse"
-        SM_MetalTower = "NanosWorldMaps/Art/Rural/Extra/SM_MetalTower"
-        SM_Old_Antenna = "NanosWorldMaps/Art/Rural/Extra/SM_Old_Antenna"
-        SM_PlasterWall_01 = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_01"
-        SM_PlasterWall_02 = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_02"
-        SM_PlasterWall_03 = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_03"
-        SM_PlasterWall_08 = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_08"
-        SM_Pole_02 = "NanosWorldMaps/Art/Rural/Bridge/Meshes/SM_Pole_02"
-        SM_Rake = "NanosWorldMaps/Art/Rural/Extra/SM_Rake"
-        SM_RoadBlock_Flag_01 = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_RoadBlock_Flag_01"
-        SM_Shelter = "NanosWorldMaps/Art/Rural/Extra/SM_Shelter"
-        SM_Shovel = "NanosWorldMaps/Art/Rural/Extra/SM_Shovel"
-        SM_TimberPlank = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberPlank"
-        SM_TimberRailing = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberRailing"
-        SM_TimberStructure_01 = "NanosWorldMaps/Art/Rural/Extra/SM_TimberStructure_01"
-        SM_TimberStructure_02 = "NanosWorldMaps/Art/Rural/Extra/SM_TimberStructure_02"
-        SM_TimberStructure_09 = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberStructure_09"
-        SM_Tomato = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Tomato"
-        SM_VaseD = "NanosWorldMaps/Art/City/House_Props/Meshes/Vases/SM_VaseD"
-        SM_WastePipe = "NanosWorldMaps/Art/Rural/Extra/SM_WastePipe"
-        SM_WaterStorageTank = "NanosWorldMaps/Art/Rural/Extra/SM_WaterStorageTank"
-        SM_Window_05 = "NanosWorldMaps/Art/Rural/HouseModular/SM_Window_05"
-        SM_WoodenSlab_1_3x3 = "NanosWorldMaps/Art/Rural/HouseModular/SM_WoodenSlab_1_3x3"
-        SM_Wood_Platform_10 = "NanosWorldMaps/Art/Rural/HouseModular/SM_Wood_Platform_10"
-        SM_Wood_Stairs_02 = "NanosWorldMaps/Art/Rural/HouseModular/SM_Wood_Stairs_02"
+        SM_Bamboo_Bench_Wall = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Bamboo_Bench_Wall", category = "furniture" }
+        SM_Bamboo_BoatHouse = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Bamboo_BoatHouse", category = "furniture" }
+        SM_Bamboo_House_03 = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Bamboo_House_03", category = "furniture" }
+        SM_Bamboo_Small_03 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Bamboo_Small_03", category = "furniture" }
+        SM_Bamboo_Table = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bamboo_Table", category = "furniture" }
+        SM_Bamboo_Wall_01 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Bamboo_Wall_01", category = "furniture" }
+        SM_BeachFence_02 = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_BeachFence_02", category = "furniture" }
+        SM_Bed = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bed", category = "furniture" }
+        SM_BedFrame = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_BedFrame", category = "furniture" }
+        SM_Bed_Interior = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Bed_Interior", category = "furniture" }
+        SM_Bench = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Bench", category = "furniture" }
+        SM_Boat = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Boat", category = "furniture" }
+        SM_BunkBed = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_BunkBed", category = "furniture" }
+        SM_Cantilever = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Cantilever", category = "furniture" }
+        SM_Carpet_01 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Carpet_01", category = "furniture" }
+        SM_Carpet_02 = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Carpet_02", category = "furniture" }
+        SM_ClothesLine = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_ClothesLine", category = "furniture" }
+        SM_Dock_01 = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Dock_01", category = "furniture" }
+        SM_Dock_02 = { path = "NanosWorldMaps/Art/Rural/ExteriorDecoration/SM_Dock_02", category = "furniture" }
+        SM_GarageShelfA = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_GarageShelfA", category = "furniture" }
+        SM_Hoe = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Hoe", category = "furniture" }
+        SM_House_01 = { path = "NanosWorldMaps/Art/Composings/Houses/SM_House_01", category = "furniture" }
+        SM_House_02 = { path = "NanosWorldMaps/Art/Composings/Houses/SM_House_02", category = "furniture" }
+        SM_House_03 = { path = "NanosWorldMaps/Art/Composings/Houses/SM_House_03", category = "furniture" }
+        SM_House_04 = { path = "NanosWorldMaps/Art/Composings/Houses/SM_House_04", category = "furniture" }
+        SM_House_05 = { path = "NanosWorldMaps/Art/Composings/Houses/SM_House_05", category = "furniture" }
+        SM_Ladder_02 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Ladder_02", category = "furniture" }
+        SM_Metal_Shack_04 = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_04", category = "furniture" }
+        SM_Metal_Shack_05 = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_05", category = "furniture" }
+        SM_Metal_Shack_06 = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_06", category = "furniture" }
+        SM_Metal_Shack_GuardTower = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_GuardTower", category = "furniture" }
+        SM_Metal_Shack_Outhouse = { path = "NanosWorldMaps/Art/Rural/HouseFull/SM_Metal_Shack_Outhouse", category = "furniture" }
+        SM_MetalTower = { path = "NanosWorldMaps/Art/Rural/Extra/SM_MetalTower", category = "furniture" }
+        SM_Old_Antenna = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Old_Antenna", category = "furniture" }
+        SM_PlasterWall_01 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_01", category = "furniture" }
+        SM_PlasterWall_02 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_02", category = "furniture" }
+        SM_PlasterWall_03 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_03", category = "furniture" }
+        SM_PlasterWall_08 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_PlasterWall_08", category = "furniture" }
+        SM_Pole_02 = { path = "NanosWorldMaps/Art/Rural/Bridge/Meshes/SM_Pole_02", category = "furniture" }
+        SM_Rake = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Rake", category = "furniture" }
+        SM_RoadBlock_Flag_01 = { path = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_RoadBlock_Flag_01", category = "furniture" }
+        SM_Shelter = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Shelter", category = "furniture" }
+        SM_Shovel = { path = "NanosWorldMaps/Art/Rural/Extra/SM_Shovel", category = "furniture" }
+        SM_TimberPlank = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberPlank", category = "furniture" }
+        SM_TimberRailing = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberRailing", category = "furniture" }
+        SM_TimberStructure_01 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TimberStructure_01", category = "furniture" }
+        SM_TimberStructure_02 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TimberStructure_02", category = "furniture" }
+        SM_TimberStructure_09 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberStructure_09", category = "furniture" }
+        SM_Tomato = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Tomato", category = "furniture" }
+        SM_VaseD = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/Vases/SM_VaseD", category = "furniture" }
+        SM_WastePipe = { path = "NanosWorldMaps/Art/Rural/Extra/SM_WastePipe", category = "furniture" }
+        SM_WaterStorageTank = { path = "NanosWorldMaps/Art/Rural/Extra/SM_WaterStorageTank", category = "construction" }
+        SM_Window_05 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Window_05", category = "construction" }
+        SM_WoodenSlab_1_3x3 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_WoodenSlab_1_3x3", category = "furniture" }
+        SM_Wood_Platform_10 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Wood_Platform_10", category = "furniture" }
+        SM_Wood_Stairs_02 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Wood_Stairs_02", category = "furniture" }
 
-        SM_Tree_Acacia_01 = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_01"
-        SM_Tree_Acacia_02 = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_02"
-        SM_Tree_Almond_01 = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_01"
-        SM_Tree_Almond_02 = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_02"
-        SM_Tree_Almond_03 = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_03"
-        SM_Tree_Palm_01 = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_01"
-        SM_Tree_Palm_02 = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_02"
-        SM_Tree_Palm_03 = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_03"
-        SM_Branch = "NanosWorldMaps/Art/Nature/Branches/SM_Branch"
-        SM_Bush_01 = "NanosWorldMaps/Art/Nature/Bushes/SM_Bush_01"
-        SM_Buttercup = "NanosWorldMaps/Art/Nature/Flowers/SM_Buttercup"
-        SM_GreenCoconut = "NanosWorldMaps/Art/Rural/Extra/SM_GreenCoconut"
-        SM_HeatherClumps = "NanosWorldMaps/Art/Nature/Flowers/SM_HeatherClumps"
-        SM_Rock_03 = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_03"
-        SM_Rock_04 = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_04"
-        SM_Rock_05 = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_05"
-        SM_Rock_06 = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_06"
-        SM_Rock_07 = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_07"
-        SM_Scabious = "NanosWorldMaps/Art/Nature/Flowers/SM_Scabious"
+        SM_Tree_Acacia_01 = { path = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_01", category = "furniture" }
+        SM_Tree_Acacia_02 = { path = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_02", category = "furniture" }
+        SM_Tree_Almond_01 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_01", category = "furniture" }
+        SM_Tree_Almond_02 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_02", category = "furniture" }
+        SM_Tree_Almond_03 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_03", category = "furniture" }
+        SM_Tree_Palm_01 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_01", category = "furniture" }
+        SM_Tree_Palm_02 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_02", category = "furniture" }
+        SM_Tree_Palm_03 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_03", category = "furniture" }
+        SM_Branch = { path = "NanosWorldMaps/Art/Nature/Branches/SM_Branch", category = "furniture" }
+        SM_Bush_01 = { path = "NanosWorldMaps/Art/Nature/Bushes/SM_Bush_01", category = "furniture" }
+        SM_Buttercup = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Buttercup", category = "furniture" }
+        SM_GreenCoconut = { path = "NanosWorldMaps/Art/Rural/Extra/SM_GreenCoconut", category = "furniture" }
+        SM_HeatherClumps = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_HeatherClumps", category = "furniture" }
+        SM_Rock_03 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_03", category = "furniture" }
+        SM_Rock_04 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_04", category = "furniture" }
+        SM_Rock_05 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_05", category = "furniture" }
+        SM_Rock_06 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_06", category = "furniture" }
+        SM_Rock_07 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_07", category = "furniture" }
+        SM_Scabious = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Scabious", category = "furniture" }
 
-        SM_Grenade_G67 = "Weapons/Grenades/G67/SM_G67"
-        SM_Torch = "Weapons/Torch/SM_Torch"
+        SM_Grenade_G67 = { path = "Weapons/Grenades/G67/SM_G67", category = "tools" }
+        SM_Torch = { path = "Weapons/Torch/SM_Torch", category = "tools" }
 
-        SM_Sunglasses = "Packs/Coffin/SM_Sunglasses"
-        SM_TopHat = "Packs/Coffin/SM_TopHat"
+        SM_Sunglasses = { path = "Packs/Coffin/SM_Sunglasses", category = "funny" }
+        SM_TopHat = { path = "Packs/Coffin/SM_TopHat", category = "funny" }
 
-        SM_Valve = "NanosWorldAssets/Funny/SM_Valve"
+        SM_Valve = { path = "NanosWorldAssets/Funny/SM_Valve", category = "funny" }
 
         # Default Asset Pack
-        SM_StreetSigns_NoEntry = "NanosWorldAssets/Street/SM_StreetSigns_NoEntry"
-        SM_MailBox_01 = "NanosWorldAssets/Street/SM_MailBox_01"
-        SM_TrashCan_01 = "NanosWorldAssets/Street/SM_TrashCan_01"
-        SM_Grave_12 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_12"
-        SM_Grave_13 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_13"
-        SM_Grave_09 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_09"
-        SM_Bread_Bagel_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Bagel_01"
-        SM_Bread_Brownie_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Brownie_01"
-        SM_Bread_Challah_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Challah_01"
-        SM_Bread_Cookies_Coco_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Cookies_Coco_01"
-        SM_Bread_Cookies_Coco_02 = "NanosWorldAssets/Food/Meshes/SM_Bread_Cookies_Coco_02"
-        SM_Bread_Croissant_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Croissant_01"
-        SM_Bread_Dount_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Dount_01"
-        SM_Bread_Dount_02 = "NanosWorldAssets/Food/Meshes/SM_Bread_Dount_02"
-        SM_Bread_French_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_French_01"
-        SM_Bread_French_01_SliceLoaf = "NanosWorldAssets/Food/Meshes/SM_Bread_French_01_SliceLoaf"
-        SM_Bread_French_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_French_01_Slice_01"
-        SM_Bread_Kaiser_Cheese_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Kaiser_Cheese_01"
-        SM_Bread_Loaf_Multi_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01"
-        SM_Bread_Loaf_Multi_01_SliceEnd = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01_SliceEnd"
-        SM_Bread_Loaf_Multi_01_SliceLoaf = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01_SliceLoaf"
-        SM_Bread_Loaf_Multi_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01_Slice_01"
-        SM_Bread_Loaf_Sourdough_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Sourdough_01"
-        SM_Bread_Loaf_Wheat_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Wheat_01"
-        SM_Bread_Muffin_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Muffin_01"
-        SM_Bread_Pizza_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01"
-        SM_Bread_Pizza_01_Crust_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Crust_01"
-        SM_Grave_08 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_08"
-        SM_Bread_Pizza_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_01"
-        SM_Bread_Pizza_01_Slice_02 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_02"
-        SM_Bread_Pizza_01_Slice_03 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_03"
-        SM_Bread_Pizza_01_Slice_04 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_04"
-        SM_Bread_Pizza_01_Slice_05 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_05"
-        SM_Bread_Pizza_01_Slice_06 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_06"
-        SM_Bread_Pretzel_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_Pretzel_01"
-        SM_Bread_RiceCrispy_01 = "NanosWorldAssets/Food/Meshes/SM_Bread_RiceCrispy_01"
-        SM_Fruit_Apple_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_01"
-        SM_Fruit_Apple_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_01_Half_01"
-        SM_Fruit_Apple_01_Quarter_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_01_Quarter_01"
-        SM_Fruit_Apple_Green_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Green_01"
-        SM_Fruit_Apple_Green_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Green_01_Half_01"
-        SM_Fruit_Apple_Green_01_Quarter_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Green_01_Quarter_01"
-        SM_Fruit_Apple_Red_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Red_01"
-        SM_Fruit_Apple_Red_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Red_01_Half_01"
-        SM_Fruit_Apple_Red_01_Quarter_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Red_01_Quarter_01"
-        SM_Fruit_Avocado_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Avocado_01"
-        SM_Fruit_Avocado_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Avocado_01_Half_01"
-        SM_Fruit_Avocado_01_Half_02 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Avocado_01_Half_02"
-        SM_Fruit_Banana_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Banana_01"
-        SM_Fruit_Cantaloupe_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Cantaloupe_01"
-        SM_Grave_07 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_07"
-        SM_Fruit_Cantaloupe_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Cantaloupe_01_Half_01"
-        SM_Fruit_Cantaloupe_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Cantaloupe_01_Slice_01"
-        SM_Fruit_Coconut_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Coconut_01"
-        SM_Fruit_Lemon_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lemon_01"
-        SM_Fruit_Lemon_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lemon_01_Half_01"
-        SM_Fruit_Lemon_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lemon_01_Slice_01"
-        SM_DumpsterTrash = "NanosWorldAssets/Street/SM_DumpsterTrash"
-        SM_Fruit_Lime_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lime_01"
-        SM_Fruit_Lime_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lime_01_Half_01"
-        SM_Fruit_Lime_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lime_01_Slice_01"
-        SM_Fruit_Mandarin_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mandarin_01"
-        SM_Fruit_Mandarin_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mandarin_01_Half_01"
-        SM_Fruit_Mandarin_01_Wedge_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mandarin_01_Wedge_01"
-        SM_Fruit_Mango_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mango_01"
-        SM_Fruit_Mango_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mango_01_Half_01"
-        SM_Fruit_Mango_02 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mango_02"
-        SM_Fruit_Orange_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Orange_01"
-        SM_Fruit_Orange_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Orange_01_Half_01"
-        SM_Fruit_Orange_01_Wedge_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Orange_01_Wedge_01"
-        SM_Fruit_Peach_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Peach_01"
-        SM_Fruit_Peach_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Peach_01_Half_01"
-        SM_Fruit_Peach_01_Half_02 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Peach_01_Half_02"
-        SM_Fruit_Pear_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pear_01"
-        SM_Fruit_Pear_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pear_01_Half_01"
-        SM_Fruit_Pineapple_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pineapple_01"
-        SM_Fruit_Plum_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Plum_01"
-        SM_Fruit_Plum_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Plum_01_Half_01"
-        SM_Fruit_Plum_01_Half_02 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Plum_01_Half_02"
-        SM_Fruit_Pumpkin_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pumpkin_01"
-        SM_Fruit_Squash_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_01"
-        SM_Fruit_Squash_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_01_Half_01"
-        SM_Fruit_Squash_02 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_02"
-        SM_Fruit_Squash_03 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_03"
-        SM_Fruit_Tomato_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01"
-        SM_Fruit_Tomato_01_SliceBottom = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01_SliceBottom"
-        SM_Fruit_Tomato_01_SliceTop = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01_SliceTop"
-        SM_Fruit_Tomato_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01_Slice_01"
-        SM_Fruit_Tomato_Heirloom_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_Heirloom_01"
-        SM_Fruit_Tomato_Heirloom_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_Heirloom_01_Half_01"
-        SM_Fruit_Tomato_Heirloom_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_Heirloom_01_Slice_01"
-        SM_Fruit_Watermelon_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01"
-        SM_Fruit_Watermelon_01_Crust_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01_Crust_01"
-        SM_Fruit_Watermelon_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01_Half_01"
-        SM_Fruit_Watermelon_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01_Slice_01"
-        SM_Root_Garlic_01 = "NanosWorldAssets/Food/Meshes/SM_Root_Garlic_01"
-        SM_Root_Ginger_01 = "NanosWorldAssets/Food/Meshes/SM_Root_Ginger_01"
-        SM_Root_Potato_01 = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_01"
-        SM_Root_Potato_02 = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_02"
-        SM_Root_Potato_03 = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_03"
-        SM_Root_Potato_Sweet_01 = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_Sweet_01"
-        SM_Veg_Artichoke_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Artichoke_01"
-        SM_Veg_Artichoke_01_Half_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Artichoke_01_Half_01"
-        SM_Veg_Broccoli_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Broccoli_01"
-        SM_Veg_Cabbage_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Cabbage_01"
-        SM_Veg_Cabbage_02 = "NanosWorldAssets/Food/Meshes/SM_Veg_Cabbage_02"
-        SM_Veg_Carrot_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Carrot_01"
-        SM_Veg_Carrot_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Carrot_01_Slice_01"
-        SM_Veg_Carrot_02 = "NanosWorldAssets/Food/Meshes/SM_Veg_Carrot_02"
-        SM_Veg_Cauliflower_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Cauliflower_01"
-        SM_Veg_Corn_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Corn_01"
-        SM_Veg_Cucumber_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Cucumber_01"
-        SM_Veg_Cucumber_01_Slice_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Cucumber_01_Slice_01"
-        SM_Veg_Onion_Red_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_Red_01"
-        SM_Veg_Onion_Red_01_Cut = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_Red_01_Cut"
-        SM_Veg_Onion_White_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_White_01"
-        SM_Veg_Onion_Yellow_01 = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_Yellow_01"
-        SM_Grave_01 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_01"
-        SM_Grave_03 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_03"
-        SM_Grave_06 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_06"
-        SM_Shuriken_01 = "NanosWorldAssets/Tools/SM_Shuriken_01"
-        SM_PipeWrench_01 = "NanosWorldAssets/Tools/SM_PipeWrench_01"
-        SM_Kunai_01 = "NanosWorldAssets/Tools/SM_Kunai_01"
-        SM_Trash_01 = "NanosWorldAssets/Street/SM_Trash_01"
-        SM_Jet_Thruster = "NanosWorldAssets/Funny/SM_Jet_Thruster"
-        SM_Lamp = "NanosWorldAssets/Furniture/SM_Lamp"
-        SM_Flashlight = "NanosWorldAssets/Tools/SM_Flashlight"
-        SM_Balloon = "NanosWorldAssets/Funny/SM_Balloon"
-        SM_MoneyRoll = "NanosWorldAssets/Funny/SM_MoneyRoll"
-        SM_MoneyStack = "NanosWorldAssets/Funny/SM_MoneyStack"
-        SM_Crowbar_01 = "NanosWorldAssets/Tools/SM_Crowbar_01"
-        SM_Cleaver_01 = "NanosWorldAssets/Tools/SM_Cleaver_01"
-        SM_Grave_04 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_04"
-        SM_Bayonet_01 = "NanosWorldAssets/Tools/SM_Bayonet_01"
-        SM_BaseballBat_01 = "NanosWorldAssets/Tools/SM_BaseballBat_01"
-        SM_Axe_01 = "NanosWorldAssets/Tools/SM_Axe_01"
-        SM_WasherMachine = "NanosWorldAssets/Appliances/SM_WasherMachine"
-        SM_TV_Hanging = "NanosWorldAssets/Appliances/SM_TV_Hanging"
-        SM_TVRemote = "NanosWorldAssets/Appliances/SM_TVRemote"
-        SM_TV = "NanosWorldAssets/Appliances/SM_TV"
-        SM_Toaster = "NanosWorldAssets/Appliances/SM_Toaster"
-        SM_Refrigerator = "NanosWorldAssets/Appliances/SM_Refrigerator"
-        SM_MobilePhone = "NanosWorldAssets/Appliances/SM_MobilePhone"
-        SM_MicrowaveOven = "NanosWorldAssets/Appliances/SM_MicrowaveOven"
-        SM_LaptopOpen = "NanosWorldAssets/Appliances/SM_LaptopOpen"
-        SM_LaptopClosed = "NanosWorldAssets/Appliances/SM_LaptopClosed"
-        SM_DryerMachine = "NanosWorldAssets/Appliances/SM_DryerMachine"
-        SM_CookerStove = "NanosWorldAssets/Appliances/SM_CookerStove"
-        SM_CoffeeMachine = "NanosWorldAssets/Appliances/SM_CoffeeMachine"
-        SM_Grave_02 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_02"
-        SM_Grave_10 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_10"
-        SM_Grave_11 = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_11"
-        SM_Spool = "NanosWorldAssets/Construction/SM_Spool"
-        SM_Shovel_01 = "NanosWorldAssets/Construction/SM_Shovel_01"
-        SM_Sander_01a = "NanosWorldAssets/Construction/SM_Sander_01a"
-        SM_Roller_Machine = "NanosWorldAssets/Construction/SM_Roller_Machine"
-        SM_RollerMachine_Wheel = "NanosWorldAssets/Construction/SM_RollerMachine_Wheel"
-        SM_RoadBlock_Flag_01 = "NanosWorldAssets/Construction/SM_RoadBlock_Flag_01"
-        SM_RoadBlock_05 = "NanosWorldAssets/Construction/SM_RoadBlock_05"
-        SM_RoadBlock_04 = "NanosWorldAssets/Construction/SM_RoadBlock_04"
-        SM_RoadBlock_03 = "NanosWorldAssets/Construction/SM_RoadBlock_03"
-        SM_RoadBlock_02 = "NanosWorldAssets/Construction/SM_RoadBlock_02"
-        SM_RoadBlock_01 = "NanosWorldAssets/Construction/SM_RoadBlock_01"
-        SM_RebarCutterCordless = "NanosWorldAssets/Construction/SM_RebarCutterCordless"
-        SM_Rebar = "NanosWorldAssets/Construction/SM_Rebar"
-        SM_Rack_02 = "NanosWorldAssets/Construction/SM_Rack_02"
-        SM_Rack_01 = "NanosWorldAssets/Construction/SM_Rack_01"
-        SM_PropaneTank_02 = "NanosWorldAssets/Construction/SM_PropaneTank_02"
-        SM_PropaneTank_01 = "NanosWorldAssets/Construction/SM_PropaneTank_01"
-        SM_Portapotty_Door = "NanosWorldAssets/Construction/SM_Portapotty_Door"
-        SM_Portapotty = "NanosWorldAssets/Construction/SM_Portapotty"
-        SM_Plywood_07a = "NanosWorldAssets/Construction/SM_Plywood_07a"
-        SM_Plywood_06a = "NanosWorldAssets/Construction/SM_Plywood_06a"
-        SM_Plywood_05a = "NanosWorldAssets/Construction/SM_Plywood_05a"
-        SM_Plywood_04a = "NanosWorldAssets/Construction/SM_Plywood_04a"
-        SM_Plywood_03a = "NanosWorldAssets/Construction/SM_Plywood_03a"
-        SM_Plywood_02a = "NanosWorldAssets/Construction/SM_Plywood_02a"
-        SM_Plywood_01a = "NanosWorldAssets/Construction/SM_Plywood_01a"
-        SM_PlywoodTable_01a = "NanosWorldAssets/Construction/SM_PlywoodTable_01a"
-        SM_PlasticBarrel_01 = "NanosWorldAssets/Construction/SM_PlasticBarrel_01"
-        SM_PetrolCutter_01a = "NanosWorldAssets/Construction/SM_PetrolCutter_01a"
-        SM_PaintBucket_Lid_01a = "NanosWorldAssets/Construction/SM_PaintBucket_Lid_01a"
-        SM_PaintBucket_02_B = "NanosWorldAssets/Construction/SM_PaintBucket_02_B"
-        SM_PaintBucket_02 = "NanosWorldAssets/Construction/SM_PaintBucket_02"
-        SM_Nails = "NanosWorldAssets/Construction/SM_Nails"
-        SM_Lunchbox_01 = "NanosWorldAssets/Construction/SM_Lunchbox_01"
-        SM_LightGenerator_Lights = "NanosWorldAssets/Construction/SM_LightGenerator_Lights"
-        SM_LightGenerator_Base = "NanosWorldAssets/Construction/SM_LightGenerator_Base"
-        SM_Ladder_01b = "NanosWorldAssets/Construction/SM_Ladder_01b"
-        SM_Ladder_01a = "NanosWorldAssets/Construction/SM_Ladder_01a"
-        SM_Jackhammer_01a = "NanosWorldAssets/Construction/SM_Jackhammer_01a"
-        SM_HardHat_01b = "NanosWorldAssets/Construction/SM_HardHat_01b"
-        SM_HardHat_01a = "NanosWorldAssets/Construction/SM_HardHat_01a"
-        SM_HandForklift_01a = "NanosWorldAssets/Construction/SM_HandForklift_01a"
-        SM_FreightContainer = "NanosWorldAssets/Construction/SM_FreightContainer"
-        SM_ElectricDrill_01a = "NanosWorldAssets/Construction/SM_ElectricDrill_01a"
-        SM_Dumpster = "NanosWorldAssets/Construction/SM_Dumpster"
-        SM_Drywall = "NanosWorldAssets/Construction/SM_Drywall"
-        SM_Crate_Lid_01 = "NanosWorldAssets/Construction/SM_Crate_Lid_01"
-        SM_Crate_Full_01 = "NanosWorldAssets/Construction/SM_Crate_Full_01"
-        SM_Crate_Base_01 = "NanosWorldAssets/Construction/SM_Crate_Base_01"
-        SM_ConstructionPylons_07 = "NanosWorldAssets/Construction/SM_ConstructionPylons_07"
-        SM_ConstructionPylons_06 = "NanosWorldAssets/Construction/SM_ConstructionPylons_06"
-        SM_ConstructionPylons_05 = "NanosWorldAssets/Construction/SM_ConstructionPylons_05"
-        SM_ConstructionPylons_03 = "NanosWorldAssets/Construction/SM_ConstructionPylons_03"
-        SM_ConstructionPylons_02 = "NanosWorldAssets/Construction/SM_ConstructionPylons_02"
-        SM_ConstructionPylons_01 = "NanosWorldAssets/Construction/SM_ConstructionPylons_01"
-        SM_ConstructionFence = "NanosWorldAssets/Construction/SM_ConstructionFence"
-        SM_ConcretePipe_03 = "NanosWorldAssets/Construction/SM_ConcretePipe_03"
-        SM_ConcretePipe_02 = "NanosWorldAssets/Construction/SM_ConcretePipe_02"
-        SM_ConcretePipe_01 = "NanosWorldAssets/Construction/SM_ConcretePipe_01"
-        SM_ConcreteMixer_01a = "NanosWorldAssets/Construction/SM_ConcreteMixer_01a"
-        SM_ConcreteBag_Stack_02 = "NanosWorldAssets/Construction/SM_ConcreteBag_Stack_02"
-        SM_ConcreteBag_Stack_01 = "NanosWorldAssets/Construction/SM_ConcreteBag_Stack_01"
-        SM_ConcreteBag = "NanosWorldAssets/Construction/SM_ConcreteBag"
-        SM_CinderStack_Pallete = "NanosWorldAssets/Construction/SM_CinderStack_Pallete"
-        SM_CinderStack_02 = "NanosWorldAssets/Construction/SM_CinderStack_02"
-        SM_CinderStack = "NanosWorldAssets/Construction/SM_CinderStack"
-        SM_CartonGarbage = "NanosWorldAssets/Construction/SM_CartonGarbage"
-        SM_CartonBox_02 = "NanosWorldAssets/Construction/SM_CartonBox_02"
-        SM_CartonBox_01 = "NanosWorldAssets/Construction/SM_CartonBox_01"
-        SM_Canister = "NanosWorldAssets/Construction/SM_Canister"
-        SM_CableReel = "NanosWorldAssets/Construction/SM_CableReel"
-        SM_BrickPaletteStack_02 = "NanosWorldAssets/Construction/SM_BrickPaletteStack_02"
-        SM_BrickPaletteStack_01 = "NanosWorldAssets/Construction/SM_BrickPaletteStack_01"
-        SM_Brick = "NanosWorldAssets/Construction/SM_Brick"
-        SM_Boxes_02 = "NanosWorldAssets/Construction/SM_Boxes_02"
-        SM_Boxes_01 = "NanosWorldAssets/Construction/SM_Boxes_01"
-        SM_Barrel_01 = "NanosWorldAssets/Construction/SM_Barrel_01"
-        SM_Spool_01a = "NanosWorldAssets/Construction/SM_Spool_01a"
-        SM_SurveyorStand_01a = "NanosWorldAssets/Construction/SM_SurveyorStand_01a"
-        SM_SurveyorStand_01b = "NanosWorldAssets/Construction/SM_SurveyorStand_01b"
-        SM_TallGasCanister_01 = "NanosWorldAssets/Construction/SM_TallGasCanister_01"
-        SM_TrafficBarrel = "NanosWorldAssets/Construction/SM_TrafficBarrel"
-        SM_TrafficBarrier = "NanosWorldAssets/Construction/SM_TrafficBarrier"
-        SM_Trolley = "NanosWorldAssets/Construction/SM_Trolley"
-        SM_WaterTank_01 = "NanosWorldAssets/Construction/SM_WaterTank_01"
-        SM_WaterTank_02 = "NanosWorldAssets/Construction/SM_WaterTank_02"
-        SM_WheelBarrel_Empty = "NanosWorldAssets/Construction/SM_WheelBarrel_Empty"
-        SM_WheelBarrel_Full = "NanosWorldAssets/Construction/SM_WheelBarrel_Full"
-        SM_WheelBarrel_Wheel = "NanosWorldAssets/Construction/SM_WheelBarrel_Wheel"
-        SM_WoodenPalette = "NanosWorldAssets/Construction/SM_WoodenPalette"
-        SM_LightPole_A = "NanosWorldAssets/Street/SM_LightPole_A"
-        SM_StreetLamp = "NanosWorldAssets/Street/SM_StreetLamp"
-        SM_StreetSigns_Crossing = "NanosWorldAssets/Street/SM_StreetSigns_Crossing"
-        SM_StreetSigns_GiveWay = "NanosWorldAssets/Street/SM_StreetSigns_GiveWay"
-        SM_StreetSigns_NoRight = "NanosWorldAssets/Street/SM_StreetSigns_NoRight"
-        SM_StreetSigns_NoThrough = "NanosWorldAssets/Street/SM_StreetSigns_NoThrough"
-        SM_StreetSigns_OneWay = "NanosWorldAssets/Street/SM_StreetSigns_OneWay"
-        SM_StreetSigns_Parking = "NanosWorldAssets/Street/SM_StreetSigns_Parking"
-        SM_StreetSigns_Stop = "NanosWorldAssets/Street/SM_StreetSigns_Stop"
-        SM_StreetSigns_Thirty = "NanosWorldAssets/Street/SM_StreetSigns_Thirty"
-        SM_StreetSigns_UTurn = "NanosWorldAssets/Street/SM_StreetSigns_UTurn"
-        SM_Street_Pole_01 = "NanosWorldAssets/Street/SM_Street_Pole_01"
-        SM_Street_Pole_02 = "NanosWorldAssets/Street/SM_Street_Pole_02"
-        SM_Boltcutters = "NanosWorldAssets/Tools/SM_Boltcutters"
-        SM_Clamp_01 = "NanosWorldAssets/Tools/SM_Clamp_01"
-        SM_Clamp_02 = "NanosWorldAssets/Tools/SM_Clamp_02"
-        SM_Clamp_03 = "NanosWorldAssets/Tools/SM_Clamp_03"
-        SM_Clamp_Bench_01 = "NanosWorldAssets/Tools/SM_Clamp_Bench_01"
-        SM_Clamp_Bench_02 = "NanosWorldAssets/Tools/SM_Clamp_Bench_02"
-        SM_Hammer = "NanosWorldAssets/Tools/SM_Hammer"
-        SM_Levelers_01 = "NanosWorldAssets/Tools/SM_Levelers_01"
-        SM_Levelers_02 = "NanosWorldAssets/Tools/SM_Levelers_02"
-        SM_Paintbrush_01 = "NanosWorldAssets/Tools/SM_Paintbrush_01"
-        SM_Paintbrush_02 = "NanosWorldAssets/Tools/SM_Paintbrush_02"
-        SM_Paintbrush_03 = "NanosWorldAssets/Tools/SM_Paintbrush_03"
-        SM_PlierSet_01 = "NanosWorldAssets/Tools/SM_PlierSet_01"
-        SM_PlierSet_02 = "NanosWorldAssets/Tools/SM_PlierSet_02"
-        SM_PlierSet_03 = "NanosWorldAssets/Tools/SM_PlierSet_03"
-        SM_PlierSet_04 = "NanosWorldAssets/Tools/SM_PlierSet_04"
-        SM_PlierSet_05 = "NanosWorldAssets/Tools/SM_PlierSet_05"
-        SM_PlierSet_06 = "NanosWorldAssets/Tools/SM_PlierSet_06"
-        SM_PliersSet_07 = "NanosWorldAssets/Tools/SM_PliersSet_07"
-        SM_Saw_01 = "NanosWorldAssets/Tools/SM_Saw_01"
-        SM_Saw_02 = "NanosWorldAssets/Tools/SM_Saw_02"
-        SM_ScrewDriverSet_01 = "NanosWorldAssets/Tools/SM_ScrewDriverSet_01"
-        SM_ScrewDriverSet_02 = "NanosWorldAssets/Tools/SM_ScrewDriverSet_02"
-        SM_ScrewDriverSet_03 = "NanosWorldAssets/Tools/SM_ScrewDriverSet_03"
-        SM_ScrewDriverSet_04 = "NanosWorldAssets/Tools/SM_ScrewDriverSet_04"
-        SM_Screwdriver_Flathead_01 = "NanosWorldAssets/Tools/SM_Screwdriver_Flathead_01"
-        SM_Screwdriver_Philips_01 = "NanosWorldAssets/Tools/SM_Screwdriver_Philips_01"
-        SM_Screwdriver_Philips_02 = "NanosWorldAssets/Tools/SM_Screwdriver_Philips_02"
-        SM_Spraycan_01 = "NanosWorldAssets/Tools/SM_Spraycan_01"
-        SM_Spraycan_02 = "NanosWorldAssets/Tools/SM_Spraycan_02"
-        SM_Spraycan_03 = "NanosWorldAssets/Tools/SM_Spraycan_03"
-        SM_StapleGun = "NanosWorldAssets/Tools/SM_StapleGun"
-        SM_Toolbox = "NanosWorldAssets/Tools/SM_Toolbox"
-        SM_Bunny = "NanosWorldAssets/Toys/SM_Bunny"
-        SM_KidsBall = "NanosWorldAssets/Toys/SM_KidsBall"
-        SM_KidsBox_01 = "NanosWorldAssets/Toys/SM_KidsBox_01"
-        SM_KidsBox_02 = "NanosWorldAssets/Toys/SM_KidsBox_02"
-        SM_KidsBox_03 = "NanosWorldAssets/Toys/SM_KidsBox_03"
-        SM_KidsBox_04 = "NanosWorldAssets/Toys/SM_KidsBox_04"
-        SM_KidsBox_05 = "NanosWorldAssets/Toys/SM_KidsBox_05"
-        SM_KidsBox_06 = "NanosWorldAssets/Toys/SM_KidsBox_06"
-        SM_KidsBox_07 = "NanosWorldAssets/Toys/SM_KidsBox_07"
-        SM_KidsBox_08 = "NanosWorldAssets/Toys/SM_KidsBox_08"
-        SM_DigitalPiano = "NanosWorldAssets/Instruments/DigitalPiano/SM_DigitalPiano"
-        SM_ElectricGuitar = "NanosWorldAssets/Instruments/ElectricGuitar/SM_ElectricGuitar"
-        SM_Flute = "NanosWorldAssets/Instruments/Flute/SM_Flute"
-        SM_Gramophone = "NanosWorldAssets/Instruments/Gramophone/SM_Gramophone"
-        SM_Guitar = "NanosWorldAssets/Instruments/Guitar/SM_Guitar"
-        SM_HalfStack_Marshall = "NanosWorldAssets/Instruments/HalfStack/SM_HalfStack_Marshall"
-        SM_Piano = "NanosWorldAssets/Instruments/Piano/SM_Piano"
-        SM_Saxophone = "NanosWorldAssets/Instruments/Sax/SM_Saxophone"
-        SM_Trumpet = "NanosWorldAssets/Instruments/Trumpet/SM_Trumpet"
-        SM_Violin = "NanosWorldAssets/Instruments/Violin/SM_Violin"
-        SM_Violin_Bow = "NanosWorldAssets/Instruments/Violin/SM_Violin_Bow"
+        SM_Bread_Bagel_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Bagel_01", category = "food" }
+        SM_Bread_Brownie_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Brownie_01", category = "food" }
+        SM_Bread_Challah_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Challah_01", category = "food" }
+        SM_Bread_Cookies_Coco_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Cookies_Coco_01", category = "food" }
+        SM_Bread_Cookies_Coco_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Cookies_Coco_02", category = "food" }
+        SM_Bread_Croissant_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Croissant_01", category = "food" }
+        SM_Bread_Dount_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Dount_01", category = "food" }
+        SM_Bread_Dount_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Dount_02", category = "food" }
+        SM_Bread_French_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_French_01", category = "food" }
+        SM_Bread_French_01_SliceLoaf = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_French_01_SliceLoaf", category = "food" }
+        SM_Bread_French_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_French_01_Slice_01", category = "food" }
+        SM_Bread_Kaiser_Cheese_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Kaiser_Cheese_01", category = "food" }
+        SM_Bread_Loaf_Multi_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01", category = "food" }
+        SM_Bread_Loaf_Multi_01_SliceEnd = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01_SliceEnd", category = "food" }
+        SM_Bread_Loaf_Multi_01_SliceLoaf = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01_SliceLoaf", category = "food" }
+        SM_Bread_Loaf_Multi_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Multi_01_Slice_01", category = "food" }
+        SM_Bread_Loaf_Sourdough_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Sourdough_01", category = "food" }
+        SM_Bread_Loaf_Wheat_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Loaf_Wheat_01", category = "food" }
+        SM_Bread_Muffin_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Muffin_01", category = "food" }
+        SM_Bread_Pizza_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01", category = "food" }
+        SM_Bread_Pizza_01_Crust_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Crust_01", category = "food" }
+        SM_Bread_Pizza_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_01", category = "food" }
+        SM_Bread_Pizza_01_Slice_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_02", category = "food" }
+        SM_Bread_Pizza_01_Slice_03 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_03", category = "food" }
+        SM_Bread_Pizza_01_Slice_04 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_04", category = "food" }
+        SM_Bread_Pizza_01_Slice_05 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_05", category = "food" }
+        SM_Bread_Pizza_01_Slice_06 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pizza_01_Slice_06", category = "food" }
+        SM_Bread_Pretzel_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_Pretzel_01", category = "food" }
+        SM_Bread_RiceCrispy_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Bread_RiceCrispy_01", category = "food" }
+        SM_Fruit_Apple_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_01", category = "food" }
+        SM_Fruit_Apple_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_01_Half_01", category = "food" }
+        SM_Fruit_Apple_01_Quarter_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_01_Quarter_01", category = "food" }
+        SM_Fruit_Apple_Green_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Green_01", category = "food" }
+        SM_Fruit_Apple_Green_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Green_01_Half_01", category = "food" }
+        SM_Fruit_Apple_Green_01_Quarter_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Green_01_Quarter_01", category = "food" }
+        SM_Fruit_Apple_Red_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Red_01", category = "food" }
+        SM_Fruit_Apple_Red_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Red_01_Half_01", category = "food" }
+        SM_Fruit_Apple_Red_01_Quarter_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Apple_Red_01_Quarter_01", category = "food" }
+        SM_Fruit_Avocado_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Avocado_01", category = "food" }
+        SM_Fruit_Avocado_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Avocado_01_Half_01", category = "food" }
+        SM_Fruit_Avocado_01_Half_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Avocado_01_Half_02", category = "food" }
+        SM_Fruit_Banana_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Banana_01", category = "food" }
+        SM_Fruit_Cantaloupe_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Cantaloupe_01", category = "food" }
+        SM_Fruit_Cantaloupe_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Cantaloupe_01_Half_01", category = "food" }
+        SM_Fruit_Cantaloupe_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Cantaloupe_01_Slice_01", category = "food" }
+        SM_Fruit_Coconut_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Coconut_01", category = "food" }
+        SM_Fruit_Lemon_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lemon_01", category = "food" }
+        SM_Fruit_Lemon_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lemon_01_Half_01", category = "food" }
+        SM_Fruit_Lemon_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lemon_01_Slice_01", category = "food" }
+        SM_Fruit_Lime_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lime_01", category = "food" }
+        SM_Fruit_Lime_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lime_01_Half_01", category = "food" }
+        SM_Fruit_Lime_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Lime_01_Slice_01", category = "food" }
+        SM_Fruit_Mandarin_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mandarin_01", category = "food" }
+        SM_Fruit_Mandarin_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mandarin_01_Half_01", category = "food" }
+        SM_Fruit_Mandarin_01_Wedge_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mandarin_01_Wedge_01", category = "food" }
+        SM_Fruit_Mango_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mango_01", category = "food" }
+        SM_Fruit_Mango_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mango_01_Half_01", category = "food" }
+        SM_Fruit_Mango_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Mango_02", category = "food" }
+        SM_Fruit_Orange_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Orange_01", category = "food" }
+        SM_Fruit_Orange_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Orange_01_Half_01", category = "food" }
+        SM_Fruit_Orange_01_Wedge_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Orange_01_Wedge_01", category = "food" }
+        SM_Fruit_Peach_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Peach_01", category = "food" }
+        SM_Fruit_Peach_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Peach_01_Half_01", category = "food" }
+        SM_Fruit_Peach_01_Half_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Peach_01_Half_02", category = "food" }
+        SM_Fruit_Pear_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pear_01", category = "food" }
+        SM_Fruit_Pear_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pear_01_Half_01", category = "food" }
+        SM_Fruit_Pineapple_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pineapple_01", category = "food" }
+        SM_Fruit_Plum_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Plum_01", category = "food" }
+        SM_Fruit_Plum_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Plum_01_Half_01", category = "food" }
+        SM_Fruit_Plum_01_Half_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Plum_01_Half_02", category = "food" }
+        SM_Fruit_Pumpkin_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Pumpkin_01", category = "food" }
+        SM_Fruit_Squash_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_01", category = "food" }
+        SM_Fruit_Squash_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_01_Half_01", category = "food" }
+        SM_Fruit_Squash_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_02", category = "food" }
+        SM_Fruit_Squash_03 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Squash_03", category = "food" }
+        SM_Fruit_Tomato_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01", category = "food" }
+        SM_Fruit_Tomato_01_SliceBottom = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01_SliceBottom", category = "food" }
+        SM_Fruit_Tomato_01_SliceTop = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01_SliceTop", category = "food" }
+        SM_Fruit_Tomato_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_01_Slice_01", category = "food" }
+        SM_Fruit_Tomato_Heirloom_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_Heirloom_01", category = "food" }
+        SM_Fruit_Tomato_Heirloom_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_Heirloom_01_Half_01", category = "food" }
+        SM_Fruit_Tomato_Heirloom_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Tomato_Heirloom_01_Slice_01", category = "food" }
+        SM_Fruit_Watermelon_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01", category = "food" }
+        SM_Fruit_Watermelon_01_Crust_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01_Crust_01", category = "food" }
+        SM_Fruit_Watermelon_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01_Half_01", category = "food" }
+        SM_Fruit_Watermelon_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Fruit_Watermelon_01_Slice_01", category = "food" }
+        SM_Root_Garlic_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Root_Garlic_01", category = "food" }
+        SM_Root_Ginger_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Root_Ginger_01", category = "food" }
+        SM_Root_Potato_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_01", category = "food" }
+        SM_Root_Potato_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_02", category = "food" }
+        SM_Root_Potato_03 = { path = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_03", category = "food" }
+        SM_Root_Potato_Sweet_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Root_Potato_Sweet_01", category = "food" }
+        SM_Veg_Artichoke_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Artichoke_01", category = "food" }
+        SM_Veg_Artichoke_01_Half_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Artichoke_01_Half_01", category = "food" }
+        SM_Veg_Broccoli_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Broccoli_01", category = "food" }
+        SM_Veg_Cabbage_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Cabbage_01", category = "food" }
+        SM_Veg_Cabbage_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Cabbage_02", category = "food" }
+        SM_Veg_Carrot_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Carrot_01", category = "food" }
+        SM_Veg_Carrot_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Carrot_01_Slice_01", category = "food" }
+        SM_Veg_Carrot_02 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Carrot_02", category = "food" }
+        SM_Veg_Cauliflower_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Cauliflower_01", category = "food" }
+        SM_Veg_Corn_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Corn_01", category = "food" }
+        SM_Veg_Cucumber_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Cucumber_01", category = "food" }
+        SM_Veg_Cucumber_01_Slice_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Cucumber_01_Slice_01", category = "food" }
+        SM_Veg_Onion_Red_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_Red_01", category = "food" }
+        SM_Veg_Onion_Red_01_Cut = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_Red_01_Cut", category = "food" }
+        SM_Veg_Onion_White_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_White_01", category = "food" }
+        SM_Veg_Onion_Yellow_01 = { path = "NanosWorldAssets/Food/Meshes/SM_Veg_Onion_Yellow_01", category = "food" }
+
+        SM_Shuriken_01 = { path = "NanosWorldAssets/Tools/SM_Shuriken_01", category = "tools" }
+        SM_PipeWrench_01 = { path = "NanosWorldAssets/Tools/SM_PipeWrench_01", category = "tools" }
+        SM_Kunai_01 = { path = "NanosWorldAssets/Tools/SM_Kunai_01", category = "tools" }
+        SM_Jet_Thruster = { path = "NanosWorldAssets/Funny/SM_Jet_Thruster", category = "funny" }
+        SM_Lamp = { path = "NanosWorldAssets/Furniture/SM_Lamp", category = "furniture" }
+        SM_Flashlight = { path = "NanosWorldAssets/Tools/SM_Flashlight", category = "funny" }
+
+        SM_Balloon_Dog = { path = "NanosWorldAssets/Funny/Balloons/Dog/SM_Balloon_Dog", category = "funny" }
+        SM_Balloon_Trump = { path = "NanosWorldAssets/Funny/Balloons/Trump/SM_Balloon_Trump", category = "funny" }
+        SM_Balloon_01 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_01", category = "funny" }
+        SM_Balloon_02 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_02", category = "funny" }
+        SM_Balloon_03 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_03", category = "funny" }
+        SM_Balloon_04 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_04", category = "funny" }
+        SM_Balloon_05 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_05", category = "funny" }
+        SM_Balloon_06 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_06", category = "funny" }
+        SM_Balloon_07 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_07", category = "funny" }
+        SM_Poop = { path = "NanosWorldAssets/Funny/Poop/SM_Poop", category = "funny" }
+        SM_MoneyRoll = { path = "NanosWorldAssets/Funny/SM_MoneyRoll", category = "funny" }
+        SM_MoneyStack = { path = "NanosWorldAssets/Funny/SM_MoneyStack", category = "funny" }
+
+        SM_Crowbar_01 = { path = "NanosWorldAssets/Tools/SM_Crowbar_01", category = "tools" }
+        SM_Cleaver_01 = { path = "NanosWorldAssets/Tools/SM_Cleaver_01", category = "tools" }
+        SM_Bayonet_01 = { path = "NanosWorldAssets/Tools/SM_Bayonet_01", category = "tools" }
+        SM_BaseballBat_01 = { path = "NanosWorldAssets/Tools/SM_BaseballBat_01", category = "tools" }
+        SM_Axe_01 = { path = "NanosWorldAssets/Tools/SM_Axe_01", category = "tools" }
+
+        SM_WasherMachine = { path = "NanosWorldAssets/Appliances/SM_WasherMachine", category = "appliances" }
+        SM_TV_Hanging = { path = "NanosWorldAssets/Appliances/SM_TV_Hanging", category = "appliances" }
+        SM_TVRemote = { path = "NanosWorldAssets/Appliances/SM_TVRemote", category = "appliances" }
+        SM_TV = { path = "NanosWorldAssets/Appliances/SM_TV", category = "appliances" }
+        SM_Toaster = { path = "NanosWorldAssets/Appliances/SM_Toaster", category = "appliances" }
+        SM_Refrigerator = { path = "NanosWorldAssets/Appliances/SM_Refrigerator", category = "appliances" }
+        SM_MobilePhone = { path = "NanosWorldAssets/Appliances/SM_MobilePhone", category = "appliances" }
+        SM_MicrowaveOven = { path = "NanosWorldAssets/Appliances/SM_MicrowaveOven", category = "appliances" }
+        SM_LaptopOpen = { path = "NanosWorldAssets/Appliances/SM_LaptopOpen", category = "appliances" }
+        SM_LaptopClosed = { path = "NanosWorldAssets/Appliances/SM_LaptopClosed", category = "appliances" }
+        SM_DryerMachine = { path = "NanosWorldAssets/Appliances/SM_DryerMachine", category = "appliances" }
+        SM_CookerStove = { path = "NanosWorldAssets/Appliances/SM_CookerStove", category = "appliances" }
+        SM_CoffeeMachine = { path = "NanosWorldAssets/Appliances/SM_CoffeeMachine", category = "appliances" }
+
+        SM_Grave_01 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_01", category = "uncategorized" }
+        SM_Grave_02 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_02", category = "uncategorized" }
+        SM_Grave_03 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_03", category = "uncategorized" }
+        SM_Grave_04 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_04", category = "uncategorized" }
+        SM_Grave_06 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_06", category = "uncategorized" }
+        SM_Grave_07 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_07", category = "uncategorized" }
+        SM_Grave_08 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_08", category = "uncategorized" }
+        SM_Grave_09 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_09", category = "uncategorized" }
+        SM_Grave_10 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_10", category = "uncategorized" }
+        SM_Grave_11 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_11", category = "uncategorized" }
+        SM_Grave_12 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_12", category = "uncategorized" }
+        SM_Grave_13 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_13", category = "uncategorized" }
+
+        SM_Spool = { path = "NanosWorldAssets/Construction/SM_Spool", category = "construction" }
+        SM_Shovel_01 = { path = "NanosWorldAssets/Construction/SM_Shovel_01", category = "construction" }
+        SM_Sander_01a = { path = "NanosWorldAssets/Construction/SM_Sander_01a", category = "construction" }
+        SM_Roller_Machine = { path = "NanosWorldAssets/Construction/SM_Roller_Machine", category = "construction" }
+        SM_RollerMachine_Wheel = { path = "NanosWorldAssets/Construction/SM_RollerMachine_Wheel", category = "construction" }
+        SM_RoadBlock_Flag_01 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_Flag_01", category = "construction" }
+        SM_RoadBlock_05 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_05", category = "construction" }
+        SM_RoadBlock_04 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_04", category = "construction" }
+        SM_RoadBlock_03 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_03", category = "construction" }
+        SM_RoadBlock_02 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_02", category = "construction" }
+        SM_RoadBlock_01 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_01", category = "construction" }
+        SM_RebarCutterCordless = { path = "NanosWorldAssets/Construction/SM_RebarCutterCordless", category = "construction" }
+        SM_Rebar = { path = "NanosWorldAssets/Construction/SM_Rebar", category = "construction" }
+        SM_Rack_02 = { path = "NanosWorldAssets/Construction/SM_Rack_02", category = "construction" }
+        SM_Rack_01 = { path = "NanosWorldAssets/Construction/SM_Rack_01", category = "construction" }
+        SM_PropaneTank_02 = { path = "NanosWorldAssets/Construction/SM_PropaneTank_02", category = "construction" }
+        SM_PropaneTank_01 = { path = "NanosWorldAssets/Construction/SM_PropaneTank_01", category = "construction" }
+        SM_Portapotty_Door = { path = "NanosWorldAssets/Construction/SM_Portapotty_Door", category = "construction" }
+        SM_Portapotty = { path = "NanosWorldAssets/Construction/SM_Portapotty", category = "construction" }
+        SM_Plywood_07a = { path = "NanosWorldAssets/Construction/SM_Plywood_07a", category = "construction" }
+        SM_Plywood_06a = { path = "NanosWorldAssets/Construction/SM_Plywood_06a", category = "construction" }
+        SM_Plywood_05a = { path = "NanosWorldAssets/Construction/SM_Plywood_05a", category = "construction" }
+        SM_Plywood_04a = { path = "NanosWorldAssets/Construction/SM_Plywood_04a", category = "construction" }
+        SM_Plywood_03a = { path = "NanosWorldAssets/Construction/SM_Plywood_03a", category = "construction" }
+        SM_Plywood_02a = { path = "NanosWorldAssets/Construction/SM_Plywood_02a", category = "construction" }
+        SM_Plywood_01a = { path = "NanosWorldAssets/Construction/SM_Plywood_01a", category = "construction" }
+        SM_PlywoodTable_01a = { path = "NanosWorldAssets/Construction/SM_PlywoodTable_01a", category = "construction" }
+        SM_PlasticBarrel_01 = { path = "NanosWorldAssets/Construction/SM_PlasticBarrel_01", category = "construction" }
+        SM_PetrolCutter_01a = { path = "NanosWorldAssets/Construction/SM_PetrolCutter_01a", category = "construction" }
+        SM_PaintBucket_Lid_01a = { path = "NanosWorldAssets/Construction/SM_PaintBucket_Lid_01a", category = "construction" }
+        SM_PaintBucket_02_B = { path = "NanosWorldAssets/Construction/SM_PaintBucket_02_B", category = "construction" }
+        SM_PaintBucket_02 = { path = "NanosWorldAssets/Construction/SM_PaintBucket_02", category = "construction" }
+        SM_Nails = { path = "NanosWorldAssets/Construction/SM_Nails", category = "construction" }
+        SM_Lunchbox_01 = { path = "NanosWorldAssets/Construction/SM_Lunchbox_01", category = "construction" }
+        SM_LightGenerator_Lights = { path = "NanosWorldAssets/Construction/SM_LightGenerator_Lights", category = "construction" }
+        SM_LightGenerator_Base = { path = "NanosWorldAssets/Construction/SM_LightGenerator_Base", category = "construction" }
+        SM_Ladder_01b = { path = "NanosWorldAssets/Construction/SM_Ladder_01b", category = "construction" }
+        SM_Ladder_01a = { path = "NanosWorldAssets/Construction/SM_Ladder_01a", category = "construction" }
+        SM_Jackhammer_01a = { path = "NanosWorldAssets/Construction/SM_Jackhammer_01a", category = "construction" }
+        SM_HardHat_01b = { path = "NanosWorldAssets/Construction/SM_HardHat_01b", category = "construction" }
+        SM_HardHat_01a = { path = "NanosWorldAssets/Construction/SM_HardHat_01a", category = "construction" }
+        SM_HandForklift_01a = { path = "NanosWorldAssets/Construction/SM_HandForklift_01a", category = "construction" }
+        SM_FreightContainer = { path = "NanosWorldAssets/Construction/SM_FreightContainer", category = "construction" }
+        SM_ElectricDrill_01a = { path = "NanosWorldAssets/Construction/SM_ElectricDrill_01a", category = "construction" }
+        SM_Dumpster = { path = "NanosWorldAssets/Construction/SM_Dumpster", category = "construction" }
+        SM_Drywall = { path = "NanosWorldAssets/Construction/SM_Drywall", category = "construction" }
+        SM_Crate_Lid_01 = { path = "NanosWorldAssets/Construction/SM_Crate_Lid_01", category = "construction" }
+        SM_Crate_Full_01 = { path = "NanosWorldAssets/Construction/SM_Crate_Full_01", category = "construction" }
+        SM_Crate_Base_01 = { path = "NanosWorldAssets/Construction/SM_Crate_Base_01", category = "construction" }
+        SM_ConstructionPylons_07 = { path = "NanosWorldAssets/Construction/SM_ConstructionPylons_07", category = "construction" }
+        SM_ConstructionPylons_06 = { path = "NanosWorldAssets/Construction/SM_ConstructionPylons_06", category = "construction" }
+        SM_ConstructionPylons_05 = { path = "NanosWorldAssets/Construction/SM_ConstructionPylons_05", category = "construction" }
+        SM_ConstructionPylons_03 = { path = "NanosWorldAssets/Construction/SM_ConstructionPylons_03", category = "construction" }
+        SM_ConstructionPylons_02 = { path = "NanosWorldAssets/Construction/SM_ConstructionPylons_02", category = "construction" }
+        SM_ConstructionPylons_01 = { path = "NanosWorldAssets/Construction/SM_ConstructionPylons_01", category = "construction" }
+        SM_ConstructionFence = { path = "NanosWorldAssets/Construction/SM_ConstructionFence", category = "construction" }
+        SM_ConcretePipe_03 = { path = "NanosWorldAssets/Construction/SM_ConcretePipe_03", category = "construction" }
+        SM_ConcretePipe_02 = { path = "NanosWorldAssets/Construction/SM_ConcretePipe_02", category = "construction" }
+        SM_ConcretePipe_01 = { path = "NanosWorldAssets/Construction/SM_ConcretePipe_01", category = "construction" }
+        SM_ConcreteMixer_01a = { path = "NanosWorldAssets/Construction/SM_ConcreteMixer_01a", category = "construction" }
+        SM_ConcreteBag_Stack_02 = { path = "NanosWorldAssets/Construction/SM_ConcreteBag_Stack_02", category = "construction" }
+        SM_ConcreteBag_Stack_01 = { path = "NanosWorldAssets/Construction/SM_ConcreteBag_Stack_01", category = "construction" }
+        SM_ConcreteBag = { path = "NanosWorldAssets/Construction/SM_ConcreteBag", category = "construction" }
+        SM_CinderStack_Pallete = { path = "NanosWorldAssets/Construction/SM_CinderStack_Pallete", category = "construction" }
+        SM_CinderStack_02 = { path = "NanosWorldAssets/Construction/SM_CinderStack_02", category = "construction" }
+        SM_CinderStack = { path = "NanosWorldAssets/Construction/SM_CinderStack", category = "construction" }
+        SM_CartonGarbage = { path = "NanosWorldAssets/Construction/SM_CartonGarbage", category = "construction" }
+        SM_CartonBox_02 = { path = "NanosWorldAssets/Construction/SM_CartonBox_02", category = "construction" }
+        SM_CartonBox_01 = { path = "NanosWorldAssets/Construction/SM_CartonBox_01", category = "construction" }
+        SM_Canister = { path = "NanosWorldAssets/Construction/SM_Canister", category = "construction" }
+        SM_CableReel = { path = "NanosWorldAssets/Construction/SM_CableReel", category = "construction" }
+        SM_BrickPaletteStack_02 = { path = "NanosWorldAssets/Construction/SM_BrickPaletteStack_02", category = "construction" }
+        SM_BrickPaletteStack_01 = { path = "NanosWorldAssets/Construction/SM_BrickPaletteStack_01", category = "construction" }
+        SM_Brick = { path = "NanosWorldAssets/Construction/SM_Brick", category = "construction" }
+        SM_Boxes_02 = { path = "NanosWorldAssets/Construction/SM_Boxes_02", category = "construction" }
+        SM_Boxes_01 = { path = "NanosWorldAssets/Construction/SM_Boxes_01", category = "construction" }
+        SM_Barrel_01 = { path = "NanosWorldAssets/Construction/SM_Barrel_01", category = "construction" }
+        SM_Spool_01a = { path = "NanosWorldAssets/Construction/SM_Spool_01a", category = "construction" }
+        SM_SurveyorStand_01a = { path = "NanosWorldAssets/Construction/SM_SurveyorStand_01a", category = "construction" }
+        SM_SurveyorStand_01b = { path = "NanosWorldAssets/Construction/SM_SurveyorStand_01b", category = "construction" }
+        SM_TallGasCanister_01 = { path = "NanosWorldAssets/Construction/SM_TallGasCanister_01", category = "construction" }
+        SM_TrafficBarrel = { path = "NanosWorldAssets/Construction/SM_TrafficBarrel", category = "construction" }
+        SM_TrafficBarrier = { path = "NanosWorldAssets/Construction/SM_TrafficBarrier", category = "construction" }
+        SM_Trolley = { path = "NanosWorldAssets/Construction/SM_Trolley", category = "construction" }
+        SM_WaterTank_01 = { path = "NanosWorldAssets/Construction/SM_WaterTank_01", category = "construction" }
+        SM_WaterTank_02 = { path = "NanosWorldAssets/Construction/SM_WaterTank_02", category = "construction" }
+        SM_WheelBarrel_Empty = { path = "NanosWorldAssets/Construction/SM_WheelBarrel_Empty", category = "construction" }
+        SM_WheelBarrel_Full = { path = "NanosWorldAssets/Construction/SM_WheelBarrel_Full", category = "construction" }
+        SM_WheelBarrel_Wheel = { path = "NanosWorldAssets/Construction/SM_WheelBarrel_Wheel", category = "construction" }
+        SM_WoodenPalette = { path = "NanosWorldAssets/Construction/SM_WoodenPalette", category = "construction" }
+
+        SM_Trash_01 = { path = "NanosWorldAssets/Street/SM_Trash_01", category = "street" }
+        SM_StreetSigns_NoEntry = { path = "NanosWorldAssets/Street/SM_StreetSigns_NoEntry", category = "street" }
+        SM_MailBox_01 = { path = "NanosWorldAssets/Street/SM_MailBox_01", category = "street" }
+        SM_TrashCan_01 = { path = "NanosWorldAssets/Street/SM_TrashCan_01", category = "street" }
+        SM_DumpsterTrash = { path = "NanosWorldAssets/Street/SM_DumpsterTrash", category = "street" }
+        SM_LightPole_A = { path = "NanosWorldAssets/Street/SM_LightPole_A", category = "street" }
+        SM_StreetLamp = { path = "NanosWorldAssets/Street/SM_StreetLamp", category = "street" }
+        SM_StreetSigns_Crossing = { path = "NanosWorldAssets/Street/SM_StreetSigns_Crossing", category = "street" }
+        SM_StreetSigns_GiveWay = { path = "NanosWorldAssets/Street/SM_StreetSigns_GiveWay", category = "street" }
+        SM_StreetSigns_NoRight = { path = "NanosWorldAssets/Street/SM_StreetSigns_NoRight", category = "street" }
+        SM_StreetSigns_NoThrough = { path = "NanosWorldAssets/Street/SM_StreetSigns_NoThrough", category = "street" }
+        SM_StreetSigns_OneWay = { path = "NanosWorldAssets/Street/SM_StreetSigns_OneWay", category = "street" }
+        SM_StreetSigns_Parking = { path = "NanosWorldAssets/Street/SM_StreetSigns_Parking", category = "street" }
+        SM_StreetSigns_Stop = { path = "NanosWorldAssets/Street/SM_StreetSigns_Stop", category = "street" }
+        SM_StreetSigns_Thirty = { path = "NanosWorldAssets/Street/SM_StreetSigns_Thirty", category = "street" }
+        SM_StreetSigns_UTurn = { path = "NanosWorldAssets/Street/SM_StreetSigns_UTurn", category = "street" }
+        SM_Street_Pole_01 = { path = "NanosWorldAssets/Street/SM_Street_Pole_01", category = "street" }
+        SM_Street_Pole_02 = { path = "NanosWorldAssets/Street/SM_Street_Pole_02", category = "street" }
+
+        SM_Boltcutters = { path = "NanosWorldAssets/Tools/SM_Boltcutters", category = "tools" }
+        SM_Clamp_01 = { path = "NanosWorldAssets/Tools/SM_Clamp_01", category = "tools" }
+        SM_Clamp_02 = { path = "NanosWorldAssets/Tools/SM_Clamp_02", category = "tools" }
+        SM_Clamp_03 = { path = "NanosWorldAssets/Tools/SM_Clamp_03", category = "tools" }
+        SM_Clamp_Bench_01 = { path = "NanosWorldAssets/Tools/SM_Clamp_Bench_01", category = "tools" }
+        SM_Clamp_Bench_02 = { path = "NanosWorldAssets/Tools/SM_Clamp_Bench_02", category = "tools" }
+        SM_Hammer = { path = "NanosWorldAssets/Tools/SM_Hammer", category = "tools" }
+        SM_Levelers_01 = { path = "NanosWorldAssets/Tools/SM_Levelers_01", category = "tools" }
+        SM_Levelers_02 = { path = "NanosWorldAssets/Tools/SM_Levelers_02", category = "tools" }
+        SM_Paintbrush_01 = { path = "NanosWorldAssets/Tools/SM_Paintbrush_01", category = "tools" }
+        SM_Paintbrush_02 = { path = "NanosWorldAssets/Tools/SM_Paintbrush_02", category = "tools" }
+        SM_Paintbrush_03 = { path = "NanosWorldAssets/Tools/SM_Paintbrush_03", category = "tools" }
+        SM_PlierSet_01 = { path = "NanosWorldAssets/Tools/SM_PlierSet_01", category = "tools" }
+        SM_PlierSet_02 = { path = "NanosWorldAssets/Tools/SM_PlierSet_02", category = "tools" }
+        SM_PlierSet_03 = { path = "NanosWorldAssets/Tools/SM_PlierSet_03", category = "tools" }
+        SM_PlierSet_04 = { path = "NanosWorldAssets/Tools/SM_PlierSet_04", category = "tools" }
+        SM_PlierSet_05 = { path = "NanosWorldAssets/Tools/SM_PlierSet_05", category = "tools" }
+        SM_PlierSet_06 = { path = "NanosWorldAssets/Tools/SM_PlierSet_06", category = "tools" }
+        SM_PliersSet_07 = { path = "NanosWorldAssets/Tools/SM_PliersSet_07", category = "tools" }
+        SM_Saw_01 = { path = "NanosWorldAssets/Tools/SM_Saw_01", category = "tools" }
+        SM_Saw_02 = { path = "NanosWorldAssets/Tools/SM_Saw_02", category = "tools" }
+        SM_ScrewDriverSet_01 = { path = "NanosWorldAssets/Tools/SM_ScrewDriverSet_01", category = "tools" }
+        SM_ScrewDriverSet_02 = { path = "NanosWorldAssets/Tools/SM_ScrewDriverSet_02", category = "tools" }
+        SM_ScrewDriverSet_03 = { path = "NanosWorldAssets/Tools/SM_ScrewDriverSet_03", category = "tools" }
+        SM_ScrewDriverSet_04 = { path = "NanosWorldAssets/Tools/SM_ScrewDriverSet_04", category = "tools" }
+        SM_Screwdriver_Flathead_01 = { path = "NanosWorldAssets/Tools/SM_Screwdriver_Flathead_01", category = "tools" }
+        SM_Screwdriver_Philips_01 = { path = "NanosWorldAssets/Tools/SM_Screwdriver_Philips_01", category = "tools" }
+        SM_Screwdriver_Philips_02 = { path = "NanosWorldAssets/Tools/SM_Screwdriver_Philips_02", category = "tools" }
+        SM_Spraycan_01 = { path = "NanosWorldAssets/Tools/SM_Spraycan_01", category = "tools" }
+        SM_Spraycan_02 = { path = "NanosWorldAssets/Tools/SM_Spraycan_02", category = "tools" }
+        SM_Spraycan_03 = { path = "NanosWorldAssets/Tools/SM_Spraycan_03", category = "tools" }
+        SM_StapleGun = { path = "NanosWorldAssets/Tools/SM_StapleGun", category = "tools" }
+        SM_Toolbox = { path = "NanosWorldAssets/Tools/SM_Toolbox", category = "tools" }
+
+        SM_Bunny = { path = "NanosWorldAssets/Toys/SM_Bunny", category = "funny" }
+        SM_KidsBall = { path = "NanosWorldAssets/Toys/SM_KidsBall", category = "funny" }
+        SM_KidsBox_01 = { path = "NanosWorldAssets/Toys/SM_KidsBox_01", category = "funny" }
+        SM_KidsBox_02 = { path = "NanosWorldAssets/Toys/SM_KidsBox_02", category = "funny" }
+        SM_KidsBox_03 = { path = "NanosWorldAssets/Toys/SM_KidsBox_03", category = "funny" }
+        SM_KidsBox_04 = { path = "NanosWorldAssets/Toys/SM_KidsBox_04", category = "funny" }
+        SM_KidsBox_05 = { path = "NanosWorldAssets/Toys/SM_KidsBox_05", category = "funny" }
+        SM_KidsBox_06 = { path = "NanosWorldAssets/Toys/SM_KidsBox_06", category = "funny" }
+        SM_KidsBox_07 = { path = "NanosWorldAssets/Toys/SM_KidsBox_07", category = "funny" }
+        SM_KidsBox_08 = { path = "NanosWorldAssets/Toys/SM_KidsBox_08", category = "funny" }
+
+        SM_DigitalPiano = { path = "NanosWorldAssets/Instruments/DigitalPiano/SM_DigitalPiano", category = "food" }
+        SM_ElectricGuitar = { path = "NanosWorldAssets/Instruments/ElectricGuitar/SM_ElectricGuitar", category = "food" }
+        SM_Flute = { path = "NanosWorldAssets/Instruments/Flute/SM_Flute", category = "food" }
+        SM_Gramophone = { path = "NanosWorldAssets/Instruments/Gramophone/SM_Gramophone", category = "food" }
+        SM_Guitar = { path = "NanosWorldAssets/Instruments/Guitar/SM_Guitar", category = "food" }
+        SM_HalfStack_Marshall = { path = "NanosWorldAssets/Instruments/HalfStack/SM_HalfStack_Marshall", category = "food" }
+        SM_Piano = { path = "NanosWorldAssets/Instruments/Piano/SM_Piano", category = "food" }
+        SM_Saxophone = { path = "NanosWorldAssets/Instruments/Sax/SM_Saxophone", category = "food" }
+        SM_Trumpet = { path = "NanosWorldAssets/Instruments/Trumpet/SM_Trumpet", category = "food" }
+        SM_Violin = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin", category = "food" }
+        SM_Violin_Bow = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin_Bow", category = "food" }
+
+        # Emojis
+        SM_Emoji_01 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_01", category = "funny" }
+        SM_Emoji_02 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_02", category = "funny" }
+        SM_Emoji_03 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_03", category = "funny" }
+        SM_Emoji_04 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_04", category = "funny" }
+        SM_Emoji_05 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_05", category = "funny" }
+        SM_Emoji_06 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_06", category = "funny" }
+        SM_Emoji_07 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_07", category = "funny" }
+        SM_Emoji_08 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_08", category = "funny" }
+        SM_Emoji_09 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_09", category = "funny" }
+        SM_Emoji_10 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_10", category = "funny" }
+        SM_Emoji_11 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_11", category = "funny" }
+        SM_Emoji_12 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_12", category = "funny" }
+        SM_Emoji_13 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_13", category = "funny" }
+        SM_Emoji_14 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_14", category = "funny" }
+        SM_Emoji_15 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_15", category = "funny" }
+        SM_Emoji_16 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_16", category = "funny" }
+        SM_Emoji_17 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_17", category = "funny" }
+        SM_Emoji_18 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_18", category = "funny" }
+        SM_Emoji_19 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_19", category = "funny" }
+        SM_Emoji_20 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_20", category = "funny" }
+        SM_Emoji_21 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_21", category = "funny" }
+        SM_Emoji_22 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_22", category = "funny" }
+        SM_Emoji_23 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_23", category = "funny" }
+        SM_Emoji_24 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_24", category = "funny" }
+        SM_Emoji_25 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_25", category = "funny" }
+        SM_Emoji_26 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_26", category = "funny" }
+        SM_Emoji_27 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_27", category = "funny" }
+        SM_Emoji_28 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_28", category = "funny" }
+        SM_Emoji_29 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_29", category = "funny" }
+        SM_Emoji_30 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_30", category = "funny" }
+        SM_Emoji_31 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_31", category = "funny" }
+        SM_Emoji_32 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_32", category = "funny" }
+        SM_Emoji_33 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_33", category = "funny" }
+        SM_Emoji_34 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_34", category = "funny" }
+        SM_Emoji_35 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_35", category = "funny" }
+        SM_Emoji_36 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_36", category = "funny" }
+        SM_Emoji_37 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_37", category = "funny" }
+        SM_Emoji_38 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_38", category = "funny" }
+        SM_Emoji_39 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_39", category = "funny" }
+        SM_Emoji_40 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_40", category = "funny" }
+        SM_Emoji_41 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_41", category = "funny" }
+        SM_Emoji_42 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_42", category = "funny" }
+        SM_Emoji_43 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_43", category = "funny" }
+        SM_Emoji_44 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_44", category = "funny" }
+        SM_Emoji_45 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_45", category = "funny" }
+        SM_Emoji_46 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_46", category = "funny" }
+        SM_Emoji_47 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_47", category = "funny" }
+        SM_Emoji_48 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_48", category = "funny" }
+        SM_Emoji_49 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_49", category = "funny" }
+        SM_Emoji_50 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_50", category = "funny" }
+        SM_Emoji_51 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_51", category = "funny" }
+        SM_Emoji_52 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_52", category = "funny" }
+        SM_Emoji_53 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_53", category = "funny" }
+        SM_Emoji_54 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_54", category = "funny" }
+        SM_Emoji_55 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_55", category = "funny" }
+        SM_Emoji_56 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_56", category = "funny" }
+        SM_Emoji_57 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_57", category = "funny" }
+        SM_Emoji_58 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_58", category = "funny" }
+        SM_Emoji_59 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_59", category = "funny" }
+        SM_Emoji_60 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_60", category = "funny" }
+        SM_Emoji_61 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_61", category = "funny" }
+        SM_Emoji_62 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_62", category = "funny" }
+        SM_Emoji_63 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_63", category = "funny" }
+        SM_Emoji_64 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_64", category = "funny" }
+        SM_Emoji_65 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_65", category = "funny" }
+        SM_Emoji_66 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_66", category = "funny" }
+        SM_Emoji_67 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_67", category = "funny" }
+        SM_Emoji_68 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_68", category = "funny" }
+        SM_Emoji_69 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_69", category = "funny" }
+        SM_Emoji_70 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_70", category = "funny" }
+        SM_Emoji_71 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_71", category = "funny" }
+        SM_Emoji_72 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_72", category = "funny" }
+        SM_Emoji_73 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_73", category = "funny" }
+        SM_Emoji_74 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_74", category = "funny" }
+        SM_Emoji_75 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_75", category = "funny" }
+        SM_Emoji_76 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_76", category = "funny" }
+        SM_Emoji_77 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_77", category = "funny" }
+        SM_Emoji_78 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_78", category = "funny" }
+        SM_Emoji_79 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_79", category = "funny" }
+        SM_Emoji_80 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_80", category = "funny" }
+        SM_Emoji_81 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_81", category = "funny" }
 
         # Vehicles
-        SM_Offroad_Body = "Vehicles/OffroadCar/SM_Offroad_Body"
-        SM_Offroad_Tire = "Vehicles/OffroadCar/SM_Offroad_Tire"
-        SM_Tire_01 = "NanosWorldAssets/Vehicles/Common/Meshes/SM_Tire_01"
-        SM_TireLarge = "NanosWorldMaps/Art/Rural/Extra/SM_TireLarge"
+        SM_Offroad_Body = { path = "Vehicles/OffroadCar/SM_Offroad_Body", category = "construction" }
+        SM_Offroad_Tire = { path = "Vehicles/OffroadCar/SM_Offroad_Tire", category = "construction" }
+        SM_TireLarge = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TireLarge", category = "construction" }
+        SM_Tire_01 = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SM_Tire_01", category = "construction" }
 
     # Skeletal Meshes
     [assets.skeletal_meshes]
         # Characters
-        SK_Female = "Characters/Female/SK_Female"
-        SK_Male = "Characters/Male/SK_Male"
-        SK_Mannequin = "Characters/Mannequin/SK_Mannequin"
-        SK_Mannequin_Female = "Characters/Mannequin/SK_Mannequin_Female"
-        SK_PostApocalyptic = "Characters/PostApocalyptic/SK_PostApocalyptic"
-        SK_ClassicMale = "Characters/ClassicMale/SK_ClassicMale"
-        SK_AncientUgandan = "Packs/UgandanKnuckles/SK_AncientUgandan"
+        SK_Female = { path = "Characters/Female/SK_Female", category = "character" }
+        SK_Male = { path = "Characters/Male/SK_Male", category = "character" }
+        SK_Mannequin = { path = "Characters/Mannequin/SK_Mannequin", category = "character" }
+        SK_Mannequin_Female = { path = "Characters/Mannequin/SK_Mannequin_Female", category = "character" }
+        SK_PostApocalyptic = { path = "Characters/PostApocalyptic/SK_PostApocalyptic", category = "character" }
+        SK_ClassicMale = { path = "Characters/ClassicMale/SK_ClassicMale", category = "character" }
+        SK_AncientUgandan = { path = "Packs/UgandanKnuckles/SK_AncientUgandan", category = "character" }
+        SK_StackOBot = { path = "Packs/StackOBot/Characters/Bot/Mesh/SKM_Bot", category = "character" }
 
         # Clothes
+        SK_StackOBot_Backpack = "Packs/StackOBot/Characters/Backpack/Mesh/SKM_Backpack"
         SK_Shirt = "Characters/Common/BodyParts/Clothes/Shirt/SK_Shirt"
         SK_Underwear = "Characters/Common/BodyParts/Clothes/Underwear/SK_Underwear"
         SK_Pants = "Characters/Common/BodyParts/Clothes/Pants/SK_Pants"
@@ -535,49 +639,56 @@
         SK_None = "Props/Utils/SK_None"
 
         # Weapons
-        SK_AK47 = "Weapons/Rifles/AK47/SK_AK47"
-        SK_AK74U = "Weapons/Rifles/AK74U/SK_AK74U"
-        SK_GE36 = "Weapons/Rifles/GE36/SK_GE36"
-        SK_Glock = "Weapons/Pistols/Glock/SK_Glock"
-        SK_DesertEagle = "Weapons/Pistols/DesertEagle/SK_DesertEagle"
-        SK_AR4 = "Weapons/Rifles/AR4/SK_AR4"
-        SK_Moss500 = "Weapons/Shotguns/Moss500/SK_Moss500"
-        SK_AP5 = "Weapons/Rifles/AP5/SK_AP5"
-        SK_SMG11 = "Weapons/SMGs/SMG11/SK_SMG11"
-        SK_ASVal = "Weapons/Rifles/ASVal/SK_ASVal"
-        SK_Ithaca37 = "Weapons/Shotguns/Ithaca37/SK_Ithaca37"
-        SK_Rem870 = "Weapons/Shotguns/Rem870/SK_Rem870"
-        SK_UMP45 = "Weapons/SMGs/UMP45/SK_UMP45"
-        SK_P90 = "Weapons/SMGs/P90/SK_P90"
-        SK_GE3 = "Weapons/Rifles/GE3/SK_GE3"
-        SK_Makarov = "Weapons/Pistols/Makarov/SK_Makarov"
-        SK_M1911 = "Weapons/Pistols/M1911/SK_M1911"
-        SK_SPAS12 = "Weapons/Shotguns/SPAS12/SK_SPAS12"
-        SK_SPAS12_Folded = "Weapons/Shotguns/SPAS12/SK_SPAS12_Folded"
-        SK_SA80 = "Weapons/Rifles/SA80/SK_SA80"
-        SK_AWP = "Weapons/Rifles/AWP/SK_AWP"
-        SK_AK5C = "Weapons/Rifles/AK5C/SK_AK5C"
-        SK_AK5C_G203 = "Weapons/Rifles/AK5C/SK_AK5C_G203"
-        SK_DC15S = "Weapons/Rifles/DC15S/SK_DC15S"
+        SK_AK47 = { path = "Weapons/Rifles/AK47/SK_AK47", category = "weapon" }
+        SK_AK74U = { path = "Weapons/Rifles/AK74U/SK_AK74U", category = "weapon" }
+        SK_GE36 = { path = "Weapons/Rifles/GE36/SK_GE36", category = "weapon" }
+        SK_Lewis = { path = "Weapons/Rifles/Lewis/SK_Lewis", category = "weapon" }
+        SK_M1Garand = { path = "Weapons/Rifles/M1Garand/SK_M1Garand", category = "weapon" }
+        SK_Glock = { path = "Weapons/Pistols/Glock/SK_Glock", category = "weapon" }
+        SK_ColtPython = { path = "Weapons/Pistols/RevolverColt/SK_Colt_Python", category = "weapon" }
+        SK_DesertEagle = { path = "Weapons/Pistols/DesertEagle/SK_DesertEagle", category = "weapon" }
+        SK_AR4 = { path = "Weapons/Rifles/AR4/SK_AR4", category = "weapon" }
+        SK_Moss500 = { path = "Weapons/Shotguns/Moss500/SK_Moss500", category = "weapon" }
+        SK_AP5 = { path = "Weapons/Rifles/AP5/SK_AP5", category = "weapon" }
+        SK_SMG11 = { path = "Weapons/SMGs/SMG11/SK_SMG11", category = "weapon" }
+        SK_ASVal = { path = "Weapons/Rifles/ASVal/SK_ASVal", category = "weapon" }
+        SK_Ithaca37 = { path = "Weapons/Shotguns/Ithaca37/SK_Ithaca37", category = "weapon" }
+        SK_Rem870 = { path = "Weapons/Shotguns/Rem870/SK_Rem870", category = "weapon" }
+        SK_UMP45 = { path = "Weapons/SMGs/UMP45/SK_UMP45", category = "weapon" }
+        SK_P90 = { path = "Weapons/SMGs/P90/SK_P90", category = "weapon" }
+        SK_GE3 = { path = "Weapons/Rifles/GE3/SK_GE3", category = "weapon" }
+        SK_Makarov = { path = "Weapons/Pistols/Makarov/SK_Makarov", category = "weapon" }
+        SK_M1911 = { path = "Weapons/Pistols/M1911/SK_M1911", category = "weapon" }
+        SK_SPAS12 = { path = "Weapons/Shotguns/SPAS12/SK_SPAS12", category = "weapon" }
+        SK_SPAS12_Folded = { path = "Weapons/Shotguns/SPAS12/SK_SPAS12_Folded", category = "weapon" }
+        SK_SA80 = { path = "Weapons/Rifles/SA80/SK_SA80", category = "weapon" }
+        SK_AWP = { path = "Weapons/Rifles/AWP/SK_AWP", category = "weapon" }
+        SK_AK5C = { path = "Weapons/Rifles/AK5C/SK_AK5C", category = "weapon" }
+        SK_AK5C_G203 = { path = "Weapons/Rifles/AK5C/SK_AK5C_G203", category = "weapon" }
+        SK_DC15S = { path = "Weapons/Rifles/DC15S/SK_DC15S", category = "weapon" }
+        SK_Sten = { path = "Weapons/SMGs/Sten/SK_Sten", category = "weapon" }
+        SK_StG44 = { path = "Weapons/Rifles/StG44/SK_StG44", category = "weapon" }
+        SK_BAR = { path = "Weapons/Rifles/BAR/SK_BAR", category = "weapon" }
 
         # Tools
-        SK_Blaster = "Weapons/Tools/Blaster/SK_Blaster"
-        SK_FlareGun = "Weapons/Tools/FlareGun/SK_FlareGun"
-        SK_FlareGun_Short = "Weapons/Tools/FlareGun/SK_FlareGun_Short"
+        SK_Blaster = { path = "Weapons/Tools/Blaster/SK_Blaster", category = "weapon" }
+        SK_FlareGun = { path = "Weapons/Tools/FlareGun/SK_FlareGun", category = "weapon" }
+        SK_FlareGun_Short = { path = "Weapons/Tools/FlareGun/SK_FlareGun_Short", category = "weapon" }
 
         # Vehicles
-        SK_CamperVan = "NanosWorldAssets/Vehicles/Variety/CamperVan/SK_CamperVan"
-        SK_Van = "NanosWorldAssets/Vehicles/Variety/Van/SK_Van"
-        SK_Wagon = "NanosWorldAssets/Vehicles/Variety/Wagon/SK_Wagon"
-        SK_Sedan = "NanosWorldAssets/Vehicles/Variety/Sedan/SK_Sedan"
-        SK_Pickup = "NanosWorldAssets/Vehicles/Variety/Pickup/SK_Pickup"
-        SK_SUV = "NanosWorldAssets/Vehicles/Variety/SUV/SK_SUV"
-        SK_Truck_Box = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Box"
-        SK_Truck_Chassis = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Chassis"
-        SK_SportsCar = "NanosWorldAssets/Vehicles/Variety/SportsCar/SK_SportsCar"
-        SK_Hatchback = "NanosWorldAssets/Vehicles/Variety/Hatchback/SK_Hatchback"
-        SK_Offroad = "Vehicles/OffroadCar/SK_Offroad"
+        SK_CamperVan = { path = "NanosWorldAssets/Vehicles/Variety/CamperVan/SK_CamperVan", category = "vehicle" }
+        SK_Van = { path = "NanosWorldAssets/Vehicles/Variety/Van/SK_Van", category = "vehicle" }
+        SK_Wagon = { path = "NanosWorldAssets/Vehicles/Variety/Wagon/SK_Wagon", category = "vehicle" }
+        SK_Sedan = { path = "NanosWorldAssets/Vehicles/Variety/Sedan/SK_Sedan", category = "vehicle" }
+        SK_Pickup = { path = "NanosWorldAssets/Vehicles/Variety/Pickup/SK_Pickup", category = "vehicle" }
+        SK_SUV = { path = "NanosWorldAssets/Vehicles/Variety/SUV/SK_SUV", category = "vehicle" }
+        SK_Truck_Box = { path = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Box", category = "vehicle" }
+        SK_Truck_Chassis = { path = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Chassis", category = "vehicle" }
+        SK_SportsCar = { path = "NanosWorldAssets/Vehicles/Variety/SportsCar/SK_SportsCar", category = "vehicle" }
+        SK_Hatchback = { path = "NanosWorldAssets/Vehicles/Variety/Hatchback/SK_Hatchback", category = "vehicle" }
+        SK_Offroad = { path = "Vehicles/OffroadCar/SK_Offroad", category = "vehicle" }
 
+        SK_Motorboat = { path = "Vehicles/Water/MotorBoat/SK_Motorboat_01", category = "vehicle" }
 
     # Sounds
     [assets.sounds]
@@ -908,6 +1019,10 @@
         A_MetalHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_MetalHeavy_Impact_MS"
         A_Water_Impact_MS = "Effects/Sounds/PhysicsHit/A_Water_Impact_MS"
         A_WoodHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_WoodHeavy_Impact_MS"
+        A_Gas_Leak_Burst_01 = "Effects/Gas/A_Gas_Leak_Burst_01"
+        A_Gas_Leak_Loop_01 = "Effects/Gas/A_Gas_Leak_Loop_01"
+        A_Gas_Leak_Loop_02 = "Effects/Gas/A_Gas_Leak_Loop_02"
+        A_Gas_Leak_Loop_03 = "Effects/Gas/A_Gas_Leak_Loop_03"
 
         # Music
         A_Baiana_Remix = "Packs/UgandanKnuckles/A_Baiana_Remix"
@@ -1145,6 +1260,7 @@
         A_Mannequin_ProningToCrouching = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_LayingFrontToCrouching"
         A_Mannequin_CrouchingToProne = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToProne"
 
+    # Particles
     [assets.particles]
         # Weapons
         P_Bullet_Trail = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System"
@@ -1293,20 +1409,30 @@
         P_LTGrenadeEXP_Water = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Water"
         P_LTGrenadeEXP_Wood = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Wood"
 
+    # Materials
     [assets.materials]
         # Template Materials
-		M_Default_Masked_Lit = "MaterialLibrary/M_NanosDefault"
-		M_Default_Masked_Unlit = "MaterialLibrary/MI_DefaultMaskedUnlit"
-		M_Default_AlphaComposite_Lit = "MaterialLibrary/M_NanosDefault_AlphaComposite"
-		M_Default_Translucent_Lit = "MaterialLibrary/MI_NanosDefault_Translucent"
-		M_Default_Translucent_Lit_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
-		M_Default_Translucent_Lit_Decal = "MaterialLibrary/M_NanosDefault_Decal"
+        M_Default_Masked_Lit = "MaterialLibrary/M_NanosDefault"
+        M_Default_Masked_Unlit = "MaterialLibrary/MI_DefaultMaskedUnlit"
+        M_Default_AlphaComposite_Lit = "MaterialLibrary/M_NanosDefault_AlphaComposite"
+        M_Default_Translucent_Lit = "MaterialLibrary/MI_NanosDefault_Translucent"
+        M_Default_Translucent_Lit_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
+        M_Default_Translucent_Lit_Decal = "MaterialLibrary/M_NanosDefault_Decal"
 
-        # Util Materials
-		M_Noise = "MaterialLibrary/M_Noise"
-		M_Wireframe = "MaterialLibrary/M_Wireframe"
+        M_Default_UI = "MaterialLibrary/M_NanosDefault_UI"
+        M_Default_UI_Canvas = "MaterialLibrary/M_NanosDefault_UI_Canvas"
+        M_Default_UI_SceneCapture = "MaterialLibrary/M_NanosDefault_UI_SceneCapture"
+        M_Default_UI_WebUI = "MaterialLibrary/M_NanosDefault_UI_WebUI"
+
+        # Internal
         M_NanosBillboardError = "MaterialLibrary/MI_NanosBillboardError"
         M_NanosMaterialError = "MaterialLibrary/M_NanosMaterialError"
+        M_NanosWebUI = "MaterialLibrary/M_NanosWebUI"
+        M_NanosSceneCapture = "MaterialLibrary/M_NanosDefault_SceneCapture"
+
+        # Util Materials
+        M_Noise = "MaterialLibrary/M_Noise"
+        M_Wireframe = "MaterialLibrary/M_Wireframe"
 
         # Physical Materials
         PM_Concrete = "MaterialLibrary/PhysicalMaterials/PM_Concrete"
@@ -1398,6 +1524,12 @@
         MI_Crosshair_Triangle = "UI/Crosshair/MI_Crosshair_Triangle"
         MI_Crosshair_Vee = "UI/Crosshair/MI_Crosshair_Vee"
 
+    # Blueprints
     [assets.blueprints]
         # Animation Blueprints
         ABP_Offroad = "Vehicles/OffroadCar/ABP_Offroad"
+        ABP_StackOBot = "Packs/StackOBot/Characters/Bot/ABP_Bot"
+
+        # Widgets
+        WBP_Error = "Core/Widgets/WBP_Error"
+        WBP_Empty = "Core/Widgets/WBP_Empty"
