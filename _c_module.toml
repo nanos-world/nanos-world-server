@@ -1,0 +1,15 @@
+# vault configurations
+[meta]
+    # friendly name
+    title =                 "My Awesome C Module"
+    # contributors
+    author =                "Contributor Names"
+    # version
+    version =               "0.1.0"
+
+# c module configurations
+[c_module]
+    # list of binaries paths to load (without extension)
+    binaries = [
+
+    ]
