@@ -165,25 +165,25 @@
         SM_Wood_Platform_10 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Wood_Platform_10", category = "furniture" }
         SM_Wood_Stairs_02 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_Wood_Stairs_02", category = "furniture" }
 
-        SM_Tree_Acacia_01 = { path = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_01", category = "furniture" }
-        SM_Tree_Acacia_02 = { path = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_02", category = "furniture" }
-        SM_Tree_Almond_01 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_01", category = "furniture" }
-        SM_Tree_Almond_02 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_02", category = "furniture" }
-        SM_Tree_Almond_03 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_03", category = "furniture" }
-        SM_Tree_Palm_01 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_01", category = "furniture" }
-        SM_Tree_Palm_02 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_02", category = "furniture" }
-        SM_Tree_Palm_03 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_03", category = "furniture" }
-        SM_Branch = { path = "NanosWorldMaps/Art/Nature/Branches/SM_Branch", category = "furniture" }
-        SM_Bush_01 = { path = "NanosWorldMaps/Art/Nature/Bushes/SM_Bush_01", category = "furniture" }
-        SM_Buttercup = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Buttercup", category = "furniture" }
-        SM_GreenCoconut = { path = "NanosWorldMaps/Art/Rural/Extra/SM_GreenCoconut", category = "furniture" }
-        SM_HeatherClumps = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_HeatherClumps", category = "furniture" }
-        SM_Rock_03 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_03", category = "furniture" }
-        SM_Rock_04 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_04", category = "furniture" }
-        SM_Rock_05 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_05", category = "furniture" }
-        SM_Rock_06 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_06", category = "furniture" }
-        SM_Rock_07 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_07", category = "furniture" }
-        SM_Scabious = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Scabious", category = "furniture" }
+        SM_Tree_Acacia_01 = { path = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_01", category = "nature" }
+        SM_Tree_Acacia_02 = { path = "NanosWorldMaps/Art/Nature/Trees/acacia/SM_Tree_Acacia_02", category = "nature" }
+        SM_Tree_Almond_01 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_01", category = "nature" }
+        SM_Tree_Almond_02 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_02", category = "nature" }
+        SM_Tree_Almond_03 = { path = "NanosWorldMaps/Art/Nature/Trees/Almond/SM_Tree_Almond_03", category = "nature" }
+        SM_Tree_Palm_01 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_01", category = "nature" }
+        SM_Tree_Palm_02 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_02", category = "nature" }
+        SM_Tree_Palm_03 = { path = "NanosWorldMaps/Art/Nature/Trees/Palm/SM_Tree_Palm_03", category = "nature" }
+        SM_Branch = { path = "NanosWorldMaps/Art/Nature/Branches/SM_Branch", category = "nature" }
+        SM_Bush_01 = { path = "NanosWorldMaps/Art/Nature/Bushes/SM_Bush_01", category = "nature" }
+        SM_Buttercup = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Buttercup", category = "nature" }
+        SM_GreenCoconut = { path = "NanosWorldMaps/Art/Rural/Extra/SM_GreenCoconut", category = "nature" }
+        SM_HeatherClumps = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_HeatherClumps", category = "nature" }
+        SM_Rock_03 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_03", category = "nature" }
+        SM_Rock_04 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_04", category = "nature" }
+        SM_Rock_05 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_05", category = "nature" }
+        SM_Rock_06 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_06", category = "nature" }
+        SM_Rock_07 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_07", category = "nature" }
+        SM_Scabious = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Scabious", category = "nature" }
 
         SM_Grenade_G67 = { path = "Weapons/Grenades/G67/SM_G67", category = "tools" }
         SM_Torch = { path = "Weapons/Torch/SM_Torch", category = "tools" }
@@ -511,17 +511,17 @@
         SM_KidsBox_07 = { path = "NanosWorldAssets/Toys/SM_KidsBox_07", category = "funny" }
         SM_KidsBox_08 = { path = "NanosWorldAssets/Toys/SM_KidsBox_08", category = "funny" }
 
-        SM_DigitalPiano = { path = "NanosWorldAssets/Instruments/DigitalPiano/SM_DigitalPiano", category = "food" }
-        SM_ElectricGuitar = { path = "NanosWorldAssets/Instruments/ElectricGuitar/SM_ElectricGuitar", category = "food" }
-        SM_Flute = { path = "NanosWorldAssets/Instruments/Flute/SM_Flute", category = "food" }
-        SM_Gramophone = { path = "NanosWorldAssets/Instruments/Gramophone/SM_Gramophone", category = "food" }
-        SM_Guitar = { path = "NanosWorldAssets/Instruments/Guitar/SM_Guitar", category = "food" }
-        SM_HalfStack_Marshall = { path = "NanosWorldAssets/Instruments/HalfStack/SM_HalfStack_Marshall", category = "food" }
-        SM_Piano = { path = "NanosWorldAssets/Instruments/Piano/SM_Piano", category = "food" }
-        SM_Saxophone = { path = "NanosWorldAssets/Instruments/Sax/SM_Saxophone", category = "food" }
-        SM_Trumpet = { path = "NanosWorldAssets/Instruments/Trumpet/SM_Trumpet", category = "food" }
-        SM_Violin = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin", category = "food" }
-        SM_Violin_Bow = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin_Bow", category = "food" }
+        SM_DigitalPiano = { path = "NanosWorldAssets/Instruments/DigitalPiano/SM_DigitalPiano", category = "funny" }
+        SM_ElectricGuitar = { path = "NanosWorldAssets/Instruments/ElectricGuitar/SM_ElectricGuitar", category = "funny" }
+        SM_Flute = { path = "NanosWorldAssets/Instruments/Flute/SM_Flute", category = "funny" }
+        SM_Gramophone = { path = "NanosWorldAssets/Instruments/Gramophone/SM_Gramophone", category = "funny" }
+        SM_Guitar = { path = "NanosWorldAssets/Instruments/Guitar/SM_Guitar", category = "funny" }
+        SM_HalfStack_Marshall = { path = "NanosWorldAssets/Instruments/HalfStack/SM_HalfStack_Marshall", category = "funny" }
+        SM_Piano = { path = "NanosWorldAssets/Instruments/Piano/SM_Piano", category = "funny" }
+        SM_Saxophone = { path = "NanosWorldAssets/Instruments/Sax/SM_Saxophone", category = "funny" }
+        SM_Trumpet = { path = "NanosWorldAssets/Instruments/Trumpet/SM_Trumpet", category = "funny" }
+        SM_Violin = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin", category = "funny" }
+        SM_Violin_Bow = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin_Bow", category = "funny" }
 
         # Emojis
         SM_Emoji_01 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_01", category = "funny" }
@@ -1314,14 +1314,14 @@
         P_Explosive_09 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosive_09"
         P_Explosive_10 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosive_10"
         P_Explosive_11 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosive_11"
-        P_Explosion_Fire_01 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_01"
-        P_Explosion_Fire_02 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_02"
-        P_Explosion_Fire_03 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_03"
-        P_Explosion_Fire_04 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_04"
-        P_Explosion_Fire_05 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_05"
-        P_Explosion_Fire_06 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_06"
-        P_Explosion_Fire_07 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_07"
-        P_Explosion_Fire_08 = "NanosWorldAssets/Particles/Explosions/Particles/P_Fire_08"
+        P_Explosion_Fire_01 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_01"
+        P_Explosion_Fire_02 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_02"
+        P_Explosion_Fire_03 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_03"
+        P_Explosion_Fire_04 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_04"
+        P_Explosion_Fire_05 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_05"
+        P_Explosion_Fire_06 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_06"
+        P_Explosion_Fire_07 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_07"
+        P_Explosion_Fire_08 = "NanosWorldAssets/Particles/Explosions/Particles/P_Explosion_Fire_08"
         P_FlareShimmer_01 = "NanosWorldAssets/Particles/Explosions/Particles/P_FlareShimmer_01"
         P_FlareShimmer_02 = "NanosWorldAssets/Particles/Explosions/Particles/P_FlareShimmer_02"
         P_HighImpact = "NanosWorldAssets/Particles/Explosions/Particles/P_HighImpact"
@@ -1533,3 +1533,6 @@
         # Widgets
         WBP_Error = "Core/Widgets/WBP_Error"
         WBP_Empty = "Core/Widgets/WBP_Empty"
+
+    # Others
+    [assets.others]
