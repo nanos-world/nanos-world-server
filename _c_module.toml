@@ -9,7 +9,7 @@
 
 # c module configurations
 [c_module]
-    # list of binaries paths to load (without extension)
-    binaries = [
-
+    # list of modules to load (without file extension)
+    modules = [
+                            # "example",
     ]
