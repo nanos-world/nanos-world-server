@@ -62,7 +62,7 @@
 
 # optimization configurations
 [optimization]
-    # server tick rate in milliseconds (dangerous! server will tick at each [tick_rate] ms, affecting both server and client performance. 33 ms means 30 ticks per second and is the default and recommended value)
-    tick_rate =         33
+    # server max tick rate in Hz (ticks per second). Higher = more responsive but uses mor CPU. 30 Hz = 33ms per tick (default and recommended). Use with caution
+    max_tick_rate =     30
     # sets the compression level to use in some networking operations (0 - 9) - (0) disables it, (1) is the fastest and (9) is the slowest but has the highest compression ratio
     compression =       0
