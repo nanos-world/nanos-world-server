@@ -36,7 +36,7 @@
     game_mode =         ""
     # packages list (set the packages you want to load)
     packages = [
-                        "",
+
     ]
     # asset packs list (additionally loads the asset packs you define here)
     assets = [
