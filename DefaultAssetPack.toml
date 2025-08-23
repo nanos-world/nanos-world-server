@@ -611,6 +611,7 @@
         SM_Offroad_Tire = { path = "Vehicles/OffroadCar/SM_Offroad_Tire", category = "construction" }
         SM_TireLarge = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TireLarge", category = "construction" }
         SM_Tire_01 = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SM_Tire_01", category = "construction" }
+        SM_Steering_Wheel_01 = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SteeringWheels/SM_Steering_Wheel_01", category = "construction" }
 
     # Skeletal Meshes
     [assets.skeletal_meshes]
