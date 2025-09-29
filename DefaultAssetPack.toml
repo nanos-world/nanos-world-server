@@ -636,6 +636,102 @@
         SK_CasualSet = "Characters/Common/BodyParts/Clothes/CasualSet/SK_CasualSet"
         SK_Sneakers = "Characters/Common/BodyParts/Clothes/Shoes/SK_Sneakers"
 
+        # Character Adventure Pack
+        SK_Adventure_01_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Full/SK_UE4_Adventure_01_Full_01", category = "character" }
+        SK_Adventure_01_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Full/SK_UE4_Adventure_01_Full_02", category = "character" }
+        SK_Adventure_01_Arms = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Arms"
+        SK_Adventure_01_Arms_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Arms_Cloth"
+        SK_Adventure_01_Bag = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bag"
+        SK_Adventure_01_Bag_Pelvis = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bag_Pelvis"
+        SK_Adventure_01_Bags_Body = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bags_Body"
+        SK_Adventure_01_Belts = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Belts"
+        SK_Adventure_01_Body = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Body"
+        SK_Adventure_01_Glasses = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Glasses"
+        SK_Adventure_01_Hair_01 = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_01"
+        SK_Adventure_01_Hair_02 = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_02"
+        SK_Adventure_01_Hair_03 = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_03"
+        SK_Adventure_01_Hair_Detail = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_Detail"
+        SK_Adventure_01_Hat = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hat"
+        SK_Adventure_01_Neck_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Neck_Cloth"
+        SK_Adventure_01_Pants = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Pants"
+        SK_Adventure_01_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Shoes"
+
+        SK_Adventure_02_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_01", category = "character" }
+        SK_Adventure_02_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_02", category = "character" }
+        SK_Adventure_02_Full_03 = { path = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_03", category = "character" }
+        SK_Adventure_02_Backpack = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Backpack"
+        SK_Adventure_02_Bags = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Bags"
+        SK_Adventure_02_Belt = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Belt"
+        SK_Adventure_02_Body_Cloth_Arms = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Body_Cloth_Arms"
+        SK_Adventure_02_Cloth_01 = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Cloth_01"
+        SK_Adventure_02_Cloth_02 = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Cloth_02"
+        SK_Adventure_02_Decoration = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Decoration"
+        SK_Adventure_02_Gas_Mask = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Gas_Mask"
+        SK_Adventure_02_Hands = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hands"
+        SK_Adventure_02_Hands_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hands_Cloth"
+        SK_Adventure_02_Hat = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hat"
+        SK_Adventure_02_Head = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Head"
+        SK_Adventure_02_Jacket = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Jacket"
+        SK_Adventure_02_Jacket_Arms = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Jacket_Arms"
+        SK_Adventure_02_Mattress = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Mattress"
+        SK_Adventure_02_Pants = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Pants"
+        SK_Adventure_02_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Shoes"
+
+        SK_Adventure_03_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Full/SK_UE4_Adventure_03_Full_01", category = "character" }
+        SK_Adventure_03_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Full/SK_UE4_Adventure_03_Full_02", category = "character" }
+        SK_Adventure_03_Arms = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Arms"
+        SK_Adventure_03_Backpack_01 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Backpack_01"
+        SK_Adventure_03_Backpack_02 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Backpack_02"
+        SK_Adventure_03_Bag_Leg = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Bag_Leg"
+        SK_Adventure_03_Body_Cloth_01 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Body_Cloth_01"
+        SK_Adventure_03_Body_Cloth_02 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Body_Cloth_02"
+        SK_Adventure_03_Gas_Mask = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Gas_Mask"
+        SK_Adventure_03_Gun_Belt = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Gun_Belt"
+        SK_Adventure_03_Hair = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hair"
+        SK_Adventure_03_Hair_Hat = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hair_Hat"
+        SK_Adventure_03_Hat = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hat"
+        SK_Adventure_03_Head = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Head"
+        SK_Adventure_03_Knife_Case = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Knife_Case"
+        SK_Adventure_03_Pants = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Pants"
+        SK_Adventure_03_Rope_01 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Rope_01"
+        SK_Adventure_03_Rope_02 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Rope_02"
+        SK_Adventure_03_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Shoes"
+
+        SK_Adventure_04_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Full/SK_UE4_Adventure_04_Full_01", category = "character" }
+        SK_Adventure_04_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Full/SK_UE4_Adventure_04_Full_02", category = "character" }
+        SK_Adventure_04_Backpack = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Backpack"
+        SK_Adventure_04_Beard = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Beard"
+        SK_Adventure_04_Body_Cloth_01 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Body_Cloth_01"
+        SK_Adventure_04_Body_Cloth_02 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Body_Cloth_02"
+        SK_Adventure_04_Guitar_Backpack = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Guitar_Backpack"
+        SK_Adventure_04_Hair = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Hair"
+        SK_Adventure_04_Hands = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Hands"
+        SK_Adventure_04_Head = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Head"
+        SK_Adventure_04_Jacket = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Jacket"
+        SK_Adventure_04_Mask = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Mask"
+        SK_Adventure_04_Mustache = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Mustache"
+        SK_Adventure_04_Pants = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Pants"
+        SK_Adventure_04_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Shoes"
+        SK_Adventure_04_Sleeves_01 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Sleeves_01"
+        SK_Adventure_04_Sleeves_02 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Sleeves_02"
+
+        SK_Adventure_05_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Full/SK_UE4_Adventure_05_Full_01", category = "character" }
+        SK_Adventure_05_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Full/SK_UE4_Adventure_05_Full_02", category = "character" }
+        SK_Adventure_05_Armored_Vest = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Armored_Vest"
+        SK_Adventure_05_Arms = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Arms"
+        SK_Adventure_05_Bag_01 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_01"
+        SK_Adventure_05_Bag_02 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_02"
+        SK_Adventure_05_Bag_03 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_03"
+        SK_Adventure_05_Bag_04 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_04"
+        SK_Adventure_05_Bag_05 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_05"
+        SK_Adventure_05_Body_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Body_Cloth"
+        SK_Adventure_05_Gas_Mask = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Gas_Mask"
+        SK_Adventure_05_Hands = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Hands"
+        SK_Adventure_05_Head = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Head"
+        SK_Adventure_05_Mustache = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Mustache"
+        SK_Adventure_05_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Shoes"
+        SK_Adventure_05_Sleeves = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Sleeves"
+
         SK_Error = "Props/Utils/SK_Error"
         SK_None = "Props/Utils/SK_None"
 
@@ -1261,6 +1357,9 @@
         A_Mannequin_ProningToCrouching = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_LayingFrontToCrouching"
         A_Mannequin_CrouchingToProne = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToProne"
 
+        # Character Adventure Pack
+        A_Adventure_Mouth_Talk = "Characters/Adventures_Pack/Animations/A_Adventure_Mouth_Talk"
+
     # Particles
     [assets.particles]
         # Weapons
@@ -1524,6 +1623,34 @@
         MI_Crosshair_ThreeDots = "UI/Crosshair/MI_Crosshair_ThreeDots"
         MI_Crosshair_Triangle = "UI/Crosshair/MI_Crosshair_Triangle"
         MI_Crosshair_Vee = "UI/Crosshair/MI_Crosshair_Vee"
+
+        # Female Casual Set
+        MI_CasualSet_01 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_01"
+        MI_CasualSet_02 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_02"
+        MI_CasualSet_03 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_03"
+        MI_CasualSet_04 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_04"
+        MI_CasualSet_05 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_05"
+        MI_CasualSet_06 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_06"
+
+        # Character Adventure Pack
+        MI_Adventure_01_01 = "Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_01"
+        MI_Adventure_01_02 = "Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_02"
+        MI_Adventure_01_03 = "Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_03"
+        MI_Adventure_02_01 = "Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_01"
+        MI_Adventure_02_02 = "Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_02"
+        MI_Adventure_02_03 = "Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_03"
+        MI_Adventure_03_01 = "Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_01"
+        MI_Adventure_03_02 = "Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_02"
+        MI_Adventure_03_03 = "Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_03"
+        MI_Adventure_04_01 = "Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_01"
+        MI_Adventure_04_02 = "Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_02"
+        MI_Adventure_04_03 = "Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_03"
+        MI_Adventure_05_01 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_01"
+        MI_Adventure_05_02 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_02"
+        MI_Adventure_05_03 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_03"
+        MI_Adventure_05_NoTattoo_01 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_01"
+        MI_Adventure_05_NoTattoo_02 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_02"
+        MI_Adventure_05_NoTattoo_03 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_03"
 
     # Blueprints
     [assets.blueprints]
