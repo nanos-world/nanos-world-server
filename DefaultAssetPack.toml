@@ -1544,6 +1544,7 @@
     [assets.materials]
         # Template Materials
         M_Default_Masked_Lit = "MaterialLibrary/M_NanosDefault"
+        M_Default_Masked_Lit_WorldAligned = "MaterialLibrary/M_NanosDefault_WorldAligned"
         M_Default_Masked_Unlit = "MaterialLibrary/MI_DefaultMaskedUnlit"
         M_Default_AlphaComposite_Lit = "MaterialLibrary/M_NanosDefault_AlphaComposite"
         M_Default_Translucent_Lit = "MaterialLibrary/MI_NanosDefault_Translucent"
