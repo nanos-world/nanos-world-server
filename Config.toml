@@ -64,5 +64,7 @@
 [optimization]
     # server max tick rate in Hz (ticks per second). Higher = more responsive but uses mor CPU. 30 Hz = 33ms per tick (default and recommended). Use with caution
     max_tick_rate =     30
+    # max send rate per client in MB/s - limits bandwidth for each connected player - (1 - 64)
+    max_send_rate =     32
     # sets the compression level to use in some networking operations (0 - 9) - (0) disables it, (1) is the fastest and (9) is the slowest but has the highest compression ratio
     compression =       0
