@@ -12,7 +12,7 @@
     query_port =        7778
     # announce server in the master server list
     announce =          true
-    # true if should run as dedicated server or false to run as P2P - dedicated server requires port forwarding - P2P will provide a fake IP to be used to connect
+    # true if should run as dedicated server or false to run as P2P - dedicated server requires port forwarding and provides the fastest connection - P2P will provide a fake IP to be used to connect but connection can be slower as it uses Steam Datagram Relay service
     dedicated_server =  true
 
 # general configurations
@@ -64,7 +64,7 @@
 [optimization]
     # server max tick rate in Hz (ticks per second). Higher = more responsive but uses mor CPU. 30 Hz = 33ms per tick (default and recommended). Use with caution
     max_tick_rate =     30
-    # max send rate per client in MB/s - limits bandwidth for each connected player - (1 - 64)
-    max_send_rate =     32
+    # max send rate per client in MB/s - limits bandwidth for each connected player (1 - 32) - this only affects Dedicated Servers as P2P is naturally limited to 1 MB/s by Steam Datagram Relay service
+    max_send_rate =     16
     # sets the compression level to use in some networking operations (0 - 9) - (0) disables it, (1) is the fastest and (9) is the slowest but has the highest compression ratio
     compression =       0
