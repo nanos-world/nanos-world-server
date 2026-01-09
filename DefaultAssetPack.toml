@@ -1123,6 +1123,12 @@
         A_Gas_Leak_Loop_02 = "Effects/Gas/A_Gas_Leak_Loop_02"
         A_Gas_Leak_Loop_03 = "Effects/Gas/A_Gas_Leak_Loop_03"
 
+        # Robot
+        A_Robot_Beep_Whistle = "Effects/Sounds/Robot/A_Robot_Beep_Whistle_Cue"
+        A_Robot_Reaction = "Effects/Sounds/Robot/A_Robot_Reaction_Cue"
+        A_Robot_Shutdown = "Effects/Sounds/Robot/A_Robot_Shutdown_Cue"
+        A_Robot_Sad = "Effects/Sounds/Robot/A_Robot_Sad_Cue"
+
         # Music
         A_Baiana_Remix = "Packs/UgandanKnuckles/A_Baiana_Remix"
         A_Baiana = "Packs/UgandanKnuckles/A_Baiana"
@@ -1550,8 +1556,8 @@
         M_Default_Translucent_Lit = "MaterialLibrary/MI_NanosDefault_Translucent"
         M_Default_Translucent_Lit_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
         M_Default_Translucent_Lit_Decal = "MaterialLibrary/M_NanosDefault_Decal"
-		M_Default_Translucent_Unlit = "MaterialLibrary/MI_NanosDefault_Translucent_Unlit"
-		M_Default_Translucent_Unlit_Depth = "MaterialLibrary/MI_NanosDefault_Translucent_Depth_Unlit"
+        M_Default_Translucent_Unlit = "MaterialLibrary/MI_NanosDefault_Translucent_Unlit"
+        M_Default_Translucent_Unlit_Depth = "MaterialLibrary/MI_NanosDefault_Translucent_Depth_Unlit"
 
         M_Default_UI = "MaterialLibrary/M_NanosDefault_UI"
         M_Default_UI_Canvas = "MaterialLibrary/M_NanosDefault_UI_Canvas"
