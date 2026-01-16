@@ -307,6 +307,7 @@
         SM_PipeWrench_01 = { path = "NanosWorldAssets/Tools/SM_PipeWrench_01", category = "tools" }
         SM_Kunai_01 = { path = "NanosWorldAssets/Tools/SM_Kunai_01", category = "tools" }
         SM_Jet_Thruster = { path = "NanosWorldAssets/Funny/SM_Jet_Thruster", category = "funny" }
+        SM_Rocket_Thruster = { path = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/Thruster/Meshes/SM_Thruster", category = "funny" }
         SM_Lamp = { path = "NanosWorldAssets/Furniture/SM_Lamp", category = "furniture" }
         SM_Flashlight = { path = "NanosWorldAssets/Tools/SM_Flashlight", category = "funny" }
 
@@ -1499,28 +1500,30 @@
         P_Streamer = "NanosWorldAssets/Particles/Explosions/Particles/P_Streamer"
 
         # Fire
-        P_Fire_Exp_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Explosion/P_Fire_Exp_01"
-        P_Fire_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_01"
-        P_Fire_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_02"
-        P_Fire_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_03"
-        P_Fire_04 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_04"
-        P_Fire_05 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_05"
-        P_Fire_06 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_06"
-        P_Fire_07 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_07"
-        P_Fire_08 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_08"
-        P_Fire_09 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_09"
-        P_Fire_10 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_10"
-        P_Fire_11 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_11"
-        P_Fire_12 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_12"
-        P_Fire_13 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_13"
-        P_Fire_14 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_14"
-        P_Fire_15 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_15"
-        P_Fire_16 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_16"
-        P_Fire_Debris_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_debris_00"
-        P_Fire_Debris_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_debris_01"
-        P_Fire_Grd_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_Grd_00"
-        P_Fire_Grd_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_Grd_01"
-        P_Fire_Grd_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Particles/Fire/P_Fire_Grd_02"
+        P_Fire_Exp_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Explosion/NFire_Exp_00"
+        P_Fire_Exp_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Explosion/NFire_Exp_01"
+        P_Fire_Exp_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Explosion/NFire_Exp_03"
+
+        P_Fire_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_00"
+        P_Fire_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_01"
+        P_Fire_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_02"
+        P_Fire_04 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_03"
+        P_Fire_05 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_04"
+        P_Fire_06 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_05"
+        P_Fire_07 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_06"
+        P_Fire_08 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_07"
+        P_Fire_09 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_08"
+        P_Fire_10 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_09"
+        P_Fire_11 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_10"
+        P_Fire_12 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_11"
+        P_Fire_13 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_12"
+        P_Fire_14 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_13"
+        P_Fire_15 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_14"
+        P_Fire_16 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_15"
+
+        P_Fire_Grd_01 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_Grd_00"
+        P_Fire_Grd_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_Grd_01"
+        P_Fire_Grd_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_Grd_02"
 
         # Grenade Explosions
         P_GrenadeEXP_Air = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Air"
@@ -1545,6 +1548,26 @@
         P_LTGrenadeEXP_Snow = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Snow"
         P_LTGrenadeEXP_Water = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Water"
         P_LTGrenadeEXP_Wood = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Wood"
+
+        # RocketThrusterExhaustFX
+        P_RocketExhaust_Afterburn = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Afterburn"
+        P_RocketExhaust_Afterburn_Jet = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Afterburn_Jet"
+        P_RocketExhaust_Blue = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Blue"
+        P_RocketExhaust_BlueRed = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_BlueRed"
+        P_RocketExhaust_Crackling = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Crackling"
+        P_RocketExhaust_Energy = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Energy"
+        P_RocketExhaust_Green = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Green"
+        P_RocketExhaust_Maniac = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Maniac"
+        P_RocketExhaust_Pixie = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Pixie"
+        P_RocketExhaust_Plume_01 = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Plume_1"
+        P_RocketExhaust_Plume_02 = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Plume_2"
+        P_RocketExhaust_Plume_03 = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Plume_3"
+        P_RocketExhaust_Realistic = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Realistic"
+        P_RocketExhaust_Red = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Red"
+        P_RocketExhaust_SciFi = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_SciFi"
+        P_RocketExhaust_Violet = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Violet"
+        P_RocketExhaust_White = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_White"
+        P_RocketExhaust_Yellow = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Yellow"
 
     # Materials
     [assets.materials]
