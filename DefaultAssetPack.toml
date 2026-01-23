@@ -191,6 +191,10 @@
         SM_Sunglasses = { path = "Packs/Coffin/SM_Sunglasses", category = "funny" }
         SM_TopHat = { path = "Packs/Coffin/SM_TopHat", category = "funny" }
 
+        SM_TungTungTungSahur = { path = "Packs/Brainrot/SM_TungTungTungSahur", category = "funny" }
+
+        SM_Ghost = { path = "Packs/Ghost/SM_Ghost", category = "funny" }
+
         SM_Valve = { path = "NanosWorldAssets/Funny/SM_Valve", category = "funny" }
 
         # Default Asset Pack
@@ -523,6 +527,8 @@
         SM_Trumpet = { path = "NanosWorldAssets/Instruments/Trumpet/SM_Trumpet", category = "funny" }
         SM_Violin = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin", category = "funny" }
         SM_Violin_Bow = { path = "NanosWorldAssets/Instruments/Violin/SM_Violin_Bow", category = "funny" }
+
+        SM_Sign = { path = "NanosWorldAssets/Construction/Sign/SM_Sign", category = "funny" }
 
         # Emojis
         SM_Emoji_01 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_01", category = "funny" }
@@ -1055,6 +1061,11 @@
         A_VR_Object_Grabbed_Loop = "Effects/VR/A_VR_Object_Grabbed_Loop"
         A_VR_WorldMove_Loop_01 = "Effects/VR/A_VR_WorldMove_Loop_01"
         A_VR_WorldMove_Loop_02 = "Effects/VR/A_VR_WorldMove_Loop_02"
+
+        A_Thruster_01 = "Effects/Sounds/Thruster/A_Thruster_01"
+        A_Thruster_02 = "Effects/Sounds/Thruster/A_Thruster_02"
+        A_Thruster_03 = "Effects/Sounds/Thruster/A_Thruster_03"
+        A_Thruster_04 = "Effects/Sounds/Thruster/A_Thruster_04"
 
         A_Compile_Success = "Effects/Sounds/A_Compile_Success"
         A_Invalid_Action = "Effects/Sounds/A_Invalid_Action"
@@ -1593,9 +1604,17 @@
         M_NanosWebUI = "MaterialLibrary/M_NanosWebUI"
         M_NanosSceneCapture = "MaterialLibrary/M_NanosDefault_SceneCapture"
 
+        # TextRender
+        M_TextFont = "MaterialLibrary/TextRender/M_TextFont"
+        M_TextFont_Unlit = "MaterialLibrary/TextRender/MI_TextFont_Unlit"
+        M_TextFont_Unlit_CameraAligned = "MaterialLibrary/TextRender/MI_TextFont_Unlit_CameraAligned"
+        M_TextFont_Unlit_CameraAligned_Depth = "MaterialLibrary/TextRender/M_TextFont_Unlit_CameraAligned_Depth"
+
+
         # Util Materials
         M_Noise = "MaterialLibrary/M_Noise"
         M_Wireframe = "MaterialLibrary/M_Wireframe"
+        M_None = "Props/Utils/M_None"
 
         # Physical Materials
         PM_Concrete = "MaterialLibrary/PhysicalMaterials/PM_Concrete"
