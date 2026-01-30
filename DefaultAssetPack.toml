@@ -314,6 +314,8 @@
         SM_Rocket_Thruster = { path = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/Thruster/Meshes/SM_Thruster", category = "funny" }
         SM_Lamp = { path = "NanosWorldAssets/Furniture/SM_Lamp", category = "furniture" }
         SM_Flashlight = { path = "NanosWorldAssets/Tools/SM_Flashlight", category = "funny" }
+        SM_RetroCamera = { path = "NanosWorldAssets/Funny/RetroCamera/SM_RetroCamera", category = "funny" }
+        SM_PhotoFrame = { path = "NanosWorldAssets/Funny/PhotoFrame/SM_PhotoFrame", category = "funny" }
 
         SM_Balloon_Dog = { path = "NanosWorldAssets/Funny/Balloons/Dog/SM_Balloon_Dog", category = "funny" }
         SM_Balloon_Trump = { path = "NanosWorldAssets/Funny/Balloons/Trump/SM_Balloon_Trump", category = "funny" }
