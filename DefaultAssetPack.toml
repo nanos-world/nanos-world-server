@@ -317,6 +317,9 @@
         SM_RetroCamera = { path = "NanosWorldAssets/Funny/RetroCamera/SM_RetroCamera", category = "funny" }
         SM_PhotoFrame = { path = "NanosWorldAssets/Funny/PhotoFrame/SM_PhotoFrame", category = "funny" }
 
+        SM_PushButton = { path = "NanosWorldAssets/Logic/PushButton/SM_PushButton", category = "logic"}
+        SM_LightSwitch = { path = "NanosWorldAssets/Logic/LightSwitch/SM_Light_Switch", category = "logic"}
+
         SM_Balloon_Dog = { path = "NanosWorldAssets/Funny/Balloons/Dog/SM_Balloon_Dog", category = "funny" }
         SM_Balloon_Trump = { path = "NanosWorldAssets/Funny/Balloons/Trump/SM_Balloon_Trump", category = "funny" }
         SM_Balloon_01 = { path = "NanosWorldAssets/Funny/Balloons/Collection/SM_Balloon_01", category = "funny" }
@@ -1063,6 +1066,13 @@
         A_VR_Object_Grabbed_Loop = "Effects/VR/A_VR_Object_Grabbed_Loop"
         A_VR_WorldMove_Loop_01 = "Effects/VR/A_VR_WorldMove_Loop_01"
         A_VR_WorldMove_Loop_02 = "Effects/VR/A_VR_WorldMove_Loop_02"
+
+        A_Lever_01 = "Effects/Sounds/Buttons/A_Lever_01_Cue"
+        A_Lever_02 = "Effects/Sounds/Buttons/A_Lever_02_Cue"
+        A_Switch_Button_01 = "Effects/Sounds/Buttons/A_Switch_Button_01_Cue"
+        A_Switch_Button_02 = "Effects/Sounds/Buttons/A_Switch_Button_02_Cue"
+        A_Switch_Button_03 = "Effects/Sounds/Buttons/A_Switch_Button_03_Cue"
+        A_Switch_Button_04 = "Effects/Sounds/Buttons/A_Switch_Button_04_Cue"
 
         A_Thruster_01 = "Effects/Sounds/Thruster/A_Thruster_01"
         A_Thruster_02 = "Effects/Sounds/Thruster/A_Thruster_02"
