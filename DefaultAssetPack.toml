@@ -3,37 +3,39 @@
     # Maps
     [assets.maps]
         TestingMap = "NanosWorldMaps/Maps/Testing/NanosTestingMap"
-        BlankMap = "Maps/BlankMap/BlankMap"
-        OceanMap = "Maps/OceanMap/OceanMap"
-        EmptyMap = "Maps/EmptyMap/EmptyMap"
+        BlankMap = "NanosWorld/Maps/BlankMap/BlankMap"
+        OceanMap = "NanosWorld/Maps/OceanMap/OceanMap"
+        EmptyMap = "NanosWorld/Maps/EmptyMap/EmptyMap"
+
 
     # Static Meshes
     [assets.static_meshes]
         # Default
-        SM_Cone = { path = "Props/BasicShapes/SM_Cone", category = "basic" }
-        SM_Cube = { path = "Props/BasicShapes/SM_Cube", category = "basic" }
-        SM_Cylinder = { path = "Props/BasicShapes/SM_Cylinder", category = "basic" }
-        SM_Plane = { path = "Props/BasicShapes/SM_Plane", category = "basic" }
-        SM_Sphere = { path = "Props/BasicShapes/SM_Sphere", category = "basic" }
-        SM_Capsule = { path = "Props/BasicShapes/SM_Capsule", category = "basic" }
-        SM_Pipe = { path = "Props/BasicShapes/SM_Pipe", category = "basic" }
-        SM_QuadPyramid = { path = "Props/BasicShapes/SM_QuadPyramid", category = "basic" }
-        SM_Torus = { path = "Props/BasicShapes/SM_Torus", category = "basic" }
-        SM_TriPyramid = { path = "Props/BasicShapes/SM_TriPyramid", category = "basic" }
-        SM_Tube = { path = "Props/BasicShapes/SM_Tube", category = "basic" }
-        SM_Wedge_A = { path = "Props/BasicShapes/SM_Wedge_A", category = "basic" }
-        SM_Wedge_B = { path = "Props/BasicShapes/SM_Wedge_B", category = "basic" }
+        SM_Cone = { path = "NanosWorld/Props/BasicShapes/SM_Cone", category = "basic" }
+        SM_Cube = { path = "NanosWorld/Props/BasicShapes/SM_Cube", category = "basic" }
+        SM_Cylinder = { path = "NanosWorld/Props/BasicShapes/SM_Cylinder", category = "basic" }
+        SM_Plane = { path = "NanosWorld/Props/BasicShapes/SM_Plane", category = "basic" }
+        SM_Sphere = { path = "NanosWorld/Props/BasicShapes/SM_Sphere", category = "basic" }
+        SM_Capsule = { path = "NanosWorld/Props/BasicShapes/SM_Capsule", category = "basic" }
+        SM_Pipe = { path = "NanosWorld/Props/BasicShapes/SM_Pipe", category = "basic" }
+        SM_QuadPyramid = { path = "NanosWorld/Props/BasicShapes/SM_QuadPyramid", category = "basic" }
+        SM_Torus = { path = "NanosWorld/Props/BasicShapes/SM_Torus", category = "basic" }
+        SM_TriPyramid = { path = "NanosWorld/Props/BasicShapes/SM_TriPyramid", category = "basic" }
+        SM_Tube = { path = "NanosWorld/Props/BasicShapes/SM_Tube", category = "basic" }
+        SM_Wedge_A = { path = "NanosWorld/Props/BasicShapes/SM_Wedge_A", category = "basic" }
+        SM_Wedge_B = { path = "NanosWorld/Props/BasicShapes/SM_Wedge_B", category = "basic" }
 
-        SM_Ball_VR = { path = "Props/VRShapes/SM_Ball_VR", category = "basic" }
-        SM_Cube_VR_01 = { path = "Props/VRShapes/SM_Cube_VR_01", category = "basic" }
-        SM_Cube_VR_02 = { path = "Props/VRShapes/SM_Cube_VR_02", category = "basic" }
-        SM_Cube_VR_03 = { path = "Props/VRShapes/SM_Cube_VR_03", category = "basic" }
-        SM_Pyramid_VR = { path = "Props/VRShapes/SM_Pyramid_VR", category = "basic" }
+        SM_Ball_VR = { path = "NanosWorld/Props/VRShapes/SM_Ball_VR", category = "basic" }
+        SM_Cube_VR_01 = { path = "NanosWorld/Props/VRShapes/SM_Cube_VR_01", category = "basic" }
+        SM_Cube_VR_02 = { path = "NanosWorld/Props/VRShapes/SM_Cube_VR_02", category = "basic" }
+        SM_Cube_VR_03 = { path = "NanosWorld/Props/VRShapes/SM_Cube_VR_03", category = "basic" }
+        SM_Pyramid_VR = { path = "NanosWorld/Props/VRShapes/SM_Pyramid_VR", category = "basic" }
 
-        SM_Camera = { path = "Props/Utils/SM_Camera", category = "funny" }
+        SM_Camera = { path = "NanosWorld/Props/Utils/SM_Camera", category = "funny" }
 
-        SM_Error = { path = "Props/Utils/SM_Error", category = "funny" }
-        SM_None = { path = "Props/Utils/SM_None", category = "hidden" }
+        SM_Error = { path = "NanosWorld/Props/Utils/SM_Error", category = "funny" }
+        SM_None = { path = "NanosWorld/Props/Utils/SM_None", category = "hidden" }
+        SM_Cube_Streaming = { path = "NanosWorld/Core/Streaming/SM_Cube_Streaming", category = "hidden" }
 
         SM_RockingChair = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_RockingChair", category = "furniture" }
         SM_RoundStand = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/SM_RoundStand", category = "furniture" }
@@ -50,40 +52,40 @@
         SM_CupD = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/KitchenWare/SM_CupD", category = "furniture" }
 
         # Characters Body Part
-        SM_Mannequin_Head = { path = "Characters/Mannequin/SM_Mannequin_Head", category = "funny" }
-        SM_Eye = { path = "Characters/Common/BodyParts/Eyes/SM_Eye", category = "funny" }
-        SM_Beard_Extra = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Extra", category = "funny" }
-        SM_Beard_Middle = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Middle", category = "funny" }
-        SM_Beard_Mustache_01 = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Mustache_01", category = "funny" }
-        SM_Beard_Mustache_02 = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Mustache_02", category = "funny" }
-        SM_Beard_Side = { path = "Characters/Common/BodyParts/Beard/SM_Beard_Side", category = "funny" }
-        SM_Hair_Long = { path = "Characters/Common/BodyParts/Hair/Male/SM_Hair_Long", category = "funny" }
-        SM_Hair_Short = { path = "Characters/Common/BodyParts/Hair/Male/SM_Hair_Short", category = "funny" }
-        SM_Hair_Kwang = { path = "Characters/Common/BodyParts/Hair/Kwang/SM_Hair_Kwang", category = "funny" }
+        SM_Mannequin_Head = { path = "NanosWorld/Characters/Mannequin/SM_Mannequin_Head", category = "funny" }
+        SM_Eye = { path = "NanosWorld/Characters/Common/BodyParts/Eyes/SM_Eye", category = "funny" }
+        SM_Beard_Extra = { path = "NanosWorld/Characters/Common/BodyParts/Beard/SM_Beard_Extra", category = "funny" }
+        SM_Beard_Middle = { path = "NanosWorld/Characters/Common/BodyParts/Beard/SM_Beard_Middle", category = "funny" }
+        SM_Beard_Mustache_01 = { path = "NanosWorld/Characters/Common/BodyParts/Beard/SM_Beard_Mustache_01", category = "funny" }
+        SM_Beard_Mustache_02 = { path = "NanosWorld/Characters/Common/BodyParts/Beard/SM_Beard_Mustache_02", category = "funny" }
+        SM_Beard_Side = { path = "NanosWorld/Characters/Common/BodyParts/Beard/SM_Beard_Side", category = "funny" }
+        SM_Hair_Long = { path = "NanosWorld/Characters/Common/BodyParts/Hair/Male/SM_Hair_Long", category = "funny" }
+        SM_Hair_Short = { path = "NanosWorld/Characters/Common/BodyParts/Hair/Male/SM_Hair_Short", category = "funny" }
+        SM_Hair_Kwang = { path = "NanosWorld/Characters/Common/BodyParts/Hair/Kwang/SM_Hair_Kwang", category = "funny" }
 
         # Weapons Mag
-        SM_AK47_Mag_Empty = { path = "Weapons/Rifles/AK47/SM_AK47_Mag_Empty", category = "tools" }
-        SM_AK74U_Mag_Empty = { path = "Weapons/Rifles/AK74U/SM_AK74U_Mag_Empty", category = "tools" }
-        SM_GE36_Mag_Empty = { path = "Weapons/Rifles/GE36/SM_GE36_Mag_Empty", category = "tools" }
-        SM_Glock_Mag_Empty = { path = "Weapons/Pistols/Glock/SM_Glock_Mag_Empty", category = "tools" }
-        SM_DesertEagle_Mag_Empty = { path = "Weapons/Pistols/DesertEagle/SM_DesertEagle_Mag_Empty", category = "tools" }
-        SM_AP5_Mag_Empty = { path = "Weapons/Rifles/AP5/SM_AP5_Mag_Empty", category = "tools" }
-        SM_AR4_Mag_Empty = { path = "Weapons/Rifles/AR4/SM_AR4_Mag_Empty", category = "tools" }
-        SM_ASVal_Mag_Empty = { path = "Weapons/Rifles/ASVal/SM_ASVal_Mag_Empty", category = "tools" }
-        SM_M1911_Mag = { path = "Weapons/Pistols/M1911/SM_M1911_Mag", category = "tools" }
-        SM_Makarov_Mag_Empty = { path = "Weapons/Pistols/Makarov/SM_Makarov_Mag_Empty", category = "tools" }
-        SM_UMP45_Mag_Empty = { path = "Weapons/SMGs/UMP45/SM_UMP45_Mag_Empty", category = "tools" }
-        SM_P90_Mag = { path = "Weapons/SMGs/P90/SM_P90_Mag", category = "tools" }
-        SM_GE3_Mag_Empty = { path = "Weapons/Rifles/GE3/SM_GE3_Mag_Empty", category = "tools" }
-        SM_SA80_Mag_Empty = { path = "Weapons/Rifles/SA80/SM_SA80_Mag_Empty", category = "tools" }
-        SM_AK5C_Mag = { path = "Weapons/Rifles/AK5C/SM_AK5C_Mag", category = "tools" }
+        SM_AK47_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/AK47/SM_AK47_Mag_Empty", category = "tools" }
+        SM_AK74U_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/AK74U/SM_AK74U_Mag_Empty", category = "tools" }
+        SM_GE36_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/GE36/SM_GE36_Mag_Empty", category = "tools" }
+        SM_Glock_Mag_Empty = { path = "NanosWorld/Weapons/Pistols/Glock/SM_Glock_Mag_Empty", category = "tools" }
+        SM_DesertEagle_Mag_Empty = { path = "NanosWorld/Weapons/Pistols/DesertEagle/SM_DesertEagle_Mag_Empty", category = "tools" }
+        SM_AP5_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/AP5/SM_AP5_Mag_Empty", category = "tools" }
+        SM_AR4_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/AR4/SM_AR4_Mag_Empty", category = "tools" }
+        SM_ASVal_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/ASVal/SM_ASVal_Mag_Empty", category = "tools" }
+        SM_M1911_Mag = { path = "NanosWorld/Weapons/Pistols/M1911/SM_M1911_Mag", category = "tools" }
+        SM_Makarov_Mag_Empty = { path = "NanosWorld/Weapons/Pistols/Makarov/SM_Makarov_Mag_Empty", category = "tools" }
+        SM_UMP45_Mag_Empty = { path = "NanosWorld/Weapons/SMGs/UMP45/SM_UMP45_Mag_Empty", category = "tools" }
+        SM_P90_Mag = { path = "NanosWorld/Weapons/SMGs/P90/SM_P90_Mag", category = "tools" }
+        SM_GE3_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/GE3/SM_GE3_Mag_Empty", category = "tools" }
+        SM_SA80_Mag_Empty = { path = "NanosWorld/Weapons/Rifles/SA80/SM_SA80_Mag_Empty", category = "tools" }
+        SM_AK5C_Mag = { path = "NanosWorld/Weapons/Rifles/AK5C/SM_AK5C_Mag", category = "tools" }
 
         # Weapons Accessories
-        SM_T4_Sight = { path = "Weapons/Common/Accessories/SM_T4_Sight", category = "tools" }
-        SM_Vertgrip = { path = "Weapons/Common/Accessories/SM_Vertgrip", category = "tools" }
-        SM_Suppressor = { path = "Weapons/Common/Accessories/SM_Suppressor", category = "tools" }
-        SM_Scope_25x56 = { path = "Weapons/Common/Accessories/SM_Scope_25x56", category = "tools" }
-        SM_M9 = { path = "Weapons/Knifes/M9/SM_M9", category = "tools" }
+        SM_T4_Sight = { path = "NanosWorld/Weapons/Common/Accessories/SM_T4_Sight", category = "tools" }
+        SM_Vertgrip = { path = "NanosWorld/Weapons/Common/Accessories/SM_Vertgrip", category = "tools" }
+        SM_Suppressor = { path = "NanosWorld/Weapons/Common/Accessories/SM_Suppressor", category = "tools" }
+        SM_Scope_25x56 = { path = "NanosWorld/Weapons/Common/Accessories/SM_Scope_25x56", category = "tools" }
+        SM_M9 = { path = "NanosWorld/Weapons/Knifes/M9/SM_M9", category = "tools" }
 
         SM_WoodenTable = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenTable", category = "furniture" }
         SM_WoodenChair = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_WoodenChair", category = "furniture" }
@@ -156,7 +158,7 @@
         SM_TimberStructure_01 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TimberStructure_01", category = "furniture" }
         SM_TimberStructure_02 = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TimberStructure_02", category = "furniture" }
         SM_TimberStructure_09 = { path = "NanosWorldMaps/Art/Rural/HouseModular/SM_TimberStructure_09", category = "furniture" }
-        SM_Tomato = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Tomato", category = "furniture" }
+        SM_Tomato = { path = "NanosWorldMaps/Art/Rural/InteriorDecoration/SM_Tomato", category = "food" }
         SM_VaseD = { path = "NanosWorldMaps/Art/City/House_Props/Meshes/Vases/SM_VaseD", category = "furniture" }
         SM_WastePipe = { path = "NanosWorldMaps/Art/Rural/Extra/SM_WastePipe", category = "furniture" }
         SM_WaterStorageTank = { path = "NanosWorldMaps/Art/Rural/Extra/SM_WaterStorageTank", category = "construction" }
@@ -185,15 +187,13 @@
         SM_Rock_07 = { path = "NanosWorldMaps/Art/Nature/Rocks/SM_Rock_07", category = "nature" }
         SM_Scabious = { path = "NanosWorldMaps/Art/Nature/Flowers/SM_Scabious", category = "nature" }
 
-        SM_Grenade_G67 = { path = "Weapons/Grenades/G67/SM_G67", category = "tools" }
-        SM_Torch = { path = "Weapons/Torch/SM_Torch", category = "tools" }
+        SM_Grenade_G67 = { path = "NanosWorld/Weapons/Grenades/G67/SM_G67", category = "tools" }
+        SM_Torch = { path = "NanosWorld/Weapons/Torch/SM_Torch", category = "tools" }
 
-        SM_Sunglasses = { path = "Packs/Coffin/SM_Sunglasses", category = "funny" }
-        SM_TopHat = { path = "Packs/Coffin/SM_TopHat", category = "funny" }
-
-        SM_TungTungTungSahur = { path = "Packs/Brainrot/SM_TungTungTungSahur", category = "funny" }
-
-        SM_Ghost = { path = "Packs/Ghost/SM_Ghost", category = "funny" }
+        SM_Sunglasses = { path = "NanosWorld/Packs/Coffin/SM_Sunglasses", category = "funny" }
+        SM_TopHat = { path = "NanosWorld/Packs/Coffin/SM_TopHat", category = "funny" }
+        SM_TungTungTungSahur = { path = "NanosWorld/Packs/Brainrot/SM_TungTungTungSahur", category = "funny" }
+        SM_Ghost = { path = "NanosWorld/Packs/Ghost/SM_Ghost", category = "funny" }
 
         SM_Valve = { path = "NanosWorldAssets/Funny/SM_Valve", category = "funny" }
 
@@ -317,8 +317,8 @@
         SM_RetroCamera = { path = "NanosWorldAssets/Funny/RetroCamera/SM_RetroCamera", category = "funny" }
         SM_PhotoFrame = { path = "NanosWorldAssets/Funny/PhotoFrame/SM_PhotoFrame", category = "funny" }
 
-        SM_PushButton = { path = "NanosWorldAssets/Logic/PushButton/SM_PushButton", category = "logic"}
-        SM_LightSwitch = { path = "NanosWorldAssets/Logic/LightSwitch/SM_Light_Switch", category = "logic"}
+        SM_PushButton = { path = "NanosWorldAssets/Logic/PushButton/SM_PushButton", category = "logic" }
+        SM_LightSwitch = { path = "NanosWorldAssets/Logic/LightSwitch/SM_Light_Switch", category = "logic" }
 
         SM_Balloon_Dog = { path = "NanosWorldAssets/Funny/Balloons/Dog/SM_Balloon_Dog", category = "funny" }
         SM_Balloon_Trump = { path = "NanosWorldAssets/Funny/Balloons/Trump/SM_Balloon_Trump", category = "funny" }
@@ -619,170 +619,172 @@
         SM_Emoji_81 = { path = "NanosWorldAssets/Funny/Emoji/SM_Emoji_81", category = "funny" }
 
         # Vehicles
-        SM_Offroad_Body = { path = "Vehicles/OffroadCar/SM_Offroad_Body", category = "construction" }
-        SM_Offroad_Tire = { path = "Vehicles/OffroadCar/SM_Offroad_Tire", category = "construction" }
+        SM_Offroad_Body = { path = "NanosWorld/Vehicles/OffroadCar/SM_Offroad_Body", category = "construction" }
+        SM_Offroad_Tire = { path = "NanosWorld/Vehicles/OffroadCar/SM_Offroad_Tire", category = "construction" }
         SM_TireLarge = { path = "NanosWorldMaps/Art/Rural/Extra/SM_TireLarge", category = "construction" }
         SM_Tire_01 = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SM_Tire_01", category = "construction" }
         SM_Steering_Wheel_01 = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SteeringWheels/SM_Steering_Wheel_01", category = "construction" }
+        SM_FidgetSpinner = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SM_FidgetSpinner", category = "funny" }
+
 
     # Skeletal Meshes
     [assets.skeletal_meshes]
         # Characters
-        SK_Female = { path = "Characters/Female/SK_Female", category = "character" }
-        SK_Male = { path = "Characters/Male/SK_Male", category = "character" }
-        SK_Mannequin = { path = "Characters/Mannequin/SK_Mannequin", category = "character" }
-        SK_Mannequin_Female = { path = "Characters/Mannequin/SK_Mannequin_Female", category = "character" }
-        SK_PostApocalyptic = { path = "Characters/PostApocalyptic/SK_PostApocalyptic", category = "character" }
-        SK_ClassicMale = { path = "Characters/ClassicMale/SK_ClassicMale", category = "character" }
-        SK_AncientUgandan = { path = "Packs/UgandanKnuckles/SK_AncientUgandan", category = "character" }
-        SK_StackOBot = { path = "Packs/StackOBot/Characters/Bot/Mesh/SKM_Bot", category = "character" }
+        SK_Female = { path = "NanosWorld/Characters/Female/SK_Female", category = "character" }
+        SK_Male = { path = "NanosWorld/Characters/Male/SK_Male", category = "character" }
+        SK_Mannequin = { path = "NanosWorld/Characters/Mannequin/SK_Mannequin", category = "character" }
+        SK_Mannequin_Female = { path = "NanosWorld/Characters/Mannequin/SK_Mannequin_Female", category = "character" }
+        SK_PostApocalyptic = { path = "NanosWorld/Characters/PostApocalyptic/SK_PostApocalyptic", category = "character" }
+        SK_ClassicMale = { path = "NanosWorld/Characters/ClassicMale/SK_ClassicMale", category = "character" }
+        SK_AncientUgandan = { path = "NanosWorld/Packs/UgandanKnuckles/SK_AncientUgandan", category = "character" }
+        SK_StackOBot = { path = "NanosWorld/Packs/StackOBot/Characters/Bot/Mesh/SKM_Bot", category = "character" }
 
         # Clothes
-        SK_StackOBot_Backpack = "Packs/StackOBot/Characters/Backpack/Mesh/SKM_Backpack"
-        SK_Shirt = "Characters/Common/BodyParts/Clothes/Shirt/SK_Shirt"
-        SK_Underwear = "Characters/Common/BodyParts/Clothes/Underwear/SK_Underwear"
-        SK_Pants = "Characters/Common/BodyParts/Clothes/Pants/SK_Pants"
-        SK_Shoes_01 = "Characters/Common/BodyParts/Clothes/Shoes/SK_Shoes_01"
-        SK_Shoes_02 = "Characters/Common/BodyParts/Clothes/Shoes/SK_Shoes_02"
-        SK_Tie = "Characters/Common/BodyParts/Clothes/Tie/SK_Tie"
-        SK_CasualSet = "Characters/Common/BodyParts/Clothes/CasualSet/SK_CasualSet"
-        SK_Sneakers = "Characters/Common/BodyParts/Clothes/Shoes/SK_Sneakers"
+        SK_StackOBot_Backpack = "NanosWorld/Packs/StackOBot/Characters/Backpack/Mesh/SKM_Backpack"
+        SK_Shirt = "NanosWorld/Characters/Common/BodyParts/Clothes/Shirt/SK_Shirt"
+        SK_Underwear = "NanosWorld/Characters/Common/BodyParts/Clothes/Underwear/SK_Underwear"
+        SK_Pants = "NanosWorld/Characters/Common/BodyParts/Clothes/Pants/SK_Pants"
+        SK_Shoes_01 = "NanosWorld/Characters/Common/BodyParts/Clothes/Shoes/SK_Shoes_01"
+        SK_Shoes_02 = "NanosWorld/Characters/Common/BodyParts/Clothes/Shoes/SK_Shoes_02"
+        SK_Tie = "NanosWorld/Characters/Common/BodyParts/Clothes/Tie/SK_Tie"
+        SK_CasualSet = "NanosWorld/Characters/Common/BodyParts/Clothes/CasualSet/SK_CasualSet"
+        SK_Sneakers = "NanosWorld/Characters/Common/BodyParts/Clothes/Shoes/SK_Sneakers"
 
-        # Character Adventure Pack
-        SK_Adventure_01_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Full/SK_UE4_Adventure_01_Full_01", category = "character" }
-        SK_Adventure_01_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Full/SK_UE4_Adventure_01_Full_02", category = "character" }
-        SK_Adventure_01_Arms = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Arms"
-        SK_Adventure_01_Arms_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Arms_Cloth"
-        SK_Adventure_01_Bag = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bag"
-        SK_Adventure_01_Bag_Pelvis = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bag_Pelvis"
-        SK_Adventure_01_Bags_Body = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bags_Body"
-        SK_Adventure_01_Belts = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Belts"
-        SK_Adventure_01_Body = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Body"
-        SK_Adventure_01_Glasses = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Glasses"
-        SK_Adventure_01_Hair_01 = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_01"
-        SK_Adventure_01_Hair_02 = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_02"
-        SK_Adventure_01_Hair_03 = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_03"
-        SK_Adventure_01_Hair_Detail = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_Detail"
-        SK_Adventure_01_Hat = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hat"
-        SK_Adventure_01_Neck_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Neck_Cloth"
-        SK_Adventure_01_Pants = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Pants"
-        SK_Adventure_01_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Shoes"
+        # Characters Adventure Pack
+        SK_Adventure_01_Full_01 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Full/SK_UE4_Adventure_01_Full_01", category = "character" }
+        SK_Adventure_01_Full_02 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Full/SK_UE4_Adventure_01_Full_02", category = "character" }
+        SK_Adventure_01_Arms = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Arms"
+        SK_Adventure_01_Arms_Cloth = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Arms_Cloth"
+        SK_Adventure_01_Bag = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bag"
+        SK_Adventure_01_Bag_Pelvis = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bag_Pelvis"
+        SK_Adventure_01_Bags_Body = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Bags_Body"
+        SK_Adventure_01_Belts = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Belts"
+        SK_Adventure_01_Body = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Body"
+        SK_Adventure_01_Glasses = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Glasses"
+        SK_Adventure_01_Hair_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_01"
+        SK_Adventure_01_Hair_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_02"
+        SK_Adventure_01_Hair_03 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_03"
+        SK_Adventure_01_Hair_Detail = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hair_Detail"
+        SK_Adventure_01_Hat = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Hat"
+        SK_Adventure_01_Neck_Cloth = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Neck_Cloth"
+        SK_Adventure_01_Pants = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Pants"
+        SK_Adventure_01_Shoes = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_01/Mesh_UE4/Separate/SK_UE4_Adventure_01_Shoes"
 
-        SK_Adventure_02_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_01", category = "character" }
-        SK_Adventure_02_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_02", category = "character" }
-        SK_Adventure_02_Full_03 = { path = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_03", category = "character" }
-        SK_Adventure_02_Backpack = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Backpack"
-        SK_Adventure_02_Bags = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Bags"
-        SK_Adventure_02_Belt = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Belt"
-        SK_Adventure_02_Body_Cloth_Arms = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Body_Cloth_Arms"
-        SK_Adventure_02_Cloth_01 = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Cloth_01"
-        SK_Adventure_02_Cloth_02 = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Cloth_02"
-        SK_Adventure_02_Decoration = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Decoration"
-        SK_Adventure_02_Gas_Mask = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Gas_Mask"
-        SK_Adventure_02_Hands = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hands"
-        SK_Adventure_02_Hands_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hands_Cloth"
-        SK_Adventure_02_Hat = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hat"
-        SK_Adventure_02_Head = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Head"
-        SK_Adventure_02_Jacket = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Jacket"
-        SK_Adventure_02_Jacket_Arms = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Jacket_Arms"
-        SK_Adventure_02_Mattress = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Mattress"
-        SK_Adventure_02_Pants = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Pants"
-        SK_Adventure_02_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Shoes"
+        SK_Adventure_02_Full_01 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_01", category = "character" }
+        SK_Adventure_02_Full_02 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_02", category = "character" }
+        SK_Adventure_02_Full_03 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Full/SK_UE4_Adventure_02_Full_03", category = "character" }
+        SK_Adventure_02_Backpack = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Backpack"
+        SK_Adventure_02_Bags = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Bags"
+        SK_Adventure_02_Belt = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Belt"
+        SK_Adventure_02_Body_Cloth_Arms = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Body_Cloth_Arms"
+        SK_Adventure_02_Cloth_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Cloth_01"
+        SK_Adventure_02_Cloth_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Cloth_02"
+        SK_Adventure_02_Decoration = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Decoration"
+        SK_Adventure_02_Gas_Mask = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Gas_Mask"
+        SK_Adventure_02_Hands = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hands"
+        SK_Adventure_02_Hands_Cloth = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hands_Cloth"
+        SK_Adventure_02_Hat = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Hat"
+        SK_Adventure_02_Head = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Head"
+        SK_Adventure_02_Jacket = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Jacket"
+        SK_Adventure_02_Jacket_Arms = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Jacket_Arms"
+        SK_Adventure_02_Mattress = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Mattress"
+        SK_Adventure_02_Pants = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Pants"
+        SK_Adventure_02_Shoes = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_02/Mesh_UE4/Separate/SK_UE4_Adventure_02_Shoes"
 
-        SK_Adventure_03_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Full/SK_UE4_Adventure_03_Full_01", category = "character" }
-        SK_Adventure_03_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Full/SK_UE4_Adventure_03_Full_02", category = "character" }
-        SK_Adventure_03_Arms = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Arms"
-        SK_Adventure_03_Backpack_01 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Backpack_01"
-        SK_Adventure_03_Backpack_02 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Backpack_02"
-        SK_Adventure_03_Bag_Leg = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Bag_Leg"
-        SK_Adventure_03_Body_Cloth_01 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Body_Cloth_01"
-        SK_Adventure_03_Body_Cloth_02 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Body_Cloth_02"
-        SK_Adventure_03_Gas_Mask = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Gas_Mask"
-        SK_Adventure_03_Gun_Belt = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Gun_Belt"
-        SK_Adventure_03_Hair = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hair"
-        SK_Adventure_03_Hair_Hat = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hair_Hat"
-        SK_Adventure_03_Hat = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hat"
-        SK_Adventure_03_Head = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Head"
-        SK_Adventure_03_Knife_Case = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Knife_Case"
-        SK_Adventure_03_Pants = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Pants"
-        SK_Adventure_03_Rope_01 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Rope_01"
-        SK_Adventure_03_Rope_02 = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Rope_02"
-        SK_Adventure_03_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Shoes"
+        SK_Adventure_03_Full_01 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Full/SK_UE4_Adventure_03_Full_01", category = "character" }
+        SK_Adventure_03_Full_02 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Full/SK_UE4_Adventure_03_Full_02", category = "character" }
+        SK_Adventure_03_Arms = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Arms"
+        SK_Adventure_03_Backpack_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Backpack_01"
+        SK_Adventure_03_Backpack_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Backpack_02"
+        SK_Adventure_03_Bag_Leg = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Bag_Leg"
+        SK_Adventure_03_Body_Cloth_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Body_Cloth_01"
+        SK_Adventure_03_Body_Cloth_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Body_Cloth_02"
+        SK_Adventure_03_Gas_Mask = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Gas_Mask"
+        SK_Adventure_03_Gun_Belt = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Gun_Belt"
+        SK_Adventure_03_Hair = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hair"
+        SK_Adventure_03_Hair_Hat = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hair_Hat"
+        SK_Adventure_03_Hat = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Hat"
+        SK_Adventure_03_Head = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Head"
+        SK_Adventure_03_Knife_Case = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Knife_Case"
+        SK_Adventure_03_Pants = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Pants"
+        SK_Adventure_03_Rope_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Rope_01"
+        SK_Adventure_03_Rope_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Rope_02"
+        SK_Adventure_03_Shoes = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_03/Mesh_UE4/Separate/SK_UE4_Adventure_03_Shoes"
 
-        SK_Adventure_04_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Full/SK_UE4_Adventure_04_Full_01", category = "character" }
-        SK_Adventure_04_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Full/SK_UE4_Adventure_04_Full_02", category = "character" }
-        SK_Adventure_04_Backpack = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Backpack"
-        SK_Adventure_04_Beard = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Beard"
-        SK_Adventure_04_Body_Cloth_01 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Body_Cloth_01"
-        SK_Adventure_04_Body_Cloth_02 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Body_Cloth_02"
-        SK_Adventure_04_Guitar_Backpack = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Guitar_Backpack"
-        SK_Adventure_04_Hair = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Hair"
-        SK_Adventure_04_Hands = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Hands"
-        SK_Adventure_04_Head = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Head"
-        SK_Adventure_04_Jacket = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Jacket"
-        SK_Adventure_04_Mask = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Mask"
-        SK_Adventure_04_Mustache = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Mustache"
-        SK_Adventure_04_Pants = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Pants"
-        SK_Adventure_04_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Shoes"
-        SK_Adventure_04_Sleeves_01 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Sleeves_01"
-        SK_Adventure_04_Sleeves_02 = "Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Sleeves_02"
+        SK_Adventure_04_Full_01 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Full/SK_UE4_Adventure_04_Full_01", category = "character" }
+        SK_Adventure_04_Full_02 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Full/SK_UE4_Adventure_04_Full_02", category = "character" }
+        SK_Adventure_04_Backpack = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Backpack"
+        SK_Adventure_04_Beard = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Beard"
+        SK_Adventure_04_Body_Cloth_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Body_Cloth_01"
+        SK_Adventure_04_Body_Cloth_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Body_Cloth_02"
+        SK_Adventure_04_Guitar_Backpack = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Guitar_Backpack"
+        SK_Adventure_04_Hair = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Hair"
+        SK_Adventure_04_Hands = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Hands"
+        SK_Adventure_04_Head = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Head"
+        SK_Adventure_04_Jacket = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Jacket"
+        SK_Adventure_04_Mask = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Mask"
+        SK_Adventure_04_Mustache = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Mustache"
+        SK_Adventure_04_Pants = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Pants"
+        SK_Adventure_04_Shoes = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Shoes"
+        SK_Adventure_04_Sleeves_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Sleeves_01"
+        SK_Adventure_04_Sleeves_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_04/Mesh_UE4/Separate/SK_UE4_Adventure_04_Sleeves_02"
 
-        SK_Adventure_05_Full_01 = { path = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Full/SK_UE4_Adventure_05_Full_01", category = "character" }
-        SK_Adventure_05_Full_02 = { path = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Full/SK_UE4_Adventure_05_Full_02", category = "character" }
-        SK_Adventure_05_Armored_Vest = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Armored_Vest"
-        SK_Adventure_05_Arms = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Arms"
-        SK_Adventure_05_Bag_01 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_01"
-        SK_Adventure_05_Bag_02 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_02"
-        SK_Adventure_05_Bag_03 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_03"
-        SK_Adventure_05_Bag_04 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_04"
-        SK_Adventure_05_Bag_05 = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_05"
-        SK_Adventure_05_Body_Cloth = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Body_Cloth"
-        SK_Adventure_05_Gas_Mask = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Gas_Mask"
-        SK_Adventure_05_Hands = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Hands"
-        SK_Adventure_05_Head = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Head"
-        SK_Adventure_05_Mustache = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Mustache"
-        SK_Adventure_05_Shoes = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Shoes"
-        SK_Adventure_05_Sleeves = "Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Sleeves"
+        SK_Adventure_05_Full_01 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Full/SK_UE4_Adventure_05_Full_01", category = "character" }
+        SK_Adventure_05_Full_02 = { path = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Full/SK_UE4_Adventure_05_Full_02", category = "character" }
+        SK_Adventure_05_Armored_Vest = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Armored_Vest"
+        SK_Adventure_05_Arms = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Arms"
+        SK_Adventure_05_Bag_01 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_01"
+        SK_Adventure_05_Bag_02 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_02"
+        SK_Adventure_05_Bag_03 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_03"
+        SK_Adventure_05_Bag_04 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_04"
+        SK_Adventure_05_Bag_05 = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Bag_05"
+        SK_Adventure_05_Body_Cloth = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Body_Cloth"
+        SK_Adventure_05_Gas_Mask = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Gas_Mask"
+        SK_Adventure_05_Hands = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Hands"
+        SK_Adventure_05_Head = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Head"
+        SK_Adventure_05_Mustache = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Mustache"
+        SK_Adventure_05_Shoes = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Shoes"
+        SK_Adventure_05_Sleeves = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Sleeves"
 
-        SK_Error = "Props/Utils/SK_Error"
-        SK_None = "Props/Utils/SK_None"
+        SK_Error = "NanosWorld/Props/Utils/SK_Error"
+        SK_None = "NanosWorld/Props/Utils/SK_None"
 
         # Weapons
-        SK_AK47 = { path = "Weapons/Rifles/AK47/SK_AK47", category = "weapon" }
-        SK_AK74U = { path = "Weapons/Rifles/AK74U/SK_AK74U", category = "weapon" }
-        SK_GE36 = { path = "Weapons/Rifles/GE36/SK_GE36", category = "weapon" }
-        SK_Lewis = { path = "Weapons/Rifles/Lewis/SK_Lewis", category = "weapon" }
-        SK_M1Garand = { path = "Weapons/Rifles/M1Garand/SK_M1Garand", category = "weapon" }
-        SK_Glock = { path = "Weapons/Pistols/Glock/SK_Glock", category = "weapon" }
-        SK_ColtPython = { path = "Weapons/Pistols/RevolverColt/SK_Colt_Python", category = "weapon" }
-        SK_DesertEagle = { path = "Weapons/Pistols/DesertEagle/SK_DesertEagle", category = "weapon" }
-        SK_AR4 = { path = "Weapons/Rifles/AR4/SK_AR4", category = "weapon" }
-        SK_Moss500 = { path = "Weapons/Shotguns/Moss500/SK_Moss500", category = "weapon" }
-        SK_AP5 = { path = "Weapons/Rifles/AP5/SK_AP5", category = "weapon" }
-        SK_SMG11 = { path = "Weapons/SMGs/SMG11/SK_SMG11", category = "weapon" }
-        SK_ASVal = { path = "Weapons/Rifles/ASVal/SK_ASVal", category = "weapon" }
-        SK_Ithaca37 = { path = "Weapons/Shotguns/Ithaca37/SK_Ithaca37", category = "weapon" }
-        SK_Rem870 = { path = "Weapons/Shotguns/Rem870/SK_Rem870", category = "weapon" }
-        SK_UMP45 = { path = "Weapons/SMGs/UMP45/SK_UMP45", category = "weapon" }
-        SK_P90 = { path = "Weapons/SMGs/P90/SK_P90", category = "weapon" }
-        SK_GE3 = { path = "Weapons/Rifles/GE3/SK_GE3", category = "weapon" }
-        SK_Makarov = { path = "Weapons/Pistols/Makarov/SK_Makarov", category = "weapon" }
-        SK_M1911 = { path = "Weapons/Pistols/M1911/SK_M1911", category = "weapon" }
-        SK_SPAS12 = { path = "Weapons/Shotguns/SPAS12/SK_SPAS12", category = "weapon" }
-        SK_SPAS12_Folded = { path = "Weapons/Shotguns/SPAS12/SK_SPAS12_Folded", category = "weapon" }
-        SK_SA80 = { path = "Weapons/Rifles/SA80/SK_SA80", category = "weapon" }
-        SK_AWP = { path = "Weapons/Rifles/AWP/SK_AWP", category = "weapon" }
-        SK_AK5C = { path = "Weapons/Rifles/AK5C/SK_AK5C", category = "weapon" }
-        SK_AK5C_G203 = { path = "Weapons/Rifles/AK5C/SK_AK5C_G203", category = "weapon" }
-        SK_DC15S = { path = "Weapons/Rifles/DC15S/SK_DC15S", category = "weapon" }
-        SK_Sten = { path = "Weapons/SMGs/Sten/SK_Sten", category = "weapon" }
-        SK_StG44 = { path = "Weapons/Rifles/StG44/SK_StG44", category = "weapon" }
-        SK_BAR = { path = "Weapons/Rifles/BAR/SK_BAR", category = "weapon" }
+        SK_AK47 = { path = "NanosWorld/Weapons/Rifles/AK47/SK_AK47", category = "weapon" }
+        SK_AK74U = { path = "NanosWorld/Weapons/Rifles/AK74U/SK_AK74U", category = "weapon" }
+        SK_GE36 = { path = "NanosWorld/Weapons/Rifles/GE36/SK_GE36", category = "weapon" }
+        SK_Lewis = { path = "NanosWorld/Weapons/Rifles/Lewis/SK_Lewis", category = "weapon" }
+        SK_M1Garand = { path = "NanosWorld/Weapons/Rifles/M1Garand/SK_M1Garand", category = "weapon" }
+        SK_Glock = { path = "NanosWorld/Weapons/Pistols/Glock/SK_Glock", category = "weapon" }
+        SK_ColtPython = { path = "NanosWorld/Weapons/Pistols/RevolverColt/SK_Colt_Python", category = "weapon" }
+        SK_DesertEagle = { path = "NanosWorld/Weapons/Pistols/DesertEagle/SK_DesertEagle", category = "weapon" }
+        SK_AR4 = { path = "NanosWorld/Weapons/Rifles/AR4/SK_AR4", category = "weapon" }
+        SK_Moss500 = { path = "NanosWorld/Weapons/Shotguns/Moss500/SK_Moss500", category = "weapon" }
+        SK_AP5 = { path = "NanosWorld/Weapons/Rifles/AP5/SK_AP5", category = "weapon" }
+        SK_SMG11 = { path = "NanosWorld/Weapons/SMGs/SMG11/SK_SMG11", category = "weapon" }
+        SK_ASVal = { path = "NanosWorld/Weapons/Rifles/ASVal/SK_ASVal", category = "weapon" }
+        SK_Ithaca37 = { path = "NanosWorld/Weapons/Shotguns/Ithaca37/SK_Ithaca37", category = "weapon" }
+        SK_Rem870 = { path = "NanosWorld/Weapons/Shotguns/Rem870/SK_Rem870", category = "weapon" }
+        SK_UMP45 = { path = "NanosWorld/Weapons/SMGs/UMP45/SK_UMP45", category = "weapon" }
+        SK_P90 = { path = "NanosWorld/Weapons/SMGs/P90/SK_P90", category = "weapon" }
+        SK_GE3 = { path = "NanosWorld/Weapons/Rifles/GE3/SK_GE3", category = "weapon" }
+        SK_Makarov = { path = "NanosWorld/Weapons/Pistols/Makarov/SK_Makarov", category = "weapon" }
+        SK_M1911 = { path = "NanosWorld/Weapons/Pistols/M1911/SK_M1911", category = "weapon" }
+        SK_SPAS12 = { path = "NanosWorld/Weapons/Shotguns/SPAS12/SK_SPAS12", category = "weapon" }
+        SK_SPAS12_Folded = { path = "NanosWorld/Weapons/Shotguns/SPAS12/SK_SPAS12_Folded", category = "weapon" }
+        SK_SA80 = { path = "NanosWorld/Weapons/Rifles/SA80/SK_SA80", category = "weapon" }
+        SK_AWP = { path = "NanosWorld/Weapons/Rifles/AWP/SK_AWP", category = "weapon" }
+        SK_AK5C = { path = "NanosWorld/Weapons/Rifles/AK5C/SK_AK5C", category = "weapon" }
+        SK_AK5C_G203 = { path = "NanosWorld/Weapons/Rifles/AK5C/SK_AK5C_G203", category = "weapon" }
+        SK_DC15S = { path = "NanosWorld/Weapons/Rifles/DC15S/SK_DC15S", category = "weapon" }
+        SK_Sten = { path = "NanosWorld/Weapons/SMGs/Sten/SK_Sten", category = "weapon" }
+        SK_StG44 = { path = "NanosWorld/Weapons/Rifles/StG44/SK_StG44", category = "weapon" }
+        SK_BAR = { path = "NanosWorld/Weapons/Rifles/BAR/SK_BAR", category = "weapon" }
 
         # Tools
-        SK_Blaster = { path = "Weapons/Tools/Blaster/SK_Blaster", category = "weapon" }
-        SK_FlareGun = { path = "Weapons/Tools/FlareGun/SK_FlareGun", category = "weapon" }
-        SK_FlareGun_Short = { path = "Weapons/Tools/FlareGun/SK_FlareGun_Short", category = "weapon" }
+        SK_Blaster = { path = "NanosWorld/Weapons/Tools/Blaster/SK_Blaster", category = "weapon" }
+        SK_FlareGun = { path = "NanosWorld/Weapons/Tools/FlareGun/SK_FlareGun", category = "weapon" }
+        SK_FlareGun_Short = { path = "NanosWorld/Weapons/Tools/FlareGun/SK_FlareGun_Short", category = "weapon" }
 
         # Vehicles
         SK_CamperVan = { path = "NanosWorldAssets/Vehicles/Variety/CamperVan/SK_CamperVan", category = "vehicle" }
@@ -795,663 +797,667 @@
         SK_Truck_Chassis = { path = "NanosWorldAssets/Vehicles/Variety/Truck/SK_Truck_Chassis", category = "vehicle" }
         SK_SportsCar = { path = "NanosWorldAssets/Vehicles/Variety/SportsCar/SK_SportsCar", category = "vehicle" }
         SK_Hatchback = { path = "NanosWorldAssets/Vehicles/Variety/Hatchback/SK_Hatchback", category = "vehicle" }
-        SK_Offroad = { path = "Vehicles/OffroadCar/SK_Offroad", category = "vehicle" }
+        SK_Offroad = { path = "NanosWorld/Vehicles/OffroadCar/SK_Offroad", category = "vehicle" }
 
-        SK_Motorboat = { path = "Vehicles/Water/MotorBoat/SK_Motorboat_01", category = "vehicle" }
+        SK_Motorboat = { path = "NanosWorld/Vehicles/Water/MotorBoat/SK_Motorboat_01", category = "vehicle" }
+
 
     # Sounds
     [assets.sounds]
-        A_EmptySound = "Core/A_EmptySound_Cue"
+        A_EmptySound = "NanosWorld/Core/A_EmptySound_Cue"
 
-        A_Kill_Feedback = "Weapons/Common/Audios/A_Kill_Feedback_Cue"
-        A_Hit_Feedback = "Weapons/Common/Audios/A_Hit_Feedback_Cue"
-        A_Headshot_Feedback = "Weapons/Common/Audios/A_Headshot_Feedback_Cue"
-        A_HitTaken_Feedback = "Weapons/Common/Audios/A_HitTaken_Feedback_Cue"
+        A_Kill_Feedback = "NanosWorld/Weapons/Common/Audios/A_Kill_Feedback_Cue"
+        A_Hit_Feedback = "NanosWorld/Weapons/Common/Audios/A_Hit_Feedback_Cue"
+        A_Headshot_Feedback = "NanosWorld/Weapons/Common/Audios/A_Headshot_Feedback_Cue"
+        A_HitTaken_Feedback = "NanosWorld/Weapons/Common/Audios/A_HitTaken_Feedback_Cue"
 
         # Weapons
-        A_SMG_Dry = "Weapons/Common/Audios/A_SMG_Dry_Cue"
-        A_Rifle_Dry = "Weapons/Common/Audios/A_Rifle_Dry_Cue"
-        A_Pistol_Dry = "Weapons/Common/Audios/A_Pistol_Dry_Cue"
-        A_Shotgun_Dry = "Weapons/Common/Audios/A_Shotgun_Dry_Cue"
-        A_SMG_Load = "Weapons/Common/Audios/A_SMG_Load_Cue"
-        A_MMG_Reload = "Weapons/Common/Audios/A_MMG_Reload_Cue"
-        A_Rifle_Load = "Weapons/Common/Audios/A_Rifle_Load_Cue"
-        A_Pistol_Load = "Weapons/Common/Audios/A_Pistol_Load_Cue"
-        A_Shotgun_Load_Bullet = "Weapons/Common/Audios/A_Shotgun_Load_Bullet_Cue"
-        A_SMG_Unload = "Weapons/Common/Audios/A_SMG_Unload_Cue"
-        A_Rifle_Unload = "Weapons/Common/Audios/A_Rifle_Unload_Cue"
-        A_Pistol_Unload = "Weapons/Common/Audios/A_Pistol_Unload_Cue"
-        A_AimZoom = "Weapons/Common/Audios/Rattle/A_AimZoom_Cue"
-        A_Rattle = "Weapons/Common/Audios/Rattle/A_Rattle_Cue"
-        A_Pistol_Shot = "Weapons/Common/Audios/A_Pistol_Shot_Cue"
-        A_M4A1_Shot = "Weapons/Common/Audios/A_M4A1_Shot_Cue"
-        A_M4A1_02_Shot = "Weapons/Common/Audios/A_M4A1_02_Shot_Cue"
-        A_M1Garand_Shot = "Weapons/Common/Audios/A_M1Garand_Shot_Cue"
-        A_M1Garand_Ping = "Weapons/Common/Audios/A_M1Garand_Ping_Cue"
-        A_AK47_Shot = "Weapons/Common/Audios/A_AK47_Shot_Cue"
-        A_AK74U_Shot = "Weapons/Common/Audios/A_AK74U_Shot_Cue"
-        A_ASVal_Shot = "Weapons/Common/Audios/A_ASVal_Shot_Cue"
-        A_Glock_Shot = "Weapons/Common/Audios/A_Glock_Shot_Cue"
-        A_Rifle_Shot = "Weapons/Common/Audios/A_Rifle_Shot_Cue"
-        A_Rifle_Semi_Shot = "Weapons/Common/Audios/A_Rifle_Semi_Shot_Cue"
-        A_Rifle_Semi_Load = "Weapons/Common/Audios/A_Rifle_Semi_Load_Cue"
-        A_MMG_Shot = "Weapons/Common/Audios/A_MMG_Shot_Cue"
-        A_DesertEagle_Shot = "Weapons/Common/Audios/A_DesertEagle_Shot_Cue"
-        A_Shotgun_Shot = "Weapons/Common/Audios/A_Shotgun_Shot_Cue"
-        A_Shotgun_Shot_B = "Weapons/Common/Audios/A_Shotgun_Shot_B_Cue"
-        A_Shotgun_Shot_C = "Weapons/Common/Audios/A_Shotgun_Shot_C_Cue"
-        A_Shotgun_Shot_D = "Weapons/Common/Audios/A_Shotgun_Shot_D_Cue"
-        A_Rifle_Shot_B = "Weapons/Common/Audios/A_Rifle_Shot_B_Cue"
-        A_Pistol_Shot_B = "Weapons/Common/Audios/A_Pistol_Shot_B_Cue"
-        A_AR15_Shot = "Weapons/Common/Audios/A_AR15_Shot_Cue"
-        A_LightMachine_Shot = "Weapons/Common/Audios/A_LightMachine_Shot_Cue"
-        A_SMG_Shot = "Weapons/Common/Audios/A_SMG_Shot_Cue"
-        A_9MM_Shot = "Weapons/Common/Audios/A_9MM_Shot_Cue"
-        A_12Gauge_Shot = "Weapons/Common/Audios/A_12Gauge_Shot_Cue"
-        A_308_BoltAction_Shot = "Weapons/Common/Audios/A_308_BoltAction_Shot_Cue"
-        A_308_BoltAction_Supressed_Shot = "Weapons/Common/Audios/A_308_BoltAction_Supressed_Shot_Cue"
-        A_1911_Shot = "Weapons/Common/Audios/A_1911_Shot_Cue"
-        A_1911_A_Shot = "Weapons/Common/Audios/A_1911_A_Shot_Cue"
-        A_ACR_Supressed_A_Shot = "Weapons/Common/Audios/A_ACR_Supressed_A_Shot_Cue"
-        A_ACR_Supressed_B_Shot = "Weapons/Common/Audios/A_ACR_Supressed_B_Shot_Cue"
-        A_AR10_Shot = "Weapons/Common/Audios/A_AR10_Shot_Cue"
-        A_AR15_A_Shot = "Weapons/Common/Audios/A_AR15_A_Shot_Cue"
-        A_AR15_B_Shot = "Weapons/Common/Audios/A_AR15_B_Shot_Cue"
-        A_AR15_C_Shot = "Weapons/Common/Audios/A_AR15_C_Shot_Cue"
-        A_BerretaM9_Shot = "Weapons/Common/Audios/A_BerretaM9_Shot_Cue"
-        A_Blast_Shot = "Weapons/Common/Audios/A_Blast_Shot_Cue"
-        A_DesertEagle_B_Shot = "Weapons/Common/Audios/A_DesertEagle_B_Shot_Cue"
-        A_GunFire = "Weapons/Common/Audios/A_GunFire_Cue"
-        A_HeavyShot = "Weapons/Common/Audios/A_HeavyShot_Cue"
-        A_M82_Shot = "Weapons/Common/Audios/A_M82_Shot_Cue"
-        A_P226_Shot = "Weapons/Common/Audios/A_P226_Shot_Cue"
-        A_ShotgunBlast_Shot = "Weapons/Common/Audios/A_ShotgunBlast_Shot_Cue"
-        A_Sniper_Shot = "Weapons/Common/Audios/A_Sniper_Shot_Cue"
-        A_SniperRifle_Shot = "Weapons/Common/Audios/A_SniperRifle_Shot_Cue"
-        A_Glock_Suppressed_Mechanic_01 = "Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_01_Cue"
-        A_Glock_Suppressed_Mechanic_02 = "Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_02_Cue"
-        A_Wesson500_Shot = "Weapons/Common/Audios/A_Wesson500_Shot_Cue"
-        A_Explosion_Large = "Weapons/Common/Audios/A_Explosion_Large_Cue"
-        A_Explosion_Small = "Weapons/Common/Audios/A_Explosion_Small_Cue"
-        A_StG44_Shot = "Weapons/Common/Audios/A_StG44_Shot_Cue"
-        A_BAR_Shot = "Weapons/Common/Audios/A_BAR_Shot_Cue"
+        A_SMG_Dry = "NanosWorld/Weapons/Common/Audios/A_SMG_Dry_Cue"
+        A_Rifle_Dry = "NanosWorld/Weapons/Common/Audios/A_Rifle_Dry_Cue"
+        A_Pistol_Dry = "NanosWorld/Weapons/Common/Audios/A_Pistol_Dry_Cue"
+        A_Shotgun_Dry = "NanosWorld/Weapons/Common/Audios/A_Shotgun_Dry_Cue"
+        A_SMG_Load = "NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue"
+        A_MMG_Reload = "NanosWorld/Weapons/Common/Audios/A_MMG_Reload_Cue"
+        A_Rifle_Load = "NanosWorld/Weapons/Common/Audios/A_Rifle_Load_Cue"
+        A_Pistol_Load = "NanosWorld/Weapons/Common/Audios/A_Pistol_Load_Cue"
+        A_Shotgun_Load_Bullet = "NanosWorld/Weapons/Common/Audios/A_Shotgun_Load_Bullet_Cue"
+        A_SMG_Unload = "NanosWorld/Weapons/Common/Audios/A_SMG_Unload_Cue"
+        A_Rifle_Unload = "NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue"
+        A_Pistol_Unload = "NanosWorld/Weapons/Common/Audios/A_Pistol_Unload_Cue"
+        A_AimZoom = "NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue"
+        A_Rattle = "NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue"
+        A_Pistol_Shot = "NanosWorld/Weapons/Common/Audios/A_Pistol_Shot_Cue"
+        A_M4A1_Shot = "NanosWorld/Weapons/Common/Audios/A_M4A1_Shot_Cue"
+        A_M4A1_02_Shot = "NanosWorld/Weapons/Common/Audios/A_M4A1_02_Shot_Cue"
+        A_M1Garand_Shot = "NanosWorld/Weapons/Common/Audios/A_M1Garand_Shot_Cue"
+        A_M1Garand_Ping = "NanosWorld/Weapons/Common/Audios/A_M1Garand_Ping_Cue"
+        A_AK47_Shot = "NanosWorld/Weapons/Common/Audios/A_AK47_Shot_Cue"
+        A_AK74U_Shot = "NanosWorld/Weapons/Common/Audios/A_AK74U_Shot_Cue"
+        A_ASVal_Shot = "NanosWorld/Weapons/Common/Audios/A_ASVal_Shot_Cue"
+        A_Glock_Shot = "NanosWorld/Weapons/Common/Audios/A_Glock_Shot_Cue"
+        A_Rifle_Shot = "NanosWorld/Weapons/Common/Audios/A_Rifle_Shot_Cue"
+        A_Rifle_Semi_Shot = "NanosWorld/Weapons/Common/Audios/A_Rifle_Semi_Shot_Cue"
+        A_Rifle_Semi_Load = "NanosWorld/Weapons/Common/Audios/A_Rifle_Semi_Load_Cue"
+        A_MMG_Shot = "NanosWorld/Weapons/Common/Audios/A_MMG_Shot_Cue"
+        A_DesertEagle_Shot = "NanosWorld/Weapons/Common/Audios/A_DesertEagle_Shot_Cue"
+        A_Shotgun_Shot = "NanosWorld/Weapons/Common/Audios/A_Shotgun_Shot_Cue"
+        A_Shotgun_Shot_B = "NanosWorld/Weapons/Common/Audios/A_Shotgun_Shot_B_Cue"
+        A_Shotgun_Shot_C = "NanosWorld/Weapons/Common/Audios/A_Shotgun_Shot_C_Cue"
+        A_Shotgun_Shot_D = "NanosWorld/Weapons/Common/Audios/A_Shotgun_Shot_D_Cue"
+        A_Rifle_Shot_B = "NanosWorld/Weapons/Common/Audios/A_Rifle_Shot_B_Cue"
+        A_Pistol_Shot_B = "NanosWorld/Weapons/Common/Audios/A_Pistol_Shot_B_Cue"
+        A_AR15_Shot = "NanosWorld/Weapons/Common/Audios/A_AR15_Shot_Cue"
+        A_LightMachine_Shot = "NanosWorld/Weapons/Common/Audios/A_LightMachine_Shot_Cue"
+        A_SMG_Shot = "NanosWorld/Weapons/Common/Audios/A_SMG_Shot_Cue"
+        A_9MM_Shot = "NanosWorld/Weapons/Common/Audios/A_9MM_Shot_Cue"
+        A_12Gauge_Shot = "NanosWorld/Weapons/Common/Audios/A_12Gauge_Shot_Cue"
+        A_308_BoltAction_Shot = "NanosWorld/Weapons/Common/Audios/A_308_BoltAction_Shot_Cue"
+        A_308_BoltAction_Supressed_Shot = "NanosWorld/Weapons/Common/Audios/A_308_BoltAction_Supressed_Shot_Cue"
+        A_1911_Shot = "NanosWorld/Weapons/Common/Audios/A_1911_Shot_Cue"
+        A_1911_A_Shot = "NanosWorld/Weapons/Common/Audios/A_1911_A_Shot_Cue"
+        A_ACR_Supressed_A_Shot = "NanosWorld/Weapons/Common/Audios/A_ACR_Supressed_A_Shot_Cue"
+        A_ACR_Supressed_B_Shot = "NanosWorld/Weapons/Common/Audios/A_ACR_Supressed_B_Shot_Cue"
+        A_AR10_Shot = "NanosWorld/Weapons/Common/Audios/A_AR10_Shot_Cue"
+        A_AR15_A_Shot = "NanosWorld/Weapons/Common/Audios/A_AR15_A_Shot_Cue"
+        A_AR15_B_Shot = "NanosWorld/Weapons/Common/Audios/A_AR15_B_Shot_Cue"
+        A_AR15_C_Shot = "NanosWorld/Weapons/Common/Audios/A_AR15_C_Shot_Cue"
+        A_BerretaM9_Shot = "NanosWorld/Weapons/Common/Audios/A_BerretaM9_Shot_Cue"
+        A_Blast_Shot = "NanosWorld/Weapons/Common/Audios/A_Blast_Shot_Cue"
+        A_DesertEagle_B_Shot = "NanosWorld/Weapons/Common/Audios/A_DesertEagle_B_Shot_Cue"
+        A_GunFire = "NanosWorld/Weapons/Common/Audios/A_GunFire_Cue"
+        A_HeavyShot = "NanosWorld/Weapons/Common/Audios/A_HeavyShot_Cue"
+        A_M82_Shot = "NanosWorld/Weapons/Common/Audios/A_M82_Shot_Cue"
+        A_P226_Shot = "NanosWorld/Weapons/Common/Audios/A_P226_Shot_Cue"
+        A_ShotgunBlast_Shot = "NanosWorld/Weapons/Common/Audios/A_ShotgunBlast_Shot_Cue"
+        A_Sniper_Shot = "NanosWorld/Weapons/Common/Audios/A_Sniper_Shot_Cue"
+        A_SniperRifle_Shot = "NanosWorld/Weapons/Common/Audios/A_SniperRifle_Shot_Cue"
+        A_Glock_Suppressed_Mechanic_01 = "NanosWorld/Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_01_Cue"
+        A_Glock_Suppressed_Mechanic_02 = "NanosWorld/Weapons/Common/Audios/A_Glock_Suppressed_Mechanic_02_Cue"
+        A_Wesson500_Shot = "NanosWorld/Weapons/Common/Audios/A_Wesson500_Shot_Cue"
+        A_Explosion_Large = "NanosWorld/Weapons/Common/Audios/A_Explosion_Large_Cue"
+        A_Explosion_Small = "NanosWorld/Weapons/Common/Audios/A_Explosion_Small_Cue"
+        A_StG44_Shot = "NanosWorld/Weapons/Common/Audios/A_StG44_Shot_Cue"
+        A_BAR_Shot = "NanosWorld/Weapons/Common/Audios/A_BAR_Shot_Cue"
 
         # Shots Imported
-        A_AA_12_Shot = "Weapons/Common/Audios/Shots/A_AA_12_Shot_Cue"
-        A_Beretta_M9_Shot = "Weapons/Common/Audios/Shots/A_Beretta_M9_Shot_Cue"
-        A_Colt_1911_Shot = "Weapons/Common/Audios/Shots/A_Colt_1911_Shot_Cue"
-        A_CZ_75_Shot = "Weapons/Common/Audios/Shots/A_CZ_75_Shot_Cue"
-        A_Dragunov_Shot = "Weapons/Common/Audios/Shots/A_Dragunov_Shot_Cue"
-        A_FiveSeven_Shot = "Weapons/Common/Audios/Shots/A_FiveSeven_Shot_Cue"
-        A_FN_SCAR_Shot = "Weapons/Common/Audios/Shots/A_FN_SCAR_Shot_Cue"
-        A_G3_Shot = "Weapons/Common/Audios/Shots/A_G3_Shot_Cue"
-        A_Galil_Shot = "Weapons/Common/Audios/Shots/A_Galil_Shot_Cue"
-        A_Glock_18_Shot = "Weapons/Common/Audios/Shots/A_Glock_18_Shot_Cue"
-        A_HS_10_Shot = "Weapons/Common/Audios/Shots/A_HS_10_Shot_Cue"
-        A_Kriss_Vector_Shot = "Weapons/Common/Audios/Shots/A_Kriss_Vector_Shot_Cue"
-        A_L85A2_Shot = "Weapons/Common/Audios/Shots/A_L85A2_Shot_Cue"
-        A_M110_SASS_Shot = "Weapons/Common/Audios/Shots/A_M110_SASS_Shot_Cue"
-        A_M14_EBR_Shot = "Weapons/Common/Audios/Shots/A_M14_EBR_Shot_Cue"
-        A_M1918_BAR_Shot = "Weapons/Common/Audios/Shots/A_M1918_BAR_Shot_Cue"
-        A_M1919_Browning_Shot = "Weapons/Common/Audios/Shots/A_M1919_Browning_Shot_Cue"
-        A_M1_Carbine_Shot = "Weapons/Common/Audios/Shots/A_M1_Carbine_Shot_Cue"
-        A_M1_Thompson_Shot = "Weapons/Common/Audios/Shots/A_M1_Thompson_Shot_Cue"
-        A_M249_SAW_Shot = "Weapons/Common/Audios/Shots/A_M249_SAW_Shot_Cue"
-        A_M60_Shot = "Weapons/Common/Audios/Shots/A_M60_Shot_Cue"
-        A_MAC_10_Shot = "Weapons/Common/Audios/Shots/A_MAC_10_Shot_Cue"
-        A_Makarov_Shot = "Weapons/Common/Audios/Shots/A_Makarov_Shot_Cue"
-        A_Mauser_C96_Shot = "Weapons/Common/Audios/Shots/A_Mauser_C96_Shot_Cue"
-        A_MG_42_Shot = "Weapons/Common/Audios/Shots/A_MG_42_Shot_Cue"
-        A_MK23_Shot = "Weapons/Common/Audios/Shots/A_MK23_Shot_Cue"
-        A_MP5K_A_Shot = "Weapons/Common/Audios/Shots/A_MP5K_A_Shot_Cue"
-        A_MP5K_B_Shot = "Weapons/Common/Audios/Shots/A_MP5K_B_Shot_Cue"
-        A_MP7_Shot = "Weapons/Common/Audios/Shots/A_MP7_Shot_Cue"
-        A_MP9_Shot = "Weapons/Common/Audios/Shots/A_MP9_Shot_Cue"
-        A_MP_40_Shot = "Weapons/Common/Audios/Shots/A_MP_40_Shot_Cue"
-        A_MP_443_Shot = "Weapons/Common/Audios/Shots/A_MP_443_Shot_Cue"
-        A_Olympia_Shot = "Weapons/Common/Audios/Shots/A_Olympia_Shot_Cue"
-        A_Python_Shot = "Weapons/Common/Audios/Shots/A_Python_Shot_Cue"
-        A_RPK_Shot = "Weapons/Common/Audios/Shots/A_RPK_Shot_Cue"
-        A_SIG_P228_Shot = "Weapons/Common/Audios/Shots/A_SIG_P228_Shot_Cue"
-        A_SIG_SG_552_Shot = "Weapons/Common/Audios/Shots/A_SIG_SG_552_Shot_Cue"
-        A_Skorpion_Shot = "Weapons/Common/Audios/Shots/A_Skorpion_Shot_Cue"
-        A_SPAS_12_Shot = "Weapons/Common/Audios/Shots/A_SPAS_12_Shot_Cue"
-        A_Steyr_AUG_Shot = "Weapons/Common/Audios/Shots/A_Steyr_AUG_Shot_Cue"
-        A_Stoner_63_Shot = "Weapons/Common/Audios/Shots/A_Stoner_63_Shot_Cue"
-        A_TAR_21_Shot = "Weapons/Common/Audios/Shots/A_TAR_21_Shot_Cue"
-        A_UMP_Shot = "Weapons/Common/Audios/Shots/A_UMP_Shot_Cue"
-        A_USAS_12_Shot = "Weapons/Common/Audios/Shots/A_USAS_12_Shot_Cue"
-        A_Uzi_Shot = "Weapons/Common/Audios/Shots/A_Uzi_Shot_Cue"
-        A_WA_2000_Shot = "Weapons/Common/Audios/Shots/A_WA_2000_Shot_Cue"
-        A_Walther_P38_Shot = "Weapons/Common/Audios/Shots/A_Walther_P38_Shot_Cue"
+        A_AA_12_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_AA_12_Shot_Cue"
+        A_Beretta_M9_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Beretta_M9_Shot_Cue"
+        A_Colt_1911_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Colt_1911_Shot_Cue"
+        A_CZ_75_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_CZ_75_Shot_Cue"
+        A_Dragunov_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Dragunov_Shot_Cue"
+        A_FiveSeven_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_FiveSeven_Shot_Cue"
+        A_FN_SCAR_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_FN_SCAR_Shot_Cue"
+        A_G3_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_G3_Shot_Cue"
+        A_Galil_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Galil_Shot_Cue"
+        A_Glock_18_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Glock_18_Shot_Cue"
+        A_HS_10_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_HS_10_Shot_Cue"
+        A_Kriss_Vector_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Kriss_Vector_Shot_Cue"
+        A_L85A2_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_L85A2_Shot_Cue"
+        A_M110_SASS_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M110_SASS_Shot_Cue"
+        A_M14_EBR_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M14_EBR_Shot_Cue"
+        A_M1918_BAR_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M1918_BAR_Shot_Cue"
+        A_M1919_Browning_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M1919_Browning_Shot_Cue"
+        A_M1_Carbine_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M1_Carbine_Shot_Cue"
+        A_M1_Thompson_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M1_Thompson_Shot_Cue"
+        A_M249_SAW_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M249_SAW_Shot_Cue"
+        A_M60_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_M60_Shot_Cue"
+        A_MAC_10_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MAC_10_Shot_Cue"
+        A_Makarov_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Makarov_Shot_Cue"
+        A_Mauser_C96_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Mauser_C96_Shot_Cue"
+        A_MG_42_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MG_42_Shot_Cue"
+        A_MK23_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MK23_Shot_Cue"
+        A_MP5K_A_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MP5K_A_Shot_Cue"
+        A_MP5K_B_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MP5K_B_Shot_Cue"
+        A_MP7_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MP7_Shot_Cue"
+        A_MP9_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MP9_Shot_Cue"
+        A_MP_40_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MP_40_Shot_Cue"
+        A_MP_443_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_MP_443_Shot_Cue"
+        A_Olympia_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Olympia_Shot_Cue"
+        A_Python_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Python_Shot_Cue"
+        A_RPK_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_RPK_Shot_Cue"
+        A_SIG_P228_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_SIG_P228_Shot_Cue"
+        A_SIG_SG_552_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_SIG_SG_552_Shot_Cue"
+        A_Skorpion_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Skorpion_Shot_Cue"
+        A_SPAS_12_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_SPAS_12_Shot_Cue"
+        A_Steyr_AUG_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Steyr_AUG_Shot_Cue"
+        A_Stoner_63_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Stoner_63_Shot_Cue"
+        A_TAR_21_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_TAR_21_Shot_Cue"
+        A_UMP_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_UMP_Shot_Cue"
+        A_USAS_12_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_USAS_12_Shot_Cue"
+        A_Uzi_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Uzi_Shot_Cue"
+        A_WA_2000_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_WA_2000_Shot_Cue"
+        A_Walther_P38_Shot = "NanosWorld/Weapons/Common/Audios/Shots/A_Walther_P38_Shot_Cue"
 
-        A_Weapon_Pickup = "Weapons/Common/Audios/A_Weapon_Pickup_Cue"
-        A_Object_PickUp = "Effects/Sounds/A_Object_PickUp_Cue"
+        A_Weapon_Pickup = "NanosWorld/Weapons/Common/Audios/A_Weapon_Pickup_Cue"
+        A_Object_PickUp = "NanosWorld/Effects/Sounds/A_Object_PickUp_Cue"
 
-        A_Balloon_Pop = "Effects/Sounds/A_Balloon_Pop_Cue"
-        A_Balloon_Inflate = "Effects/Sounds/A_Balloon_Inflate_Cue"
+        A_Balloon_Pop = "NanosWorld/Effects/Sounds/A_Balloon_Pop_Cue"
+        A_Balloon_Inflate = "NanosWorld/Effects/Sounds/A_Balloon_Inflate_Cue"
 
-        A_Male_01_Death = "Characters/Common/Audios/Death/A_Male_01_Death_Cue"
-        A_Male_02_Death = "Characters/Common/Audios/Death/A_Male_02_Death_Cue"
-        A_Male_03_Death = "Characters/Common/Audios/Death/A_Male_03_Death_Cue"
-        A_Male_04_Death = "Characters/Common/Audios/Death/A_Male_04_Death_Cue"
-        A_Male_05_Death = "Characters/Common/Audios/Death/A_Male_05_Death_Cue"
-        A_Male_06_Death = "Characters/Common/Audios/Death/A_Male_06_Death_Cue"
+        A_Male_01_Death = "NanosWorld/Characters/Common/Audios/Death/A_Male_01_Death_Cue"
+        A_Male_02_Death = "NanosWorld/Characters/Common/Audios/Death/A_Male_02_Death_Cue"
+        A_Male_03_Death = "NanosWorld/Characters/Common/Audios/Death/A_Male_03_Death_Cue"
+        A_Male_04_Death = "NanosWorld/Characters/Common/Audios/Death/A_Male_04_Death_Cue"
+        A_Male_05_Death = "NanosWorld/Characters/Common/Audios/Death/A_Male_05_Death_Cue"
+        A_Male_06_Death = "NanosWorld/Characters/Common/Audios/Death/A_Male_06_Death_Cue"
 
-        A_Female_01_Death = "Characters/Common/Audios/Death/A_Female_01_Death_Cue"
-        A_Female_02_Death = "Characters/Common/Audios/Death/A_Female_02_Death_Cue"
-        A_Female_03_Death = "Characters/Common/Audios/Death/A_Female_03_Death_Cue"
-        A_Female_04_Death = "Characters/Common/Audios/Death/A_Female_04_Death_Cue"
-        A_Female_05_Death = "Characters/Common/Audios/Death/A_Female_05_Death_Cue"
+        A_Female_01_Death = "NanosWorld/Characters/Common/Audios/Death/A_Female_01_Death_Cue"
+        A_Female_02_Death = "NanosWorld/Characters/Common/Audios/Death/A_Female_02_Death_Cue"
+        A_Female_03_Death = "NanosWorld/Characters/Common/Audios/Death/A_Female_03_Death_Cue"
+        A_Female_04_Death = "NanosWorld/Characters/Common/Audios/Death/A_Female_04_Death_Cue"
+        A_Female_05_Death = "NanosWorld/Characters/Common/Audios/Death/A_Female_05_Death_Cue"
 
-        A_Male_01_Pain = "Characters/Common/Audios/Pain/A_Male_01_Pain_Cue"
-        A_Male_02_Pain = "Characters/Common/Audios/Pain/A_Male_02_Pain_Cue"
-        A_Male_03_Pain = "Characters/Common/Audios/Pain/A_Male_03_Pain_Cue"
-        A_Male_04_Pain = "Characters/Common/Audios/Pain/A_Male_04_Pain_Cue"
-        A_Male_05_Pain = "Characters/Common/Audios/Pain/A_Male_05_Pain_Cue"
-        A_Male_06_Pain = "Characters/Common/Audios/Pain/A_Male_06_Pain_Cue"
-        A_Male_07_Pain = "Characters/Common/Audios/Pain/A_Male_07_Pain_Cue"
-        A_Male_08_Pain = "Characters/Common/Audios/Pain/A_Male_08_Pain_Cue"
+        A_Male_01_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_01_Pain_Cue"
+        A_Male_02_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_02_Pain_Cue"
+        A_Male_03_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_03_Pain_Cue"
+        A_Male_04_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_04_Pain_Cue"
+        A_Male_05_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_05_Pain_Cue"
+        A_Male_06_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_06_Pain_Cue"
+        A_Male_07_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_07_Pain_Cue"
+        A_Male_08_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Male_08_Pain_Cue"
 
-        A_Female_01_Pain = "Characters/Common/Audios/Pain/A_Female_01_Pain_Cue"
-        A_Female_02_Pain = "Characters/Common/Audios/Pain/A_Female_02_Pain_Cue"
-        A_Female_03_Pain = "Characters/Common/Audios/Pain/A_Female_03_Pain_Cue"
-        A_Female_04_Pain = "Characters/Common/Audios/Pain/A_Female_04_Pain_Cue"
-        A_Female_05_Pain = "Characters/Common/Audios/Pain/A_Female_05_Pain_Cue"
-        A_Female_06_Pain = "Characters/Common/Audios/Pain/A_Female_06_Pain_Cue"
-        A_Female_07_Pain = "Characters/Common/Audios/Pain/A_Female_07_Pain_Cue"
-        A_Female_08_Pain = "Characters/Common/Audios/Pain/A_Female_08_Pain_Cue"
+        A_Female_01_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_01_Pain_Cue"
+        A_Female_02_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_02_Pain_Cue"
+        A_Female_03_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_03_Pain_Cue"
+        A_Female_04_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_04_Pain_Cue"
+        A_Female_05_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_05_Pain_Cue"
+        A_Female_06_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_06_Pain_Cue"
+        A_Female_07_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_07_Pain_Cue"
+        A_Female_08_Pain = "NanosWorld/Characters/Common/Audios/Pain/A_Female_08_Pain_Cue"
 
-        A_Female_Groan = "Characters/Common/Audios/Groan/A_Female_Groan_Cue"
+        A_Female_Groan = "NanosWorld/Characters/Common/Audios/Groan/A_Female_Groan_Cue"
 
-        A_Male_01_Groan = "Characters/Common/Audios/Groan/A_Male_01_Groan_Cue"
-        A_Male_02_Groan = "Characters/Common/Audios/Groan/A_Male_02_Groan_Cue"
+        A_Male_01_Groan = "NanosWorld/Characters/Common/Audios/Groan/A_Male_01_Groan_Cue"
+        A_Male_02_Groan = "NanosWorld/Characters/Common/Audios/Groan/A_Male_02_Groan_Cue"
 
-        A_Male_01_Growl = "Characters/Common/Audios/Growl/A_Male_01_Growl_Cue"
-        A_Male_02_Growl = "Characters/Common/Audios/Growl/A_Male_02_Growl_Cue"
+        A_Male_01_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Male_01_Growl_Cue"
+        A_Male_02_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Male_02_Growl_Cue"
 
-        A_Female_01_Growl = "Characters/Common/Audios/Growl/A_Female_01_Growl_Cue"
-        A_Female_02_Growl = "Characters/Common/Audios/Growl/A_Female_02_Growl_Cue"
-        A_Female_03_Growl = "Characters/Common/Audios/Growl/A_Female_03_Growl_Cue"
-        A_Female_04_Growl = "Characters/Common/Audios/Growl/A_Female_04_Growl_Cue"
-        A_Female_05_Growl = "Characters/Common/Audios/Growl/A_Female_05_Growl_Cue"
+        A_Female_01_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Female_01_Growl_Cue"
+        A_Female_02_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Female_02_Growl_Cue"
+        A_Female_03_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Female_03_Growl_Cue"
+        A_Female_04_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Female_04_Growl_Cue"
+        A_Female_05_Growl = "NanosWorld/Characters/Common/Audios/Growl/A_Female_05_Growl_Cue"
 
-        A_Male_01_Laugh = "Characters/Common/Audios/Laugh/A_Male_01_Laugh_Cue"
-        A_Male_02_Laugh = "Characters/Common/Audios/Laugh/A_Male_02_Laugh_Cue"
-        A_Male_03_Laugh = "Characters/Common/Audios/Laugh/A_Male_03_Laugh_Cue"
-        A_Male_04_Laugh = "Characters/Common/Audios/Laugh/A_Male_04_Laugh_Cue"
-        A_Male_05_Laugh = "Characters/Common/Audios/Laugh/A_Male_05_Laugh_Cue"
-        A_Male_06_Laugh = "Characters/Common/Audios/Laugh/A_Male_06_Laugh_Cue"
+        A_Male_01_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Male_01_Laugh_Cue"
+        A_Male_02_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Male_02_Laugh_Cue"
+        A_Male_03_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Male_03_Laugh_Cue"
+        A_Male_04_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Male_04_Laugh_Cue"
+        A_Male_05_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Male_05_Laugh_Cue"
+        A_Male_06_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Male_06_Laugh_Cue"
 
-        A_Female_01_Laugh = "Characters/Common/Audios/Laugh/A_Female_01_Laugh_Cue"
-        A_Female_02_Laugh = "Characters/Common/Audios/Laugh/A_Female_02_Laugh_Cue"
+        A_Female_01_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Female_01_Laugh_Cue"
+        A_Female_02_Laugh = "NanosWorld/Characters/Common/Audios/Laugh/A_Female_02_Laugh_Cue"
 
-        A_Female_01_Scream = "Characters/Common/Audios/Scream/A_Female_01_Scream_Cue"
-        A_Female_02_Scream = "Characters/Common/Audios/Scream/A_Female_02_Scream_Cue"
+        A_Female_01_Scream = "NanosWorld/Characters/Common/Audios/Scream/A_Female_01_Scream_Cue"
+        A_Female_02_Scream = "NanosWorld/Characters/Common/Audios/Scream/A_Female_02_Scream_Cue"
 
-        A_Male_01_Attack = "Characters/Common/Audios/Attack/A_Male_01_Attack_Cue"
-        A_Male_02_Attack = "Characters/Common/Audios/Attack/A_Male_02_Attack_Cue"
-        A_Male_03_Attack = "Characters/Common/Audios/Attack/A_Male_03_Attack_Cue"
-        A_Male_04_Attack = "Characters/Common/Audios/Attack/A_Male_04_Attack_Cue"
-        A_Male_05_Attack = "Characters/Common/Audios/Attack/A_Male_05_Attack_Cue"
-        A_Male_06_Attack = "Characters/Common/Audios/Attack/A_Male_06_Attack_Cue"
+        A_Male_01_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Male_01_Attack_Cue"
+        A_Male_02_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Male_02_Attack_Cue"
+        A_Male_03_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Male_03_Attack_Cue"
+        A_Male_04_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Male_04_Attack_Cue"
+        A_Male_05_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Male_05_Attack_Cue"
+        A_Male_06_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Male_06_Attack_Cue"
 
-        A_Female_01_Attack = "Characters/Common/Audios/Attack/A_Female_01_Attack_Cue"
-        A_Female_02_Attack = "Characters/Common/Audios/Attack/A_Female_02_Attack_Cue"
-        A_Female_03_Attack = "Characters/Common/Audios/Attack/A_Female_03_Attack_Cue"
-        A_Female_04_Attack = "Characters/Common/Audios/Attack/A_Female_04_Attack_Cue"
-        A_Female_05_Attack = "Characters/Common/Audios/Attack/A_Female_05_Attack_Cue"
-        A_Female_06_Attack = "Characters/Common/Audios/Attack/A_Female_06_Attack_Cue"
-        A_Female_07_Attack = "Characters/Common/Audios/Attack/A_Female_07_Attack_Cue"
+        A_Female_01_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_01_Attack_Cue"
+        A_Female_02_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_02_Attack_Cue"
+        A_Female_03_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_03_Attack_Cue"
+        A_Female_04_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_04_Attack_Cue"
+        A_Female_05_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_05_Attack_Cue"
+        A_Female_06_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_06_Attack_Cue"
+        A_Female_07_Attack = "NanosWorld/Characters/Common/Audios/Attack/A_Female_07_Attack_Cue"
 
-        A_Male_01_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_01_BattleShout_Cue"
-        A_Male_02_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_02_BattleShout_Cue"
-        A_Male_03_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_03_BattleShout_Cue"
-        A_Male_04_BattleShout = "Characters/Common/Audios/BattleShout/A_Male_04_BattleShout_Cue"
+        A_Male_01_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Male_01_BattleShout_Cue"
+        A_Male_02_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Male_02_BattleShout_Cue"
+        A_Male_03_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Male_03_BattleShout_Cue"
+        A_Male_04_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Male_04_BattleShout_Cue"
 
-        A_Female_01_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_01_BattleShout_Cue"
-        A_Female_02_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_02_BattleShout_Cue"
-        A_Female_03_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_03_BattleShout_Cue"
-        A_Female_04_BattleShout = "Characters/Common/Audios/BattleShout/A_Female_04_BattleShout_Cue"
+        A_Female_01_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Female_01_BattleShout_Cue"
+        A_Female_02_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Female_02_BattleShout_Cue"
+        A_Female_03_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Female_03_BattleShout_Cue"
+        A_Female_04_BattleShout = "NanosWorld/Characters/Common/Audios/BattleShout/A_Female_04_BattleShout_Cue"
 
-        A_Wilhelm_Scream = "Characters/Common/Audios/Scream/A_Wilhelm_Scream_Cue"
+        A_Wilhelm_Scream = "NanosWorld/Characters/Common/Audios/Scream/A_Wilhelm_Scream_Cue"
 
-        A_Whoosh = "Characters/Common/Audios/Actions/A_Whoosh_Cue"
-        A_WhiteNoise = "Effects/Sounds/A_WhiteNoise"
+        A_Whoosh = "NanosWorld/Characters/Common/Audios/Actions/A_Whoosh_Cue"
+        A_WhiteNoise = "NanosWorld/Effects/Sounds/A_WhiteNoise"
 
-        A_Male_01_Cough = "Characters/Common/Audios/Cough/A_Male_01_Cough_Cue"
-        A_Male_02_Cough = "Characters/Common/Audios/Cough/A_Male_02_Cough_Cue"
-        A_Male_03_Cough = "Characters/Common/Audios/Cough/A_Male_03_Cough_Cue"
+        A_Male_01_Cough = "NanosWorld/Characters/Common/Audios/Cough/A_Male_01_Cough_Cue"
+        A_Male_02_Cough = "NanosWorld/Characters/Common/Audios/Cough/A_Male_02_Cough_Cue"
+        A_Male_03_Cough = "NanosWorld/Characters/Common/Audios/Cough/A_Male_03_Cough_Cue"
 
-        A_Female_Cough = "Characters/Common/Audios/Cough/A_Female_Cough_Cu"
+        A_Female_Cough = "NanosWorld/Characters/Common/Audios/Cough/A_Female_Cough_Cu"
 
-        A_Male_01_Cry = "Characters/Common/Audios/Cry/A_Male_01_Cry_Cue"
-        A_Male_02_Cry = "Characters/Common/Audios/Cry/A_Male_02_Cry_Cue"
-        A_Male_03_Cry = "Characters/Common/Audios/Cry/A_Male_03_Cry_Cue"
+        A_Male_01_Cry = "NanosWorld/Characters/Common/Audios/Cry/A_Male_01_Cry_Cue"
+        A_Male_02_Cry = "NanosWorld/Characters/Common/Audios/Cry/A_Male_02_Cry_Cue"
+        A_Male_03_Cry = "NanosWorld/Characters/Common/Audios/Cry/A_Male_03_Cry_Cue"
 
-        A_Female_Cry = "Characters/Common/Audios/Cry/A_Female_Cry_Cue"
+        A_Female_Cry = "NanosWorld/Characters/Common/Audios/Cry/A_Female_Cry_Cue"
 
-        A_Male_01_Effort = "Characters/Common/Audios/Effort/A_Male_01_Effort_Cue"
-        A_Male_02_Effort = "Characters/Common/Audios/Effort/A_Male_02_Effort_Cue"
-        A_Male_03_Effort = "Characters/Common/Audios/Effort/A_Male_03_Effort_Cue"
-        A_Male_04_Effort = "Characters/Common/Audios/Effort/A_Male_04_Effort_Cue"
-        A_Male_05_Effort = "Characters/Common/Audios/Effort/A_Male_05_Effort_Cue"
-        A_Male_06_Effort = "Characters/Common/Audios/Effort/A_Male_06_Effort_Cue"
-        A_Male_07_Effort = "Characters/Common/Audios/Effort/A_Male_07_Effort_Cue"
-        A_Male_08_Effort = "Characters/Common/Audios/Effort/A_Male_08_Effort_Cue"
+        A_Male_01_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_01_Effort_Cue"
+        A_Male_02_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_02_Effort_Cue"
+        A_Male_03_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_03_Effort_Cue"
+        A_Male_04_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_04_Effort_Cue"
+        A_Male_05_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_05_Effort_Cue"
+        A_Male_06_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_06_Effort_Cue"
+        A_Male_07_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_07_Effort_Cue"
+        A_Male_08_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Male_08_Effort_Cue"
 
-        A_Female_01_Effort = "Characters/Common/Audios/Effort/A_Female_01_Effort_Cue"
-        A_Female_02_Effort = "Characters/Common/Audios/Effort/A_Female_02_Effort_Cue"
-        A_Female_03_Effort = "Characters/Common/Audios/Effort/A_Female_03_Effort_Cue"
-        A_Female_04_Effort = "Characters/Common/Audios/Effort/A_Female_04_Effort_Cue"
-        A_Female_05_Effort = "Characters/Common/Audios/Effort/A_Female_05_Effort_Cue"
-        A_Female_06_Effort = "Characters/Common/Audios/Effort/A_Female_06_Effort_Cue"
-        A_Female_07_Effort = "Characters/Common/Audios/Effort/A_Female_07_Effort_Cue"
-        A_Female_08_Effort = "Characters/Common/Audios/Effort/A_Female_08_Effort_Cue"
+        A_Female_01_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_01_Effort_Cue"
+        A_Female_02_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_02_Effort_Cue"
+        A_Female_03_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_03_Effort_Cue"
+        A_Female_04_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_04_Effort_Cue"
+        A_Female_05_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_05_Effort_Cue"
+        A_Female_06_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_06_Effort_Cue"
+        A_Female_07_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_07_Effort_Cue"
+        A_Female_08_Effort = "NanosWorld/Characters/Common/Audios/Effort/A_Female_08_Effort_Cue"
 
-        A_Male_Breath_Pant_Cue = "Characters/Common/Audios/Breath/A_Male_Breath_Pant_Cue"
-        A_Male_Breath_Quick_Cue = "Characters/Common/Audios/Breath/A_Male_Breath_Quick_Cue"
-        A_Male_Breath_Fast_Cue = "Characters/Common/Audios/Breath/A_Male_Breath_Fast_Cue"
+        A_Male_Breath_Pant_Cue = "NanosWorld/Characters/Common/Audios/Breath/A_Male_Breath_Pant_Cue"
+        A_Male_Breath_Quick_Cue = "NanosWorld/Characters/Common/Audios/Breath/A_Male_Breath_Quick_Cue"
+        A_Male_Breath_Fast_Cue = "NanosWorld/Characters/Common/Audios/Breath/A_Male_Breath_Fast_Cue"
 
-        A_VR_Click_01 = "Effects/VR/A_VR_Click_01"
-        A_VR_Click_02 = "Effects/VR/A_VR_Click_02"
-        A_VR_Click_03 = "Effects/VR/A_VR_Click_03"
-        A_VR_Close = "Effects/VR/A_VR_Close"
-        A_VR_Confirm = "Effects/VR/A_VR_Confirm"
-        A_VR_Grab = "Effects/VR/A_VR_Grab"
-        A_VR_Ungrab = "Effects/VR/A_VR_Ungrab"
-        A_VR_Negative = "Effects/VR/A_VR_Negative"
-        A_VR_Open = "Effects/VR/A_VR_Open"
-        A_VR_Teleport = "Effects/VR/A_VR_Teleport"
-        A_VR_Object_Grabbed_Loop = "Effects/VR/A_VR_Object_Grabbed_Loop"
-        A_VR_WorldMove_Loop_01 = "Effects/VR/A_VR_WorldMove_Loop_01"
-        A_VR_WorldMove_Loop_02 = "Effects/VR/A_VR_WorldMove_Loop_02"
+        A_VR_Click_01 = "NanosWorld/Effects/VR/A_VR_Click_01"
+        A_VR_Click_02 = "NanosWorld/Effects/VR/A_VR_Click_02"
+        A_VR_Click_03 = "NanosWorld/Effects/VR/A_VR_Click_03"
+        A_VR_Close = "NanosWorld/Effects/VR/A_VR_Close"
+        A_VR_Confirm = "NanosWorld/Effects/VR/A_VR_Confirm"
+        A_VR_Grab = "NanosWorld/Effects/VR/A_VR_Grab"
+        A_VR_Ungrab = "NanosWorld/Effects/VR/A_VR_Ungrab"
+        A_VR_Negative = "NanosWorld/Effects/VR/A_VR_Negative"
+        A_VR_Open = "NanosWorld/Effects/VR/A_VR_Open"
+        A_VR_Teleport = "NanosWorld/Effects/VR/A_VR_Teleport"
+        A_VR_Object_Grabbed_Loop = "NanosWorld/Effects/VR/A_VR_Object_Grabbed_Loop"
+        A_VR_WorldMove_Loop_01 = "NanosWorld/Effects/VR/A_VR_WorldMove_Loop_01"
+        A_VR_WorldMove_Loop_02 = "NanosWorld/Effects/VR/A_VR_WorldMove_Loop_02"
 
-        A_Lever_01 = "Effects/Sounds/Buttons/A_Lever_01_Cue"
-        A_Lever_02 = "Effects/Sounds/Buttons/A_Lever_02_Cue"
-        A_Switch_Button_01 = "Effects/Sounds/Buttons/A_Switch_Button_01_Cue"
-        A_Switch_Button_02 = "Effects/Sounds/Buttons/A_Switch_Button_02_Cue"
-        A_Switch_Button_03 = "Effects/Sounds/Buttons/A_Switch_Button_03_Cue"
-        A_Switch_Button_04 = "Effects/Sounds/Buttons/A_Switch_Button_04_Cue"
+        A_Lever_01 = "NanosWorld/Effects/Sounds/Buttons/A_Lever_01_Cue"
+        A_Lever_02 = "NanosWorld/Effects/Sounds/Buttons/A_Lever_02_Cue"
+        A_Switch_Button_01 = "NanosWorld/Effects/Sounds/Buttons/A_Switch_Button_01_Cue"
+        A_Switch_Button_02 = "NanosWorld/Effects/Sounds/Buttons/A_Switch_Button_02_Cue"
+        A_Switch_Button_03 = "NanosWorld/Effects/Sounds/Buttons/A_Switch_Button_03_Cue"
+        A_Switch_Button_04 = "NanosWorld/Effects/Sounds/Buttons/A_Switch_Button_04_Cue"
 
-        A_Thruster_01 = "Effects/Sounds/Thruster/A_Thruster_01"
-        A_Thruster_02 = "Effects/Sounds/Thruster/A_Thruster_02"
-        A_Thruster_03 = "Effects/Sounds/Thruster/A_Thruster_03"
-        A_Thruster_04 = "Effects/Sounds/Thruster/A_Thruster_04"
+        A_Thruster_01 = "NanosWorld/Effects/Sounds/Thruster/A_Thruster_01"
+        A_Thruster_02 = "NanosWorld/Effects/Sounds/Thruster/A_Thruster_02"
+        A_Thruster_03 = "NanosWorld/Effects/Sounds/Thruster/A_Thruster_03"
+        A_Thruster_04 = "NanosWorld/Effects/Sounds/Thruster/A_Thruster_04"
 
-        A_Compile_Success = "Effects/Sounds/A_Compile_Success"
-        A_Invalid_Action = "Effects/Sounds/A_Invalid_Action"
-        A_Laser_Pull = "Effects/Sounds/A_Laser_Pull"
-        A_Laser_Push = "Effects/Sounds/A_Laser_Push"
-        A_Object_Snaps_To_Grid = "Effects/Sounds/A_Object_Snaps_To_Grid"
-        A_Play_Enter = "Effects/Sounds/A_Play_Enter"
-        A_Player_Eject = "Effects/Sounds/A_Player_Eject"
-        A_Player_Posses = "Effects/Sounds/A_Player_Posses"
-        A_PlayInEditor_End = "Effects/Sounds/A_PlayInEditor_End"
-        A_PlayInEditor_Start = "Effects/Sounds/A_PlayInEditor_Start"
-        A_Simulate_End = "Effects/Sounds/A_Simulate_End"
-        A_Simulate_Enter = "Effects/Sounds/A_Simulate_Enter"
-        A_Simulate_Leave = "Effects/Sounds/A_Simulate_Leave"
-        A_Simulate_Start = "Effects/Sounds/A_Simulate_Start"
-        A_Teleport_Committed = "Effects/Sounds/A_Teleport_Committed"
-        A_Teleport_Mode_Entered = "Effects/Sounds/A_Teleport_Mode_Entered"
+        A_Compile_Success = "NanosWorld/Effects/Sounds/A_Compile_Success"
+        A_Invalid_Action = "NanosWorld/Effects/Sounds/A_Invalid_Action"
+        A_Laser_Pull = "NanosWorld/Effects/Sounds/A_Laser_Pull"
+        A_Laser_Push = "NanosWorld/Effects/Sounds/A_Laser_Push"
+        A_Object_Snaps_To_Grid = "NanosWorld/Effects/Sounds/A_Object_Snaps_To_Grid"
+        A_Play_Enter = "NanosWorld/Effects/Sounds/A_Play_Enter"
+        A_Player_Eject = "NanosWorld/Effects/Sounds/A_Player_Eject"
+        A_Player_Posses = "NanosWorld/Effects/Sounds/A_Player_Posses"
+        A_PlayInEditor_End = "NanosWorld/Effects/Sounds/A_PlayInEditor_End"
+        A_PlayInEditor_Start = "NanosWorld/Effects/Sounds/A_PlayInEditor_Start"
+        A_Simulate_End = "NanosWorld/Effects/Sounds/A_Simulate_End"
+        A_Simulate_Enter = "NanosWorld/Effects/Sounds/A_Simulate_Enter"
+        A_Simulate_Leave = "NanosWorld/Effects/Sounds/A_Simulate_Leave"
+        A_Simulate_Start = "NanosWorld/Effects/Sounds/A_Simulate_Start"
+        A_Teleport_Committed = "NanosWorld/Effects/Sounds/A_Teleport_Committed"
+        A_Teleport_Mode_Entered = "NanosWorld/Effects/Sounds/A_Teleport_Mode_Entered"
 
         # Vehicle
-        A_Vehicle_Skid = "Vehicles/Common/Sounds/A_Vehicle_Skid_Cue"
-        A_Vehicle_Brake = "Vehicles/Common/Sounds/A_Vehicle_Brake_Cue"
-        A_Vehicle_Horn_Bike_01 = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_01"
-        A_Vehicle_Horn_Bike_02 = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_02"
-        A_Vehicle_Horn_Bike_03 = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_03"
-        A_Vehicle_Horn_Dixie = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Dixie"
-        A_Vehicle_Horn_Toyota = "Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Toyota"
-        A_Vehicle_Door = "Vehicles/Common/Sounds/A_Vehicle_Door_Cue"
-        A_Car_Engine_Start = "Vehicles/Common/Sounds/A_Car_Engine_Start_Cue"
-        A_Vehicle_Engine_01 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_01"
-        A_Vehicle_Engine_02 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_02"
-        A_Vehicle_Engine_03 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_03"
-        A_Vehicle_Engine_04 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_04"
-        A_Vehicle_Engine_05 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_05"
-        A_Vehicle_Engine_06 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_06"
-        A_Vehicle_Engine_07 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_07"
-        A_Vehicle_Engine_08 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_08"
-        A_Vehicle_Engine_09 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_09"
-        A_Vehicle_Engine_10 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_10"
-        A_Vehicle_Engine_11 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_11"
-        A_Vehicle_Engine_12 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_12"
-        A_Vehicle_Engine_13 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_13"
-        A_Vehicle_Engine_14 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_14"
-        A_Vehicle_Engine_15 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_15"
-        A_Vehicle_Engine_16 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_16"
-        A_Vehicle_Engine_17 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_17"
-        A_Vehicle_Engine_18 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_18"
-        A_Vehicle_Engine_19 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_19"
-        A_Vehicle_Engine_20 = "Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_20"
+        A_Vehicle_Skid = "NanosWorld/Vehicles/Common/Sounds/A_Vehicle_Skid_Cue"
+        A_Vehicle_Brake = "NanosWorld/Vehicles/Common/Sounds/A_Vehicle_Brake_Cue"
+        A_Vehicle_Horn_Bike_01 = "NanosWorld/Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_01"
+        A_Vehicle_Horn_Bike_02 = "NanosWorld/Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_02"
+        A_Vehicle_Horn_Bike_03 = "NanosWorld/Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Bike_03"
+        A_Vehicle_Horn_Dixie = "NanosWorld/Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Dixie"
+        A_Vehicle_Horn_Toyota = "NanosWorld/Vehicles/Common/Sounds/Horns/A_Vehicle_Horn_Toyota"
+        A_Vehicle_Door = "NanosWorld/Vehicles/Common/Sounds/A_Vehicle_Door_Cue"
+        A_Car_Engine_Start = "NanosWorld/Vehicles/Common/Sounds/A_Car_Engine_Start_Cue"
+        A_Vehicle_Engine_01 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_01"
+        A_Vehicle_Engine_02 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_02"
+        A_Vehicle_Engine_03 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_03"
+        A_Vehicle_Engine_04 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_04"
+        A_Vehicle_Engine_05 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_05"
+        A_Vehicle_Engine_06 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_06"
+        A_Vehicle_Engine_07 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_07"
+        A_Vehicle_Engine_08 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_08"
+        A_Vehicle_Engine_09 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_09"
+        A_Vehicle_Engine_10 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_10"
+        A_Vehicle_Engine_11 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_11"
+        A_Vehicle_Engine_12 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_12"
+        A_Vehicle_Engine_13 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_13"
+        A_Vehicle_Engine_14 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_14"
+        A_Vehicle_Engine_15 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_15"
+        A_Vehicle_Engine_16 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_16"
+        A_Vehicle_Engine_17 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_17"
+        A_Vehicle_Engine_18 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_18"
+        A_Vehicle_Engine_19 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_19"
+        A_Vehicle_Engine_20 = "NanosWorld/Vehicles/Common/Sounds/Engine/A_Vehicle_Engine_20"
 
         # UI
-        A_Button_Click_Cue = "UI/Sounds/A_Button_Click_Cue"
-        A_Button_Click_Down_Cue = "UI/Sounds/A_Button_Click_Down_Cue"
-        A_Button_Click_Up_Cue = "UI/Sounds/A_Button_Click_Up_Cue"
-        A_Button_Hover_Cue = "UI/Sounds/MacKeys/A_MacKeys_Cue"
+        A_Button_Click_Cue = "NanosWorld/UI/Sounds/A_Button_Click_Cue"
+        A_Button_Click_Down_Cue = "NanosWorld/UI/Sounds/A_Button_Click_Down_Cue"
+        A_Button_Click_Up_Cue = "NanosWorld/UI/Sounds/A_Button_Click_Up_Cue"
+        A_Button_Hover_Cue = "NanosWorld/UI/Sounds/MacKeys/A_MacKeys_Cue"
 
         # Effects
-        A_Body_Impact_Cue = "Effects/Sounds/BodyImpact/A_Body_Impact_Cue"
-        A_Punch_Cue = "Effects/Punch/A_Punch_Cue"
-        A_Flesh_Impact_MS = "Effects/Sounds/PhysicsHit/A_Flesh_Impact_MS"
-        A_MetalHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_MetalHeavy_Impact_MS"
-        A_Water_Impact_MS = "Effects/Sounds/PhysicsHit/A_Water_Impact_MS"
-        A_WoodHeavy_Impact_MS = "Effects/Sounds/PhysicsHit/A_WoodHeavy_Impact_MS"
-        A_BigHammer_Impact = "Effects/Sounds/Impact/A_BigHammer_Impact_Cue"
-        A_BigHammer_Land = "Effects/Sounds/Impact/A_BigHammer_Land_Cue"
-        A_Gas_Leak_Burst_01 = "Effects/Gas/A_Gas_Leak_Burst_01"
-        A_Gas_Leak_Loop_01 = "Effects/Gas/A_Gas_Leak_Loop_01"
-        A_Gas_Leak_Loop_02 = "Effects/Gas/A_Gas_Leak_Loop_02"
-        A_Gas_Leak_Loop_03 = "Effects/Gas/A_Gas_Leak_Loop_03"
+        A_Body_Impact_Cue = "NanosWorld/Effects/Sounds/BodyImpact/A_Body_Impact_Cue"
+        A_Punch_Cue = "NanosWorld/Effects/Punch/A_Punch_Cue"
+        A_Flesh_Impact_MS = "NanosWorld/Effects/Sounds/PhysicsHit/A_Flesh_Impact_MS"
+        A_MetalHeavy_Impact_MS = "NanosWorld/Effects/Sounds/PhysicsHit/A_MetalHeavy_Impact_MS"
+        A_Water_Impact_MS = "NanosWorld/Effects/Sounds/PhysicsHit/A_Water_Impact_MS"
+        A_WoodHeavy_Impact_MS = "NanosWorld/Effects/Sounds/PhysicsHit/A_WoodHeavy_Impact_MS"
+        A_Gas_Leak_Burst_01 = "NanosWorld/Effects/Gas/A_Gas_Leak_Burst_01"
+        A_Gas_Leak_Loop_01 = "NanosWorld/Effects/Gas/A_Gas_Leak_Loop_01"
+        A_Gas_Leak_Loop_02 = "NanosWorld/Effects/Gas/A_Gas_Leak_Loop_02"
+        A_Gas_Leak_Loop_03 = "NanosWorld/Effects/Gas/A_Gas_Leak_Loop_03"
+        A_BigHammer_Impact = "NanosWorld/Effects/Sounds/Impact/A_BigHammer_Impact_Cue"
+        A_BigHammer_Land = "NanosWorld/Effects/Sounds/Impact/A_BigHammer_Land_Cue"
 
         # Robot
-        A_Robot_Beep_Whistle = "Effects/Sounds/Robot/A_Robot_Beep_Whistle_Cue"
-        A_Robot_Reaction = "Effects/Sounds/Robot/A_Robot_Reaction_Cue"
-        A_Robot_Shutdown = "Effects/Sounds/Robot/A_Robot_Shutdown_Cue"
-        A_Robot_Sad = "Effects/Sounds/Robot/A_Robot_Sad_Cue"
+        A_Robot_Beep_Whistle = "NanosWorld/Effects/Sounds/Robot/A_Robot_Beep_Whistle_Cue"
+        A_Robot_Reaction = "NanosWorld/Effects/Sounds/Robot/A_Robot_Reaction_Cue"
+        A_Robot_Shutdown = "NanosWorld/Effects/Sounds/Robot/A_Robot_Shutdown_Cue"
+        A_Robot_Sad = "NanosWorld/Effects/Sounds/Robot/A_Robot_Sad_Cue"
 
         # Music
-        A_Baiana_Remix = "Packs/UgandanKnuckles/A_Baiana_Remix"
-        A_Baiana = "Packs/UgandanKnuckles/A_Baiana"
-        A_CoffinMusic = "Packs/Coffin/A_CoffinMusic"
+        A_Baiana_Remix = "NanosWorld/Packs/UgandanKnuckles/A_Baiana_Remix"
+        A_Baiana = "NanosWorld/Packs/UgandanKnuckles/A_Baiana"
+        A_CoffinMusic = "NanosWorld/Packs/Coffin/A_CoffinMusic"
+
 
     # Animations
     [assets.animations]
         # Character Weapons
-        AM_Mannequin_Reload_Pistol = "Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Pistol"
-        AM_Mannequin_Reload_Rifle = "Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Rifle"
-        AM_Mannequin_Reload_Shotgun = "Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Shotgun"
-        AM_Mannequin_Sight_Fire = "Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire"
-        AM_Mannequin_Sight_Fire_Heavy = "Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire_Heavy"
-        A_Mannequin_Sight_Fire_Pistol = "Characters/Common/Animations/Weapons/A_Mannequin_Sight_Fire_Pistol"
+        AM_Mannequin_Reload_Pistol = "NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Pistol"
+        AM_Mannequin_Reload_Rifle = "NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Rifle"
+        AM_Mannequin_Reload_Shotgun = "NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Shotgun"
+        AM_Mannequin_Sight_Fire = "NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire"
+        AM_Mannequin_Sight_Fire_Heavy = "NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire_Heavy"
+        A_Mannequin_Sight_Fire_Pistol = "NanosWorld/Characters/Common/Animations/Weapons/A_Mannequin_Sight_Fire_Pistol"
 
         # Weapons
-        A_DesertEagle_Fire = "Weapons/Pistols/DesertEagle/A_DesertEagle_Fire"
-        A_Glock_Fire = "Weapons/Pistols/Glock/A_Glock_Fire"
-        A_M1911_Fire = "Weapons/Pistols/M1911/A_M1911_Fire"
-        A_Makarov_Fire = "Weapons/Pistols/Makarov/A_Makarov_Fire"
-        A_Lewis_Fire = "Weapons/Rifles/Lewis/A_Lewis_Fire"
-        A_AK47_Fire = "Weapons/Rifles/AK47/A_AK47_Fire"
-        A_AK5C_Fire = "Weapons/Rifles/AK5C/A_AK5C_Fire"
-        A_AK5C_G203_Fire = "Weapons/Rifles/AK5C/A_AK5C_G203_Fire"
-        A_AK74U_Fire = "Weapons/Rifles/AK74U/A_AK74U_Fire"
-        A_AP5_Fire = "Weapons/Rifles/AP5/A_AP5_Fire"
-        A_AP5SD_Fire = "Weapons/Rifles/AP5SD/A_AP5SD_Fire"
-        A_AR4_Fire = "Weapons/Rifles/AR4/A_AR4_Fire"
-        A_ASVal_Fire = "Weapons/Rifles/ASVal/A_ASVal_Fire"
-        A_AWP_Fire = "Weapons/Rifles/AWP/A_AWP_Fire"
-        A_GE3_Fire = "Weapons/Rifles/GE3/A_GE3_Fire"
-        A_GE36_Fire = "Weapons/Rifles/GE36/A_GE36_Fire"
-        A_SA80_Fire = "Weapons/Rifles/SA80/A_SA80_Fire"
-        A_Ithaca37_Fire = "Weapons/Shotguns/Ithaca37/A_Ithaca37_Fire"
-        A_Moss500_Fire = "Weapons/Shotguns/Moss500/A_Moss500_Fire"
-        A_Rem870_Fire = "Weapons/Shotguns/Rem870/A_Rem870_Fire"
-        A_SPAS12_Fire = "Weapons/Shotguns/SPAS12/A_SPAS12_Fire"
-        A_SPAS12_Folded_Fire = "Weapons/Shotguns/SPAS12/A_SPAS12_Folded_Fire"
-        A_SMG11_Fire = "Weapons/SMGs/SMG11/A_SMG11_Fire"
-        A_UMP45_Fire = "Weapons/SMGs/UMP45/A_UMP45_Fire"
+        A_DesertEagle_Fire = "NanosWorld/Weapons/Pistols/DesertEagle/A_DesertEagle_Fire"
+        A_Glock_Fire = "NanosWorld/Weapons/Pistols/Glock/A_Glock_Fire"
+        A_M1911_Fire = "NanosWorld/Weapons/Pistols/M1911/A_M1911_Fire"
+        A_Makarov_Fire = "NanosWorld/Weapons/Pistols/Makarov/A_Makarov_Fire"
+        A_Lewis_Fire = "NanosWorld/Weapons/Rifles/Lewis/A_Lewis_Fire"
+        A_AK47_Fire = "NanosWorld/Weapons/Rifles/AK47/A_AK47_Fire"
+        A_AK5C_Fire = "NanosWorld/Weapons/Rifles/AK5C/A_AK5C_Fire"
+        A_AK5C_G203_Fire = "NanosWorld/Weapons/Rifles/AK5C/A_AK5C_G203_Fire"
+        A_AK74U_Fire = "NanosWorld/Weapons/Rifles/AK74U/A_AK74U_Fire"
+        A_AP5_Fire = "NanosWorld/Weapons/Rifles/AP5/A_AP5_Fire"
+        A_AP5SD_Fire = "NanosWorld/Weapons/Rifles/AP5SD/A_AP5SD_Fire"
+        A_AR4_Fire = "NanosWorld/Weapons/Rifles/AR4/A_AR4_Fire"
+        A_ASVal_Fire = "NanosWorld/Weapons/Rifles/ASVal/A_ASVal_Fire"
+        A_AWP_Fire = "NanosWorld/Weapons/Rifles/AWP/A_AWP_Fire"
+        A_GE3_Fire = "NanosWorld/Weapons/Rifles/GE3/A_GE3_Fire"
+        A_GE36_Fire = "NanosWorld/Weapons/Rifles/GE36/A_GE36_Fire"
+        A_SA80_Fire = "NanosWorld/Weapons/Rifles/SA80/A_SA80_Fire"
+        A_Ithaca37_Fire = "NanosWorld/Weapons/Shotguns/Ithaca37/A_Ithaca37_Fire"
+        A_Moss500_Fire = "NanosWorld/Weapons/Shotguns/Moss500/A_Moss500_Fire"
+        A_Rem870_Fire = "NanosWorld/Weapons/Shotguns/Rem870/A_Rem870_Fire"
+        A_SPAS12_Fire = "NanosWorld/Weapons/Shotguns/SPAS12/A_SPAS12_Fire"
+        A_SPAS12_Folded_Fire = "NanosWorld/Weapons/Shotguns/SPAS12/A_SPAS12_Folded_Fire"
+        A_SMG11_Fire = "NanosWorld/Weapons/SMGs/SMG11/A_SMG11_Fire"
+        A_UMP45_Fire = "NanosWorld/Weapons/SMGs/UMP45/A_UMP45_Fire"
 
         # Taunts
-        A_Mannequin_Taunt_YouHere = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_YouHere"
-        A_Mannequin_Taunt_Bow = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Bow"
-        A_Mannequin_Taunt_ButtSlap_01 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ButtSlap_01"
-        A_Mannequin_Taunt_ButtSlap_02 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ButtSlap_02"
-        A_Mannequin_Taunt_CallMe = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_CallMe"
-        A_Mannequin_Taunt_Chop = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Chop"
-        A_Mannequin_Taunt_Clap = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Clap"
-        A_Mannequin_Taunt_ComeAtMe = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ComeAtMe"
-        A_Mannequin_Taunt_CrossArms = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_CrossArms"
-        A_Mannequin_Taunt_Crutch = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Crutch"
-        A_Mannequin_Taunt_Dab = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Dab"
-        A_Mannequin_Taunt_DustOff = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_DustOff"
-        A_Mannequin_Taunt_EarCom = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_EarCom"
-        A_Mannequin_Taunt_EyesOnYou = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_EyesOnYou"
-        A_Mannequin_Taunt_FacePalm = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FacePalm"
-        A_Mannequin_Taunt_FingerGun = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FingerGun"
-        A_Mannequin_Taunt_FistCrush = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FistCrush"
-        A_Mannequin_Taunt_FistPump_01 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FistPump_01"
-        A_Mannequin_Taunt_FistPump_02 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FistPump_02"
-        A_Mannequin_Taunt_Flex_01 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Flex_01"
-        A_Mannequin_Taunt_Flex_02 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Flex_02"
-        A_Mannequin_Taunt_Flex_03 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Flex_03"
-        A_Mannequin_Taunt_Halt = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Halt"
-        A_Mannequin_Taunt_HandOnHips = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_HandOnHips"
-        A_Mannequin_Taunt_HandPunch = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_HandPunch"
-        A_Mannequin_Taunt_Heart = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Heart"
-        A_Mannequin_Taunt_Jog = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Jog"
-        A_Mannequin_Taunt_Jojo = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Jojo"
-        A_Mannequin_Taunt_Knees = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Knees"
-        A_Mannequin_Taunt_Kunfu = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Kunfu"
-        A_Mannequin_Taunt_NeckSlit = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_NeckSlit"
-        A_Mannequin_Taunt_OK = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_OK"
-        A_Mannequin_Taunt_Point = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Point"
-        A_Mannequin_Taunt_Ponder = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Ponder"
-        A_Mannequin_Taunt_Praise = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Praise"
-        A_Mannequin_Taunt_Salute_01 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Salute_01"
-        A_Mannequin_Taunt_Salute_02 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Salute_02"
-        A_Mannequin_Taunt_Savage = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Savage"
-        A_Mannequin_Taunt_Shoosh = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Shoosh"
-        A_Mannequin_Taunt_Shrug = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Shrug"
-        A_Mannequin_Taunt_Streach = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Streach"
-        A_Mannequin_Taunt_Sweat = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Sweat"
-        A_Mannequin_Taunt_TheHeavins = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_TheHeavins"
-        A_Mannequin_Taunt_ThumbsDown = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsDown"
-        A_Mannequin_Taunt_ThumbsOnEars = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsOnEars"
-        A_Mannequin_Taunt_ThumbsUp_01 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsUp_01"
-        A_Mannequin_Taunt_ThumbsUp_02 = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsUp_02"
-        A_Mannequin_Taunt_Victory = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Victory"
-        A_Mannequin_Taunt_Watch = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Watch"
-        A_Mannequin_Taunt_Wave = "Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Wave"
+        A_Mannequin_Taunt_YouHere = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_YouHere"
+        A_Mannequin_Taunt_Bow = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Bow"
+        A_Mannequin_Taunt_ButtSlap_01 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ButtSlap_01"
+        A_Mannequin_Taunt_ButtSlap_02 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ButtSlap_02"
+        A_Mannequin_Taunt_CallMe = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_CallMe"
+        A_Mannequin_Taunt_Chop = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Chop"
+        A_Mannequin_Taunt_Clap = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Clap"
+        A_Mannequin_Taunt_ComeAtMe = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ComeAtMe"
+        A_Mannequin_Taunt_CrossArms = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_CrossArms"
+        A_Mannequin_Taunt_Crutch = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Crutch"
+        A_Mannequin_Taunt_Dab = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Dab"
+        A_Mannequin_Taunt_DustOff = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_DustOff"
+        A_Mannequin_Taunt_EarCom = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_EarCom"
+        A_Mannequin_Taunt_EyesOnYou = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_EyesOnYou"
+        A_Mannequin_Taunt_FacePalm = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FacePalm"
+        A_Mannequin_Taunt_FingerGun = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FingerGun"
+        A_Mannequin_Taunt_FistCrush = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FistCrush"
+        A_Mannequin_Taunt_FistPump_01 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FistPump_01"
+        A_Mannequin_Taunt_FistPump_02 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_FistPump_02"
+        A_Mannequin_Taunt_Flex_01 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Flex_01"
+        A_Mannequin_Taunt_Flex_02 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Flex_02"
+        A_Mannequin_Taunt_Flex_03 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Flex_03"
+        A_Mannequin_Taunt_Halt = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Halt"
+        A_Mannequin_Taunt_HandOnHips = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_HandOnHips"
+        A_Mannequin_Taunt_HandPunch = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_HandPunch"
+        A_Mannequin_Taunt_Heart = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Heart"
+        A_Mannequin_Taunt_Jog = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Jog"
+        A_Mannequin_Taunt_Jojo = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Jojo"
+        A_Mannequin_Taunt_Knees = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Knees"
+        A_Mannequin_Taunt_Kunfu = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Kunfu"
+        A_Mannequin_Taunt_NeckSlit = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_NeckSlit"
+        A_Mannequin_Taunt_OK = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_OK"
+        A_Mannequin_Taunt_Point = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Point"
+        A_Mannequin_Taunt_Ponder = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Ponder"
+        A_Mannequin_Taunt_Praise = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Praise"
+        A_Mannequin_Taunt_Salute_01 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Salute_01"
+        A_Mannequin_Taunt_Salute_02 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Salute_02"
+        A_Mannequin_Taunt_Savage = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Savage"
+        A_Mannequin_Taunt_Shoosh = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Shoosh"
+        A_Mannequin_Taunt_Shrug = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Shrug"
+        A_Mannequin_Taunt_Streach = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Streach"
+        A_Mannequin_Taunt_Sweat = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Sweat"
+        A_Mannequin_Taunt_TheHeavins = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_TheHeavins"
+        A_Mannequin_Taunt_ThumbsDown = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsDown"
+        A_Mannequin_Taunt_ThumbsOnEars = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsOnEars"
+        A_Mannequin_Taunt_ThumbsUp_01 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsUp_01"
+        A_Mannequin_Taunt_ThumbsUp_02 = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_ThumbsUp_02"
+        A_Mannequin_Taunt_Victory = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Victory"
+        A_Mannequin_Taunt_Watch = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Watch"
+        A_Mannequin_Taunt_Wave = "NanosWorld/Characters/Common/Animations/Taunts/A_Mannequin_Taunt_Wave"
 
         # Generic NPC
-        A_Mannequin_Body_Stretch_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_01"
-        A_Mannequin_Body_Stretch_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_02"
-        A_Mannequin_Body_Stretch_03 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_03"
-        A_Mannequin_Body_Stretch_04 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_04"
-        A_Mannequin_Bow_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Bow_01"
-        A_Mannequin_Bow_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Bow_02"
-        A_Mannequin_Brush_Of_Dust = "Characters/Common/Animations/GenericNPC/A_Mannequin_Brush_Of_Dust"
-        A_Mannequin_Call_Guards = "Characters/Common/Animations/GenericNPC/A_Mannequin_Call_Guards"
-        A_Mannequin_Call_Someone_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Call_Someone_01"
-        A_Mannequin_Call_Someone_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Call_Someone_02"
-        A_Mannequin_Check_Equipment_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Check_Equipment_01"
-        A_Mannequin_Check_Equipment_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Check_Equipment_02"
-        A_Mannequin_Check_Equipment_03 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Check_Equipment_03"
-        A_Mannequin_Clap_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Clap_01"
-        A_Mannequin_Clap_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Clap_02"
-        A_Mannequin_Crowd_Cheer = "Characters/Common/Animations/GenericNPC/A_Mannequin_Crowd_Cheer"
-        A_Mannequin_Deep_Breath_Sad = "Characters/Common/Animations/GenericNPC/A_Mannequin_Deep_Breath_Sad"
-        A_Mannequin_Don_t_Know_2 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Don_t_Know_2"
-        A_Mannequin_Dont_Know = "Characters/Common/Animations/GenericNPC/A_Mannequin_Dont_Know"
-        A_Mannequin_Drunk_Talk = "Characters/Common/Animations/GenericNPC/A_Mannequin_Drunk_Talk"
-        A_Mannequin_Exercise_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Exercise_01"
-        A_Mannequin_Exercise_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Exercise_02"
-        A_Mannequin_Exercise_03 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Exercise_03"
-        A_Mannequin_Fart = "Characters/Common/Animations/GenericNPC/A_Mannequin_Fart"
-        A_Mannequin_Fixing_Something = "Characters/Common/Animations/GenericNPC/A_Mannequin_Fixing_Something"
-        A_Mannequin_Get_Here_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Get_Here_01"
-        A_Mannequin_Get_Here_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Get_Here_02"
-        A_Mannequin_Go_Away = "Characters/Common/Animations/GenericNPC/A_Mannequin_Go_Away"
-        A_Mannequin_Deal = "Characters/Common/Animations/GenericNPC/A_Mannequin_Deal"
-        A_Mannequin_Head_Scratch = "Characters/Common/Animations/GenericNPC/A_Mannequin_Head_Scratch"
-        A_Mannequin_Hold_Baby = "Characters/Common/Animations/GenericNPC/A_Mannequin_Hold_Baby"
-        A_Mannequin_Idle_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_01"
-        A_Mannequin_Idle_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_02"
-        A_Mannequin_Idle_03 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_03"
-        A_Mannequin_Idle_04 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_04"
-        A_Mannequin_Idle_05 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_05"
-        A_Mannequin_Idle_06 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_06"
-        A_Mannequin_Itching_Body = "Characters/Common/Animations/GenericNPC/A_Mannequin_Itching_Body"
-        A_Mannequin_Laugh = "Characters/Common/Animations/GenericNPC/A_Mannequin_Laugh"
-        A_Mannequin_Legs_Relax = "Characters/Common/Animations/GenericNPC/A_Mannequin_Legs_Relax"
-        A_Mannequin_Lets_Go = "Characters/Common/Animations/GenericNPC/A_Mannequin_Lets_Go"
-        A_Mannequin_Look_Around = "Characters/Common/Animations/GenericNPC/A_Mannequin_Look_Around"
-        A_Mannequin_No = "Characters/Common/Animations/GenericNPC/A_Mannequin_No"
-        A_Mannequin_Playing_Guitar = "Characters/Common/Animations/GenericNPC/A_Mannequin_Playing_Guitar"
-        A_Mannequin_Salute = "Characters/Common/Animations/GenericNPC/A_Mannequin_Salute"
-        A_Mannequin_Shout = "Characters/Common/Animations/GenericNPC/A_Mannequin_Shout"
-        A_Mannequin_Show_Bicep = "Characters/Common/Animations/GenericNPC/A_Mannequin_Show_Bicep"
-        A_Mannequin_Showing_Goods_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Showing_Goods_01"
-        A_Mannequin_Showing_Goods_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Showing_Goods_02"
-        A_Mannequin_Sit_Bench = "Characters/Common/Animations/GenericNPC/A_Mannequin_Sit_Bench"
-        A_Mannequin_Smith_Working = "Characters/Common/Animations/GenericNPC/A_Mannequin_Smith_Working"
-        A_Mannequin_Sneeze = "Characters/Common/Animations/GenericNPC/A_Mannequin_Sneeze"
-        A_Mannequin_Stinky = "Characters/Common/Animations/GenericNPC/A_Mannequin_Stinky"
-        A_Mannequin_Take_Drink = "Characters/Common/Animations/GenericNPC/A_Mannequin_Take_Drink"
-        A_Mannequin_Take_From_Floor = "Characters/Common/Animations/GenericNPC/A_Mannequin_Take_From_Floor"
-        A_Mannequin_Take_From_Table = "Characters/Common/Animations/GenericNPC/A_Mannequin_Take_From_Table"
-        A_Mannequin_Talking_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Talking_01"
-        A_Mannequin_Talking_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Talking_02"
-        A_Mannequin_Talking_03 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Talking_03"
-        A_Mannequin_Thinking = "Characters/Common/Animations/GenericNPC/A_Mannequin_Thinking"
-        A_Mannequin_Throw_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Throw_01"
-        A_Mannequin_Throw_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Throw_02"
-        A_Mannequin_Triumph = "Characters/Common/Animations/GenericNPC/A_Mannequin_Triumph"
-        A_Mannequin_Washing_Window = "Characters/Common/Animations/GenericNPC/A_Mannequin_Washing_Window"
-        A_Mannequin_Watching_Somewhere = "Characters/Common/Animations/GenericNPC/A_Mannequin_Watching_Somewhere"
-        A_Mannequin_Wave_01 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Wave_01"
-        A_Mannequin_Wave_02 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Wave_02"
-        A_Mannequin_Wave_03 = "Characters/Common/Animations/GenericNPC/A_Mannequin_Wave_03"
+        A_Mannequin_Body_Stretch_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_01"
+        A_Mannequin_Body_Stretch_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_02"
+        A_Mannequin_Body_Stretch_03 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_03"
+        A_Mannequin_Body_Stretch_04 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Body_Stretch_04"
+        A_Mannequin_Bow_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Bow_01"
+        A_Mannequin_Bow_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Bow_02"
+        A_Mannequin_Brush_Of_Dust = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Brush_Of_Dust"
+        A_Mannequin_Call_Guards = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Call_Guards"
+        A_Mannequin_Call_Someone_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Call_Someone_01"
+        A_Mannequin_Call_Someone_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Call_Someone_02"
+        A_Mannequin_Check_Equipment_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Check_Equipment_01"
+        A_Mannequin_Check_Equipment_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Check_Equipment_02"
+        A_Mannequin_Check_Equipment_03 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Check_Equipment_03"
+        A_Mannequin_Clap_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Clap_01"
+        A_Mannequin_Clap_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Clap_02"
+        A_Mannequin_Crowd_Cheer = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Crowd_Cheer"
+        A_Mannequin_Deep_Breath_Sad = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Deep_Breath_Sad"
+        A_Mannequin_Don_t_Know_2 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Don_t_Know_2"
+        A_Mannequin_Dont_Know = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Dont_Know"
+        A_Mannequin_Drunk_Talk = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Drunk_Talk"
+        A_Mannequin_Exercise_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Exercise_01"
+        A_Mannequin_Exercise_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Exercise_02"
+        A_Mannequin_Exercise_03 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Exercise_03"
+        A_Mannequin_Fart = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Fart"
+        A_Mannequin_Fixing_Something = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Fixing_Something"
+        A_Mannequin_Get_Here_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Get_Here_01"
+        A_Mannequin_Get_Here_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Get_Here_02"
+        A_Mannequin_Go_Away = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Go_Away"
+        A_Mannequin_Deal = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Deal"
+        A_Mannequin_Head_Scratch = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Head_Scratch"
+        A_Mannequin_Hold_Baby = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Hold_Baby"
+        A_Mannequin_Idle_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_01"
+        A_Mannequin_Idle_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_02"
+        A_Mannequin_Idle_03 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_03"
+        A_Mannequin_Idle_04 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_04"
+        A_Mannequin_Idle_05 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_05"
+        A_Mannequin_Idle_06 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Idle_06"
+        A_Mannequin_Itching_Body = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Itching_Body"
+        A_Mannequin_Laugh = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Laugh"
+        A_Mannequin_Legs_Relax = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Legs_Relax"
+        A_Mannequin_Lets_Go = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Lets_Go"
+        A_Mannequin_Look_Around = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Look_Around"
+        A_Mannequin_No = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_No"
+        A_Mannequin_Playing_Guitar = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Playing_Guitar"
+        A_Mannequin_Salute = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Salute"
+        A_Mannequin_Shout = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Shout"
+        A_Mannequin_Show_Bicep = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Show_Bicep"
+        A_Mannequin_Showing_Goods_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Showing_Goods_01"
+        A_Mannequin_Showing_Goods_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Showing_Goods_02"
+        A_Mannequin_Sit_Bench = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Sit_Bench"
+        A_Mannequin_Smith_Working = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Smith_Working"
+        A_Mannequin_Sneeze = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Sneeze"
+        A_Mannequin_Stinky = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Stinky"
+        A_Mannequin_Take_Drink = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Take_Drink"
+        A_Mannequin_Take_From_Floor = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Take_From_Floor"
+        A_Mannequin_Take_From_Table = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Take_From_Table"
+        A_Mannequin_Talking_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Talking_01"
+        A_Mannequin_Talking_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Talking_02"
+        A_Mannequin_Talking_03 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Talking_03"
+        A_Mannequin_Thinking = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Thinking"
+        A_Mannequin_Throw_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Throw_01"
+        A_Mannequin_Throw_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Throw_02"
+        A_Mannequin_Triumph = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Triumph"
+        A_Mannequin_Washing_Window = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Washing_Window"
+        A_Mannequin_Watching_Somewhere = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Watching_Somewhere"
+        A_Mannequin_Wave_01 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Wave_01"
+        A_Mannequin_Wave_02 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Wave_02"
+        A_Mannequin_Wave_03 = "NanosWorld/Characters/Common/Animations/GenericNPC/A_Mannequin_Wave_03"
 
-        AM_Mannequin_Box = "Characters/Common/Animations/Poses/AM_Mannequin_Box"
-        AM_Mannequin_Barrel_01 = "Characters/Common/Animations/Poses/AM_Mannequin_Barrel_01"
-        AM_Mannequin_Barrel_02 = "Characters/Common/Animations/Poses/AM_Mannequin_Barrel_02"
-        AM_Mannequin_Equip = "Characters/Common/Animations/Actions/AM_Mannequin_Equip"
-        AM_Mannequin_Unequip = "Characters/Common/Animations/Actions/AM_Mannequin_Unequip"
-        AM_Mannequin_DoorOpen_01 = "Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_01"
-        AM_Mannequin_DoorOpen_02 = "Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_02"
-        AM_Mannequin_DoorOpen_03 = "Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_03"
-        AM_Mannequin_DoorOpen_04 = "Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_04"
+        AM_Mannequin_Box = "NanosWorld/Characters/Common/Animations/Poses/AM_Mannequin_Box"
+        AM_Mannequin_Barrel_01 = "NanosWorld/Characters/Common/Animations/Poses/AM_Mannequin_Barrel_01"
+        AM_Mannequin_Barrel_02 = "NanosWorld/Characters/Common/Animations/Poses/AM_Mannequin_Barrel_02"
+        AM_Mannequin_Equip = "NanosWorld/Characters/Common/Animations/Actions/AM_Mannequin_Equip"
+        AM_Mannequin_Unequip = "NanosWorld/Characters/Common/Animations/Actions/AM_Mannequin_Unequip"
+        AM_Mannequin_DoorOpen_01 = "NanosWorld/Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_01"
+        AM_Mannequin_DoorOpen_02 = "NanosWorld/Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_02"
+        AM_Mannequin_DoorOpen_03 = "NanosWorld/Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_03"
+        AM_Mannequin_DoorOpen_04 = "NanosWorld/Characters/Common/Animations/Actions/AM_Mannequin_DoorOpen_04"
 
-        AM_Mannequin_Melee_Stab_Attack = "Characters/Common/Animations/Melee/AM_Mannequin_Melee_Stab_Attack"
-        AM_Mannequin_Melee_Slash_Attack = "Characters/Common/Animations/Melee/AM_Mannequin_Melee_Slash_Attack"
-        AM_Mannequin_Melee_Bayonet_Stab_Attack = "Characters/Common/Animations/Melee/AM_Mannequin_Melee_Bayonet_Stab_Attack"
-        AM_Mannequin_Torch_Attack = "Characters/Common/Animations/Melee/AM_Mannequin_Torch_Attack"
+        AM_Mannequin_Melee_Stab_Attack = "NanosWorld/Characters/Common/Animations/Melee/AM_Mannequin_Melee_Stab_Attack"
+        AM_Mannequin_Melee_Slash_Attack = "NanosWorld/Characters/Common/Animations/Melee/AM_Mannequin_Melee_Slash_Attack"
+        AM_Mannequin_Melee_Slash_Outward_Attack = "NanosWorld/Characters/Common/Animations/Melee/AM_Mannequin_Melee_Slash_Outward_Attack"
+        AM_Mannequin_Melee_Bayonet_Stab_Attack = "NanosWorld/Characters/Common/Animations/Melee/AM_Mannequin_Melee_Bayonet_Stab_Attack"
+        AM_Mannequin_Torch_Attack = "NanosWorld/Characters/Common/Animations/Melee/AM_Mannequin_Torch_Attack"
 
-        AM_Mannequin_CoffinDance = "Packs/Coffin/AM_Mannequin_CoffinDance"
-
-        # Zombies
-        A_Zombie_Attack_Arms_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Attack_Arms_Loop"
-        A_Zombie_Attack_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Attack_Loop"
-        A_Zombie_Chase_KnockBack_Chase = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Chase_KnockBack_Chase"
-        A_Zombie_Chase_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Chase_Loop"
-        A_Zombie_Crawl_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Crawl_Loop"
-        A_Zombie_Death_Back_Mid = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Death_Back_Mid"
-        A_Zombie_Death_Hit_Back = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Death_Hit_Back"
-        A_Zombie_HyperAttack_Idle_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperAttack_Idle_Loop"
-        A_Zombie_HyperAttack_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperAttack_Loop"
-        A_Zombie_HyperChase_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperChase_Loop"
-        A_Zombie_Idle_01 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_01"
-        A_Zombie_Idle_01_To_Stand = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_01_To_Stand"
-        A_Zombie_Idle_02 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_02"
-        A_Zombie_OnFire = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_OnFire"
-        A_Zombie_Reach_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Reach_Loop"
-        A_Zombie_Stand_To_Attack = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Attack"
-        A_Zombie_Stand_To_Chase = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Chase"
-        A_Zombie_Stand_To_Crawl = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Crawl"
-        A_Zombie_Stand_To_Idle_01 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Idle_01"
-        A_Zombie_Stand_Walk_F = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_Walk_F"
-        A_Zombie_Turn_L_45_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_L_45_Loop"
-        A_Zombie_Turn_L_90 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_L_90"
-        A_Zombie_Turn_R_45_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_R_45_Loop"
-        A_Zombie_Turn_R_90 = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_R_90"
-        A_Zombie_Walk_F_KnockBack_Walk = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Walk_F_KnockBack_Walk"
-        A_Zombie_Walk_F_Loop = "Characters/Common/Animations/Zombie/InPlace/A_Zombie_Walk_F_Loop"
-
-        A_Zombie_Chase_KnockBack_Chase_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Chase_KnockBack_Chase"
-        A_Zombie_Chase_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Chase_Loop"
-        A_Zombie_Crawl_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Crawl_Loop"
-        A_Zombie_Death_Back_Mid_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Death_Back_Mid"
-        A_Zombie_Death_Hit_Back_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Death_Hit_Back"
-        A_Zombie_HyperChase_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_HyperChase_Loop"
-        A_Zombie_OnFire_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_OnFire"
-        A_Zombie_Stand_To_Attack_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Attack"
-        A_Zombie_Stand_To_Chase_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Chase"
-        A_Zombie_Stand_To_Crawl_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Crawl"
-        A_Zombie_Stand_Walk_F_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_Walk_F"
-        A_Zombie_Turn_L_45_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_L_45_Loop"
-        A_Zombie_Turn_L_90_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_L_90"
-        A_Zombie_Turn_R_45_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_R_45_Loop"
-        A_Zombie_Turn_R_90_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_R_90"
-        A_Zombie_Walk_F_KnockBack_Walk_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Walk_F_KnockBack_Walk"
-        A_Zombie_Walk_F_Loop_Root = "Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Walk_F_Loop"
+        AM_Mannequin_CoffinDance = "NanosWorld/Packs/Coffin/AM_Mannequin_CoffinDance"
 
         # BossyEnemy
-        A_Boss_Idle = "Characters/Common/Animations/BossyEnemy/Boss_Idle"
-        A_Boss_ReactionHit_B = "Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_B"
-        A_Boss_ReactionHit_F = "Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_F"
-        A_Boss_ReactionHit_L = "Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_L"
-        A_Boss_ReactionHit_R = "Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_R"
-        A_Boss_Attack_ChargedCombo_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_ChargedCombo_InP"
-        A_Boss_Attack_HandAndSwordSwing_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_HandAndSwordSwing_InP"
-        A_Boss_Attack_Running_Simple_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Running_Simple_InP"
-        A_Boss_Attack_Running_WithAOEBlow_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Running_WithAOEBlow_InP"
-        A_Boss_Attack_Swing_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Swing_InP"
-        A_Boss_Attack_SwingAndSlam_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_SwingAndSlam_InP"
-        A_Boss_Attack_Uppercut_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Uppercut_InP"
-        A_Boss_BattleEntrance_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Boss_BattleEntrance_InP"
-        A_Boss_Parried_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Boss_Parried_InP"
-        A_Boss_Staggered_InP = "Characters/Common/Animations/BossyEnemy/InPlace/Boss_Staggered_InP"
-        A_Boss_Attack_ChargedComboAttack_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_ChargedComboAttack_RM"
-        A_Boss_Attack_HandAndSwordSwing_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_HandAndSwordSwing_RM"
-        A_Boss_Attack_Running_Simple_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Running_Simple_RM"
-        A_Boss_Attack_Running_WithAOEBlow_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Running_WithAOEBlow_RM"
-        A_Boss_Attack_Swing_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Swing_RM"
-        A_Boss_Attack_SwingAndSlam_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_SwingAndSlam_RM"
-        A_Boss_Attack_Uppercut_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Uppercut_RM"
-        A_Boss_BattleEntrance_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Boss_BattleEntrance_RM"
-        A_Boss_Parried_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Boss_Parried_RM"
-        A_Boss_Staggered_RM = "Characters/Common/Animations/BossyEnemy/RootMotion/Boss_Staggered_RM"
+        A_Boss_Idle = "NanosWorld/Characters/Common/Animations/BossyEnemy/Boss_Idle"
+        A_Boss_ReactionHit_B = "NanosWorld/Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_B"
+        A_Boss_ReactionHit_F = "NanosWorld/Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_F"
+        A_Boss_ReactionHit_L = "NanosWorld/Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_L"
+        A_Boss_ReactionHit_R = "NanosWorld/Characters/Common/Animations/BossyEnemy/Boss_ReactionHit_R"
+        A_Boss_Attack_ChargedCombo_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_ChargedCombo_InP"
+        A_Boss_Attack_HandAndSwordSwing_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_HandAndSwordSwing_InP"
+        A_Boss_Attack_Running_Simple_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Running_Simple_InP"
+        A_Boss_Attack_Running_WithAOEBlow_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Running_WithAOEBlow_InP"
+        A_Boss_Attack_Swing_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Swing_InP"
+        A_Boss_Attack_SwingAndSlam_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_SwingAndSlam_InP"
+        A_Boss_Attack_Uppercut_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Attacks/Boss_Attack_Uppercut_InP"
+        A_Boss_BattleEntrance_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Boss_BattleEntrance_InP"
+        A_Boss_Parried_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Boss_Parried_InP"
+        A_Boss_Staggered_InP = "NanosWorld/Characters/Common/Animations/BossyEnemy/InPlace/Boss_Staggered_InP"
+        A_Boss_Attack_ChargedComboAttack_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_ChargedComboAttack_RM"
+        A_Boss_Attack_HandAndSwordSwing_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_HandAndSwordSwing_RM"
+        A_Boss_Attack_Running_Simple_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Running_Simple_RM"
+        A_Boss_Attack_Running_WithAOEBlow_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Running_WithAOEBlow_RM"
+        A_Boss_Attack_Swing_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Swing_RM"
+        A_Boss_Attack_SwingAndSlam_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_SwingAndSlam_RM"
+        A_Boss_Attack_Uppercut_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Attacks/Boss_Attack_Uppercut_RM"
+        A_Boss_BattleEntrance_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Boss_BattleEntrance_RM"
+        A_Boss_Parried_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Boss_Parried_RM"
+        A_Boss_Staggered_RM = "NanosWorld/Characters/Common/Animations/BossyEnemy/RootMotion/Boss_Staggered_RM"
 
-        BS_BossyEnemy_Standing = "Characters/Common/Animations/BossyEnemy/BS_BossyEnemy_Standing"
+        BS_BossyEnemy_Standing = "NanosWorld/Characters/Common/Animations/BossyEnemy/BS_BossyEnemy_Standing"
+
+        # Zombies
+        A_Zombie_Attack_Arms_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Attack_Arms_Loop"
+        A_Zombie_Attack_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Attack_Loop"
+        A_Zombie_Chase_KnockBack_Chase = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Chase_KnockBack_Chase"
+        A_Zombie_Chase_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Chase_Loop"
+        A_Zombie_Crawl_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Crawl_Loop"
+        A_Zombie_Death_Back_Mid = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Death_Back_Mid"
+        A_Zombie_Death_Hit_Back = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Death_Hit_Back"
+        A_Zombie_HyperAttack_Idle_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperAttack_Idle_Loop"
+        A_Zombie_HyperAttack_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperAttack_Loop"
+        A_Zombie_HyperChase_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_HyperChase_Loop"
+        A_Zombie_Idle_01 = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_01"
+        A_Zombie_Idle_01_To_Stand = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_01_To_Stand"
+        A_Zombie_Idle_02 = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Idle_02"
+        A_Zombie_OnFire = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_OnFire"
+        A_Zombie_Reach_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Reach_Loop"
+        A_Zombie_Stand_To_Attack = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Attack"
+        A_Zombie_Stand_To_Chase = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Chase"
+        A_Zombie_Stand_To_Crawl = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Crawl"
+        A_Zombie_Stand_To_Idle_01 = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_To_Idle_01"
+        A_Zombie_Stand_Walk_F = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Stand_Walk_F"
+        A_Zombie_Turn_L_45_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_L_45_Loop"
+        A_Zombie_Turn_L_90 = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_L_90"
+        A_Zombie_Turn_R_45_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_R_45_Loop"
+        A_Zombie_Turn_R_90 = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Turn_R_90"
+        A_Zombie_Walk_F_KnockBack_Walk = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Walk_F_KnockBack_Walk"
+        A_Zombie_Walk_F_Loop = "NanosWorld/Characters/Common/Animations/Zombie/InPlace/A_Zombie_Walk_F_Loop"
+
+        A_Zombie_Chase_KnockBack_Chase_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Chase_KnockBack_Chase"
+        A_Zombie_Chase_Loop_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Chase_Loop"
+        A_Zombie_Crawl_Loop_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Crawl_Loop"
+        A_Zombie_Death_Back_Mid_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Death_Back_Mid"
+        A_Zombie_Death_Hit_Back_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Death_Hit_Back"
+        A_Zombie_HyperChase_Loop_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_HyperChase_Loop"
+        A_Zombie_OnFire_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_OnFire"
+        A_Zombie_Stand_To_Attack_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Attack"
+        A_Zombie_Stand_To_Chase_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Chase"
+        A_Zombie_Stand_To_Crawl_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_To_Crawl"
+        A_Zombie_Stand_Walk_F_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Stand_Walk_F"
+        A_Zombie_Turn_L_45_Loop_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_L_45_Loop"
+        A_Zombie_Turn_L_90_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_L_90"
+        A_Zombie_Turn_R_45_Loop_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_R_45_Loop"
+        A_Zombie_Turn_R_90_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Turn_R_90"
+        A_Zombie_Walk_F_KnockBack_Walk_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Walk_F_KnockBack_Walk"
+        A_Zombie_Walk_F_Loop_Root = "NanosWorld/Characters/Common/Animations/Zombie/RootMotion/A_Zombie_Walk_F_Loop"
 
         # BlendSpaces
-        BS_Mannequin_Standing_IdleWalkRun = "Characters/Common/Animations/Locomotion/Standing/BS_Mannequin_Standing_IdleWalkRun"
-        BS_Mannequin_Crouching_IdleWalkRun = "Characters/Common/Animations/Locomotion/Crouching/BS_Mannequin_Crouching_IdleWalkRun"
-        BS_Mannequin_Proning_IdleWalk = "Characters/Common/Animations/Locomotion/Proning/BS_Mannequin_Proning_IdleWalk"
+        BS_Mannequin_Standing_IdleWalkRun = "NanosWorld/Characters/Common/Animations/Locomotion/Standing/BS_Mannequin_Standing_IdleWalkRun"
+        BS_Mannequin_Crouching_IdleWalkRun = "NanosWorld/Characters/Common/Animations/Locomotion/Crouching/BS_Mannequin_Crouching_IdleWalkRun"
+        BS_Mannequin_Proning_IdleWalk = "NanosWorld/Characters/Common/Animations/Locomotion/Proning/BS_Mannequin_Proning_IdleWalk"
 
-        A_Mannequin_StandingToCrouching = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToCrouching"
-        A_Mannequin_CrouchingToStanding = "Characters/Common/Animations/TurnInPlace/ALS_CLF_to_N"
-        A_Mannequin_ProningToCrouching = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_LayingFrontToCrouching"
-        A_Mannequin_CrouchingToProne = "Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToProne"
+        A_Mannequin_StandingToCrouching = "NanosWorld/Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToCrouching"
+        A_Mannequin_CrouchingToStanding = "NanosWorld/Characters/Common/Animations/TurnInPlace/ALS_CLF_to_N"
+        A_Mannequin_ProningToCrouching = "NanosWorld/Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_LayingFrontToCrouching"
+        A_Mannequin_CrouchingToProne = "NanosWorld/Characters/Common/Animations/Locomotion/Transitions/A_Mannequin_StandingToProne"
 
-        # Character Adventure Pack
-        A_Adventure_Mouth_Talk = "Characters/Adventures_Pack/Animations/A_Adventure_Mouth_Talk"
+        # Adventure Pack
+        A_Adventure_Mouth_Talk = "NanosWorld/Characters/Adventures_Pack/Animations/A_Adventure_Mouth_Talk"
+
 
     # Particles
     [assets.particles]
         # Weapons
-        P_Bullet_Trail = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System"
-        P_Weapon_BarrelSmoke = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System"
-        P_Weapon_Shells_12Gauge = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_12Gauge_System"
-        P_Weapon_Shells_762x39 = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_762x39_System"
-        P_Weapon_Shells_9x18 = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9x18_System"
-        P_Weapon_Shells_556x45 = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_556x45_System"
-        P_Weapon_Shells_545x39 = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_545x39_System"
-        P_Weapon_Shells_45ap = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_45ap_System"
-        P_Weapon_Shells_9mm = "Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9mm_System"
+        P_Bullet_Trail = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System"
+        P_Weapon_BarrelSmoke = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System"
+        P_Weapon_Shells_12Gauge = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_12Gauge_System"
+        P_Weapon_Shells_762x39 = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_762x39_System"
+        P_Weapon_Shells_9x18 = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9x18_System"
+        P_Weapon_Shells_556x45 = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_556x45_System"
+        P_Weapon_Shells_545x39 = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_545x39_System"
+        P_Weapon_Shells_45ap = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_45ap_System"
+        P_Weapon_Shells_9mm = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9mm_System"
 
-        PS_Blood_Impact = "Weapons/Common/Effects/ParticlesSystems/Impacts/Human/PS_Blood_Impact"
+        PS_Blood_Impact = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Human/PS_Blood_Impact"
 
         # Default
-        P_Explosion = "Effects/Particles/P_Explosion"
-        P_Smoke = "Effects/Particles/P_Smoke"
-        P_Sparks = "Effects/Particles/P_Sparks"
-        P_Fire = "Effects/Particles/P_Fire"
-        P_Explosion_Dirt = "Weapons/Common/Effects/ParticlesSystems/Explosions/PS_Explosion_Dirt"
-        P_Explosion_Water = "Weapons/Common/Effects/ParticlesSystems/Explosions/PS_Explosion_Water"
+        P_Explosion = "NanosWorld/Effects/Particles/P_Explosion"
+        P_Smoke = "NanosWorld/Effects/Particles/P_Smoke"
+        P_Sparks = "NanosWorld/Effects/Particles/P_Sparks"
+        P_Fire = "NanosWorld/Effects/Particles/P_Fire"
+        P_Explosion_Dirt = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Explosions/PS_Explosion_Dirt"
+        P_Explosion_Water = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Explosions/PS_Explosion_Water"
 
         # Template
-        P_Error = "Effects/Particles/P_Error"
-        P_Beam = "Effects/Particles/P_NanosBeam"
-        P_DirectionalBurst = "Effects/Particles/P_DirectionalBurst"
-        P_Fountain = "Effects/Particles/P_Fountain"
-        P_HangingParticulates = "Effects/Particles/P_HangingParticulates"
-        P_OmnidirectionalBurst = "Effects/Particles/P_OmnidirectionalBurst"
-        P_Ribbon = "Effects/Particles/P_Ribbon"
+        P_Error = "NanosWorld/Effects/Particles/P_Error"
+        P_Beam = "NanosWorld/Effects/Particles/P_NanosBeam"
+        P_DirectionalBurst = "NanosWorld/Effects/Particles/P_DirectionalBurst"
+        P_Fountain = "NanosWorld/Effects/Particles/P_Fountain"
+        P_HangingParticulates = "NanosWorld/Effects/Particles/P_HangingParticulates"
+        P_OmnidirectionalBurst = "NanosWorld/Effects/Particles/P_OmnidirectionalBurst"
+        P_Ribbon = "NanosWorld/Effects/Particles/P_Ribbon"
 
         # Explosions
         P_Burst_01 = "NanosWorldAssets/Particles/Explosions/Particles/P_Burst_01"
@@ -1549,28 +1555,28 @@
         P_Fire_Grd_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_Grd_02"
 
         # Grenade Explosions
-        P_GrenadeEXP_Air = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Air"
-        P_GrenadeEXP_Concrete = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Concrete"
-        P_GrenadeEXP_Default = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Default"
-        P_GrenadeEXP_Dirt = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Dirt"
-        P_GrenadeEXP_Grass = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Grass"
-        P_GrenadeEXP_Ice = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Ice"
-        P_GrenadeEXP_Metal = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Metal"
-        P_GrenadeEXP_Sand = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Sand"
-        P_GrenadeEXP_Snow = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Snow"
-        P_GrenadeEXP_Water = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Water"
-        P_GrenadeEXP_Wood = "Effects/GrenadePack/Niagara/NS_GrenadeEXP_Wood"
-        P_LTGrenadeEXP_Air = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Air"
-        P_LTGrenadeEXP_Concrete = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Concrete"
-        P_LTGrenadeEXP_Default = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Default"
-        P_LTGrenadeEXP_Dirt = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Dirt"
-        P_LTGrenadeEXP_Grass = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Grass"
-        P_LTGrenadeEXP_Ice = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Ice"
-        P_LTGrenadeEXP_Metal = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Metal"
-        P_LTGrenadeEXP_Sand = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Sand"
-        P_LTGrenadeEXP_Snow = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Snow"
-        P_LTGrenadeEXP_Water = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Water"
-        P_LTGrenadeEXP_Wood = "Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Wood"
+        P_GrenadeEXP_Air = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Air"
+        P_GrenadeEXP_Concrete = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Concrete"
+        P_GrenadeEXP_Default = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Default"
+        P_GrenadeEXP_Dirt = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Dirt"
+        P_GrenadeEXP_Grass = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Grass"
+        P_GrenadeEXP_Ice = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Ice"
+        P_GrenadeEXP_Metal = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Metal"
+        P_GrenadeEXP_Sand = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Sand"
+        P_GrenadeEXP_Snow = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Snow"
+        P_GrenadeEXP_Water = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Water"
+        P_GrenadeEXP_Wood = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Wood"
+        P_LTGrenadeEXP_Air = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Air"
+        P_LTGrenadeEXP_Concrete = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Concrete"
+        P_LTGrenadeEXP_Default = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Default"
+        P_LTGrenadeEXP_Dirt = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Dirt"
+        P_LTGrenadeEXP_Grass = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Grass"
+        P_LTGrenadeEXP_Ice = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Ice"
+        P_LTGrenadeEXP_Metal = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Metal"
+        P_LTGrenadeEXP_Sand = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Sand"
+        P_LTGrenadeEXP_Snow = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Snow"
+        P_LTGrenadeEXP_Water = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Water"
+        P_LTGrenadeEXP_Wood = "NanosWorld/Effects/GrenadePack/Niagara/NS_LTGrenadeEXP_Wood"
 
         # RocketThrusterExhaustFX
         P_RocketExhaust_Afterburn = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Afterburn"
@@ -1592,169 +1598,189 @@
         P_RocketExhaust_White = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_White"
         P_RocketExhaust_Yellow = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Yellow"
 
+
     # Materials
     [assets.materials]
         # Template Materials
-        M_Default_Masked_Lit = "MaterialLibrary/M_NanosDefault"
-        M_Default_Masked_Lit_WorldAligned = "MaterialLibrary/M_NanosDefault_WorldAligned"
-        M_Default_Masked_Unlit = "MaterialLibrary/MI_DefaultMaskedUnlit"
-        M_Default_AlphaComposite_Lit = "MaterialLibrary/M_NanosDefault_AlphaComposite"
-        M_Default_Translucent_Lit = "MaterialLibrary/MI_NanosDefault_Translucent"
-        M_Default_Translucent_Lit_Depth = "MaterialLibrary/M_NanosDefault_Translucent_Depth"
-        M_Default_Translucent_Lit_Decal = "MaterialLibrary/M_NanosDefault_Decal"
-        M_Default_Translucent_Unlit = "MaterialLibrary/MI_NanosDefault_Translucent_Unlit"
-        M_Default_Translucent_Unlit_Depth = "MaterialLibrary/MI_NanosDefault_Translucent_Depth_Unlit"
+        M_Default_Masked_Lit = "NanosWorld/MaterialLibrary/M_NanosDefault"
+        M_Default_Masked_Lit_WorldAligned = "NanosWorld/MaterialLibrary/M_NanosDefault_WorldAligned"
+        M_Default_Masked_Unlit = "NanosWorld/MaterialLibrary/MI_DefaultMaskedUnlit"
+        M_Default_AlphaComposite_Lit = "NanosWorld/MaterialLibrary/M_NanosDefault_AlphaComposite"
+        M_Default_Translucent_Lit = "NanosWorld/MaterialLibrary/MI_NanosDefault_Translucent"
+        M_Default_Translucent_Lit_Depth = "NanosWorld/MaterialLibrary/M_NanosDefault_Translucent_Depth"
+        M_Default_Translucent_Lit_Decal = "NanosWorld/MaterialLibrary/M_NanosDefault_Decal"
+        M_Default_Translucent_Unlit = "NanosWorld/MaterialLibrary/MI_NanosDefault_Translucent_Unlit"
+        M_Default_Translucent_Unlit_Depth = "NanosWorld/MaterialLibrary/MI_NanosDefault_Translucent_Depth_Unlit"
 
-        M_Default_UI = "MaterialLibrary/M_NanosDefault_UI"
-        M_Default_UI_Canvas = "MaterialLibrary/M_NanosDefault_UI_Canvas"
-        M_Default_UI_SceneCapture = "MaterialLibrary/M_NanosDefault_UI_SceneCapture"
-        M_Default_UI_WebUI = "MaterialLibrary/M_NanosDefault_UI_WebUI"
+        M_Default_UI = "NanosWorld/MaterialLibrary/M_NanosDefault_UI"
+        M_Default_UI_Canvas = "NanosWorld/MaterialLibrary/M_NanosDefault_UI_Canvas"
+        M_Default_UI_SceneCapture = "NanosWorld/MaterialLibrary/M_NanosDefault_UI_SceneCapture"
+        M_Default_UI_WebUI = "NanosWorld/MaterialLibrary/M_NanosDefault_UI_WebUI"
+
+        # Deprecated Names
+        M_NanosMasked = "NanosWorld/MaterialLibrary/M_NanosDefault"
+        M_NanosAlphaComposite = "NanosWorld/MaterialLibrary/M_NanosDefault_AlphaComposite"
+        M_NanosTranslucent = "NanosWorld/MaterialLibrary/MI_NanosDefault_Translucent"
+        M_NanosTranslucent_Depth = "NanosWorld/MaterialLibrary/M_NanosDefault_Translucent_Depth"
+        M_NanosDecal = "NanosWorld/MaterialLibrary/M_NanosDefault_Decal"
+        M_NanosWireframe = "NanosWorld/MaterialLibrary/M_Wireframe"
 
         # Internal
-        M_NanosBillboardError = "MaterialLibrary/MI_NanosBillboardError"
-        M_NanosMaterialError = "MaterialLibrary/M_NanosMaterialError"
-        M_NanosWebUI = "MaterialLibrary/M_NanosWebUI"
-        M_NanosSceneCapture = "MaterialLibrary/M_NanosDefault_SceneCapture"
+        M_NanosBillboardError = "NanosWorld/MaterialLibrary/MI_NanosBillboardError"
+        M_NanosMaterialError = "NanosWorld/MaterialLibrary/M_NanosMaterialError"
+        M_NanosWebUI = "NanosWorld/MaterialLibrary/M_NanosWebUI"
+        M_NanosWebUIOpaque = "NanosWorld/MaterialLibrary/MI_NanosWebUI_Opaque"
+        M_NanosSceneCapture = "NanosWorld/MaterialLibrary/M_NanosDefault_SceneCapture"
 
         # TextRender
-        M_TextFont = "MaterialLibrary/TextRender/M_TextFont"
-        M_TextFont_Unlit = "MaterialLibrary/TextRender/MI_TextFont_Unlit"
-        M_TextFont_Unlit_CameraAligned = "MaterialLibrary/TextRender/MI_TextFont_Unlit_CameraAligned"
-        M_TextFont_Unlit_CameraAligned_Depth = "MaterialLibrary/TextRender/M_TextFont_Unlit_CameraAligned_Depth"
-
+        M_TextFont = "NanosWorld/MaterialLibrary/TextRender/M_TextFont"
+        M_TextFont_Unlit = "NanosWorld/MaterialLibrary/TextRender/MI_TextFont_Unlit"
+        M_TextFont_Unlit_CameraAligned = "NanosWorld/MaterialLibrary/TextRender/MI_TextFont_Unlit_CameraAligned"
+        M_TextFont_Unlit_CameraAligned_Depth = "NanosWorld/MaterialLibrary/TextRender/M_TextFont_Unlit_CameraAligned_Depth"
 
         # Util Materials
-        M_Noise = "MaterialLibrary/M_Noise"
-        M_Wireframe = "MaterialLibrary/M_Wireframe"
-        M_None = "Props/Utils/M_None"
+        M_Noise = "NanosWorld/MaterialLibrary/M_Noise"
+        M_Wireframe = "NanosWorld/MaterialLibrary/M_Wireframe"
+        M_None = "NanosWorld/Props/Utils/M_None"
 
         # Physical Materials
-        PM_Concrete = "MaterialLibrary/PhysicalMaterials/PM_Concrete"
-        PM_Flesh = "MaterialLibrary/PhysicalMaterials/PM_Flesh"
-        PM_Glass = "MaterialLibrary/PhysicalMaterials/PM_Glass"
-        PM_Grass = "MaterialLibrary/PhysicalMaterials/PM_Grass"
-        PM_Gravel = "MaterialLibrary/PhysicalMaterials/PM_Gravel"
-        PM_Ground = "MaterialLibrary/PhysicalMaterials/PM_Ground"
-        PM_Metal = "MaterialLibrary/PhysicalMaterials/PM_Metal"
-        PM_MetalLight = "MaterialLibrary/PhysicalMaterials/PM_MetalLight"
-        PM_Mud = "MaterialLibrary/PhysicalMaterials/PM_Mud"
-        PM_Plastic = "MaterialLibrary/PhysicalMaterials/PM_Plastic"
-        PM_Rock = "MaterialLibrary/PhysicalMaterials/PM_Rock"
-        PM_Rubber = "MaterialLibrary/PhysicalMaterials/PM_Rubber"
-        PM_RubberBouncy = "MaterialLibrary/PhysicalMaterials/PM_RubberBouncy"
-        PM_Sand = "MaterialLibrary/PhysicalMaterials/PM_Sand"
-        PM_Water = "MaterialLibrary/PhysicalMaterials/PM_Water"
-        PM_Wood = "MaterialLibrary/PhysicalMaterials/PM_Wood"
-        PM_WoodHeavy = "MaterialLibrary/PhysicalMaterials/PM_WoodHeavy"
+        PM_Concrete = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Concrete"
+        PM_Flesh = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Flesh"
+        PM_Glass = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Glass"
+        PM_Grass = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Grass"
+        PM_Gravel = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Gravel"
+        PM_Ground = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Ground"
+        PM_Metal = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Metal"
+        PM_MetalLight = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_MetalLight"
+        PM_Mud = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Mud"
+        PM_Plastic = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Plastic"
+        PM_Rock = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Rock"
+        PM_Rubber = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Rubber"
+        PM_RubberBouncy = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_RubberBouncy"
+        PM_Sand = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Sand"
+        PM_Water = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Water"
+        PM_Wood = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Wood"
+        PM_WoodHeavy = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_WoodHeavy"
 
         # Weapons
-        MI_AK47 = "Weapons/Rifles/AK47/MI_AK47"
-        MI_AK47_Gold = "Weapons/Rifles/AK47/MI_AK47_Gold"
-        MI_AK47_Pattern = "Weapons/Rifles/AK47/MI_AK47_Pattern"
-        MI_Glock = "Weapons/Pistols/Glock/MI_Glock"
-        MI_Glock_Desert = "Weapons/Pistols/Glock/MI_Glock_Desert"
-        MI_DesertEagle = "Weapons/Pistols/DesertEagle/MI_DesertEagle"
-        MI_DesertEagle_Gold = "Weapons/Pistols/DesertEagle/MI_DesertEagle_Gold"
-        MI_DesertEagle_Silver = "Weapons/Pistols/DesertEagle/MI_DesertEagle_Silver"
-        MI_AK74U = "Weapons/Rifles/AK74U/MI_AK74U"
-        MI_AK74U_Gold = "Weapons/Rifles/AK74U/MI_AK74U_Gold"
-        MI_AK74U_LeafSpray = "Weapons/Rifles/AK74U/MI_AK74U_LeafSpray"
-        MI_AP5 = "Weapons/Rifles/AP5/MI_AP5"
-        MI_AP5SD_Color = "Weapons/Rifles/AP5/MI_AP5SD_Color"
-        MI_AP5SD = "Weapons/Rifles/AP5SD/MI_AP5SD"
-        MI_AR4 = "Weapons/Rifles/AR4/MI_AR4"
-        MI_AR4_Pattern = "Weapons/Rifles/AR4/MI_AR4_Pattern"
-        MI_ASVal = "Weapons/Rifles/ASVal/MI_ASVal"
-        MI_ASVal_Black = "Weapons/Rifles/ASVal/MI_ASVal_Black"
-        MI_ASVal_Black_Camo = "Weapons/Rifles/ASVal/MI_ASVal_Black_Camo"
-        MI_ASVal_Black_Striped = "Weapons/Rifles/ASVal/MI_ASVal_Black_Striped"
-        MI_GE3 = "Weapons/Rifles/GE3/MI_GE3"
-        MI_GE3_America = "Weapons/Rifles/GE3/MI_GE3_America"
-        MI_GE3_Black = "Weapons/Rifles/GE3/MI_GE3_Black"
-        MI_GE36 = "Weapons/Rifles/GE36/MI_GE36"
-        MI_GE36_Pattern = "Weapons/Rifles/GE36/MI_GE36_Pattern"
-        MI_Moss500 = "Weapons/Shotguns/Moss500/MI_Moss500"
-        MI_Moss500_Silver = "Weapons/Shotguns/Moss500/MI_Moss500_Silver"
-        MI_Rem870 = "Weapons/Shotguns/Rem870/MI_Rem870"
-        MI_SMG11 = "Weapons/SMGs/SMG11/MI_SMG11"
-        MI_SMG11_Camo = "Weapons/SMGs/SMG11/MI_SMG11_Camo"
-        MI_SMG11_Color = "Weapons/SMGs/SMG11/MI_SMG11_Color"
-        MI_SMG11_Rem = "Weapons/SMGs/SMG11/MI_SMG11_Rem"
+        MI_AK47 = "NanosWorld/Weapons/Rifles/AK47/MI_AK47"
+        MI_AK47_Gold = "NanosWorld/Weapons/Rifles/AK47/MI_AK47_Gold"
+        MI_AK47_Pattern = "NanosWorld/Weapons/Rifles/AK47/MI_AK47_Pattern"
+        MI_Glock = "NanosWorld/Weapons/Pistols/Glock/MI_Glock"
+        MI_Glock_Desert = "NanosWorld/Weapons/Pistols/Glock/MI_Glock_Desert"
+        MI_DesertEagle = "NanosWorld/Weapons/Pistols/DesertEagle/MI_DesertEagle"
+        MI_DesertEagle_Gold = "NanosWorld/Weapons/Pistols/DesertEagle/MI_DesertEagle_Gold"
+        MI_DesertEagle_Silver = "NanosWorld/Weapons/Pistols/DesertEagle/MI_DesertEagle_Silver"
+        MI_AK74U = "NanosWorld/Weapons/Rifles/AK74U/MI_AK74U"
+        MI_AK74U_Gold = "NanosWorld/Weapons/Rifles/AK74U/MI_AK74U_Gold"
+        MI_AK74U_LeafSpray = "NanosWorld/Weapons/Rifles/AK74U/MI_AK74U_LeafSpray"
+        MI_AP5 = "NanosWorld/Weapons/Rifles/AP5/MI_AP5"
+        MI_AP5SD_Color = "NanosWorld/Weapons/Rifles/AP5/MI_AP5SD_Color"
+        MI_AP5SD = "NanosWorld/Weapons/Rifles/AP5SD/MI_AP5SD"
+        MI_AR4 = "NanosWorld/Weapons/Rifles/AR4/MI_AR4"
+        MI_AR4_Pattern = "NanosWorld/Weapons/Rifles/AR4/MI_AR4_Pattern"
+        MI_ASVal = "NanosWorld/Weapons/Rifles/ASVal/MI_ASVal"
+        MI_ASVal_Black = "NanosWorld/Weapons/Rifles/ASVal/MI_ASVal_Black"
+        MI_ASVal_Black_Camo = "NanosWorld/Weapons/Rifles/ASVal/MI_ASVal_Black_Camo"
+        MI_ASVal_Black_Striped = "NanosWorld/Weapons/Rifles/ASVal/MI_ASVal_Black_Striped"
+        MI_GE3 = "NanosWorld/Weapons/Rifles/GE3/MI_GE3"
+        MI_GE3_America = "NanosWorld/Weapons/Rifles/GE3/MI_GE3_America"
+        MI_GE3_Black = "NanosWorld/Weapons/Rifles/GE3/MI_GE3_Black"
+        MI_GE36 = "NanosWorld/Weapons/Rifles/GE36/MI_GE36"
+        MI_GE36_Pattern = "NanosWorld/Weapons/Rifles/GE36/MI_GE36_Pattern"
+        MI_Moss500 = "NanosWorld/Weapons/Shotguns/Moss500/MI_Moss500"
+        MI_Moss500_Silver = "NanosWorld/Weapons/Shotguns/Moss500/MI_Moss500_Silver"
+        MI_Rem870 = "NanosWorld/Weapons/Shotguns/Rem870/MI_Rem870"
+        MI_SMG11 = "NanosWorld/Weapons/SMGs/SMG11/MI_SMG11"
+        MI_SMG11_Camo = "NanosWorld/Weapons/SMGs/SMG11/MI_SMG11_Camo"
+        MI_SMG11_Color = "NanosWorld/Weapons/SMGs/SMG11/MI_SMG11_Color"
+        MI_SMG11_Rem = "NanosWorld/Weapons/SMGs/SMG11/MI_SMG11_Rem"
 
         # Decals
-        MI_Blood_Decal_01 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_01"
-        MI_Blood_Decal_02 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_02"
-        MI_Blood_Decal_03 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_03"
-        MI_Blood_Decal_04 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_04"
-        MI_Blood_Decal_05 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_05"
-        MI_Blood_Decal_06 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_06"
-        MI_Blood_Decal_07 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_07"
-        MI_Blood_Decal_08 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_08"
-        MI_Blood_Decal_09 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_09"
-        MI_Blood_Decal_10 = "MaterialLibrary/Decals/Blood/MI_Blood_Decal_10"
+        MI_Blood_Decal_01 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_01"
+        MI_Blood_Decal_02 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_02"
+        MI_Blood_Decal_03 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_03"
+        MI_Blood_Decal_04 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_04"
+        MI_Blood_Decal_05 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_05"
+        MI_Blood_Decal_06 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_06"
+        MI_Blood_Decal_07 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_07"
+        MI_Blood_Decal_08 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_08"
+        MI_Blood_Decal_09 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_09"
+        MI_Blood_Decal_10 = "NanosWorld/MaterialLibrary/Decals/Blood/MI_Blood_Decal_10"
 
         # Bullet Holes
-        M_BulletHole_Concrete_Decal = "MaterialLibrary/Decals/Bullet/M_BulletHole_Concrete_Decal"
-        M_BulletHole_Decal = "MaterialLibrary/Decals/Bullet/M_BulletHole_Decal"
-        M_BulletHole_Flesh_Decal = "MaterialLibrary/Decals/Bullet/M_BulletHole_Flesh_Decal"
-        M_BulletHole_Metal_Decal = "MaterialLibrary/Decals/Bullet/M_BulletHole_Metal_Decal"
-        M_BulletHole_Wood_Decal = "MaterialLibrary/Decals/Bullet/M_BulletHole_Wood_Decal"
+        M_BulletHole_Concrete_Decal = "NanosWorld/MaterialLibrary/Decals/Bullet/M_BulletHole_Concrete_Decal"
+        M_BulletHole_Decal = "NanosWorld/MaterialLibrary/Decals/Bullet/M_BulletHole_Decal"
+        M_BulletHole_Flesh_Decal = "NanosWorld/MaterialLibrary/Decals/Bullet/M_BulletHole_Flesh_Decal"
+        M_BulletHole_Metal_Decal = "NanosWorld/MaterialLibrary/Decals/Bullet/M_BulletHole_Metal_Decal"
+        M_BulletHole_Wood_Decal = "NanosWorld/MaterialLibrary/Decals/Bullet/M_BulletHole_Wood_Decal"
 
         # Crosshairs
-        MI_Crosshair_Circle = "UI/Crosshair/MI_Crosshair_Circle"
-        MI_Crosshair_Crossbow = "UI/Crosshair/MI_Crosshair_Crossbow"
-        MI_Crosshair_Dot = "UI/Crosshair/MI_Crosshair_Dot"
-        MI_Crosshair_Holo = "UI/Crosshair/MI_Crosshair_Holo"
-        MI_Crosshair_Launcher = "UI/Crosshair/MI_Crosshair_Launcher"
-        MI_Crosshair_Regular = "UI/Crosshair/MI_Crosshair_Regular"
-        MI_Crosshair_Regular_X = "UI/Crosshair/MI_Crosshair_Regular_X"
-        MI_Crosshair_Rocket = "UI/Crosshair/MI_Crosshair_Rocket"
-        MI_Crosshair_Separated_Triangle = "UI/Crosshair/MI_Crosshair_Separated_Triangle"
-        MI_Crosshair_Shotgun = "UI/Crosshair/MI_Crosshair_Shotgun"
-        MI_Crosshair_Square = "UI/Crosshair/MI_Crosshair_Square"
-        MI_Crosshair_Submachine = "UI/Crosshair/MI_Crosshair_Submachine"
-        MI_Crosshair_Tee = "UI/Crosshair/MI_Crosshair_Tee"
-        MI_Crosshair_ThreeDots = "UI/Crosshair/MI_Crosshair_ThreeDots"
-        MI_Crosshair_Triangle = "UI/Crosshair/MI_Crosshair_Triangle"
-        MI_Crosshair_Vee = "UI/Crosshair/MI_Crosshair_Vee"
+        MI_Crosshair_Circle = "NanosWorld/UI/Crosshair/MI_Crosshair_Circle"
+        MI_Crosshair_Crossbow = "NanosWorld/UI/Crosshair/MI_Crosshair_Crossbow"
+        MI_Crosshair_Dot = "NanosWorld/UI/Crosshair/MI_Crosshair_Dot"
+        MI_Crosshair_Holo = "NanosWorld/UI/Crosshair/MI_Crosshair_Holo"
+        MI_Crosshair_Launcher = "NanosWorld/UI/Crosshair/MI_Crosshair_Launcher"
+        MI_Crosshair_Regular = "NanosWorld/UI/Crosshair/MI_Crosshair_Regular"
+        MI_Crosshair_Regular_X = "NanosWorld/UI/Crosshair/MI_Crosshair_Regular_X"
+        MI_Crosshair_Rocket = "NanosWorld/UI/Crosshair/MI_Crosshair_Rocket"
+        MI_Crosshair_Separated_Triangle = "NanosWorld/UI/Crosshair/MI_Crosshair_Separated_Triangle"
+        MI_Crosshair_Shotgun = "NanosWorld/UI/Crosshair/MI_Crosshair_Shotgun"
+        MI_Crosshair_Square = "NanosWorld/UI/Crosshair/MI_Crosshair_Square"
+        MI_Crosshair_Submachine = "NanosWorld/UI/Crosshair/MI_Crosshair_Submachine"
+        MI_Crosshair_Tee = "NanosWorld/UI/Crosshair/MI_Crosshair_Tee"
+        MI_Crosshair_ThreeDots = "NanosWorld/UI/Crosshair/MI_Crosshair_ThreeDots"
+        MI_Crosshair_Triangle = "NanosWorld/UI/Crosshair/MI_Crosshair_Triangle"
+        MI_Crosshair_Vee = "NanosWorld/UI/Crosshair/MI_Crosshair_Vee"
 
         # Female Casual Set
-        MI_CasualSet_01 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_01"
-        MI_CasualSet_02 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_02"
-        MI_CasualSet_03 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_03"
-        MI_CasualSet_04 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_04"
-        MI_CasualSet_05 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_05"
-        MI_CasualSet_06 = "Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_06"
+        MI_CasualSet_01 = "NanosWorld/Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_01"
+        MI_CasualSet_02 = "NanosWorld/Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_02"
+        MI_CasualSet_03 = "NanosWorld/Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_03"
+        MI_CasualSet_04 = "NanosWorld/Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_04"
+        MI_CasualSet_05 = "NanosWorld/Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_05"
+        MI_CasualSet_06 = "NanosWorld/Characters/Common/BodyParts/Clothes/casualset/MI_CasualSet_06"
 
-        # Character Adventure Pack
-        MI_Adventure_01_01 = "Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_01"
-        MI_Adventure_01_02 = "Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_02"
-        MI_Adventure_01_03 = "Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_03"
-        MI_Adventure_02_01 = "Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_01"
-        MI_Adventure_02_02 = "Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_02"
-        MI_Adventure_02_03 = "Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_03"
-        MI_Adventure_03_01 = "Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_01"
-        MI_Adventure_03_02 = "Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_02"
-        MI_Adventure_03_03 = "Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_03"
-        MI_Adventure_04_01 = "Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_01"
-        MI_Adventure_04_02 = "Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_02"
-        MI_Adventure_04_03 = "Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_03"
-        MI_Adventure_05_01 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_01"
-        MI_Adventure_05_02 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_02"
-        MI_Adventure_05_03 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_03"
-        MI_Adventure_05_NoTattoo_01 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_01"
-        MI_Adventure_05_NoTattoo_02 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_02"
-        MI_Adventure_05_NoTattoo_03 = "Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_03"
+        # Adventure
+        MI_Adventure_01_01 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_01"
+        MI_Adventure_01_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_02"
+        MI_Adventure_01_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_01/MI_Adventure_01_03"
+        MI_Adventure_02_01 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_01"
+        MI_Adventure_02_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_02"
+        MI_Adventure_02_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_02/MI_Adventure_02_03"
+        MI_Adventure_03_01 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_01"
+        MI_Adventure_03_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_02"
+        MI_Adventure_03_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_03/Adventure_03/MI_Adventure_03_03"
+        MI_Adventure_04_01 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_01"
+        MI_Adventure_04_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_02"
+        MI_Adventure_04_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_04/Adventure_04/MI_Adventure_04_03"
+        MI_Adventure_05_01 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_01"
+        MI_Adventure_05_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_02"
+        MI_Adventure_05_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_03"
+        MI_Adventure_05_NoTattoo_01 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_01"
+        MI_Adventure_05_NoTattoo_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_02"
+        MI_Adventure_05_NoTattoo_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_03"
+
 
     # Blueprints
     [assets.blueprints]
         # Animation Blueprints
-        ABP_Offroad = "Vehicles/OffroadCar/ABP_Offroad"
-        ABP_StackOBot = "Packs/StackOBot/Characters/Bot/ABP_Bot"
+        ABP_Offroad = "NanosWorld/Vehicles/OffroadCar/ABP_Offroad"
+        ABP_StackOBot = "NanosWorld/Packs/StackOBot/Characters/Bot/ABP_Bot"
 
         # Widgets
-        WBP_Error = "Core/Widgets/WBP_Error"
-        WBP_Empty = "Core/Widgets/WBP_Empty"
+        WBP_Error = "NanosWorld/Core/Widgets/WBP_Error"
+        WBP_Empty = "NanosWorld/Core/Widgets/WBP_Empty"
+
 
     # Others
     [assets.others]
+        # Physics Assets
+        PHYS_Mannequin = { path = "NanosWorld/Characters/Mannequin/PHYS_Mannequin", category = "physics-asset" }
+        PHYS_Male = { path = "NanosWorld/Characters/Male/PHYS_Male", category = "physics-asset" }
+        PHYS_Female = { path = "NanosWorld/Characters/Female/PHYS_Female", category = "physics-asset" }
+
+        # Distance Field Fonts
+        Font_LondrinaSolid_DistanceField = { path = "NanosWorld/UI/Fonts/LondrinaSolid/Font_LondrinaSolid_DistanceField", category = "font-textrender" }
+        Font_BoldPixels_DistanceField = { path = "NanosWorld/UI/Fonts/BoldPixels/Font_BoldPixels_DistanceField", category = "font-textrender" }
+        Font_Roboto_DistanceField = { path = "NanosWorld/UI/Fonts/Roboto/Font_Roboto_DistanceField", category = "font-textrender" }
