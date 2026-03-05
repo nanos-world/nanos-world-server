@@ -16,10 +16,13 @@
 
 # unreal engine configurations
 [unreal]
-    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
-    unreal_folder =         "MyPack"
+    # unreal engine folders to mount - the exact name of the root folders inside Content/ or Plugin/ used in Unreal
+    unreal_folders = [
+        "MyAssetPack",
+        "MyAnotherContentFolder"
+    ]
     # unreal engine version - unreal version this asset pack was compiled on
-    unreal_version =        "5.1.0"
+    unreal_version =        "5.7.0"
     # whether this asset pack was created as a plugin content"
     is_plugin_content =     false
 
@@ -27,46 +30,46 @@
 [assets]
     # maps
     [assets.maps]
-        # MyMap = "MyFolder/MyAwesomeMap"
+        # MyMap = "MyAssetPack/Maps/MyAwesomeMap"
         # ...
 
     # static meshes
     [assets.static_meshes]
-        # SM_Flower_01 = "MyFolder/SM_Awesome_Flower_01"
-        # SM_Rock_01 = { path = "MyFolder/SM_Rock_01", my_tag = "something", thumbnail = "Thumbnails/SM_Rock_01.jpg" }
+        # SM_Flower_01 = "MyAssetPack/Props/SM_Awesome_Flower_01"
+        # SM_Rock_01 = { path = "MyAnotherContentFolder/Props/SM_Rock_01", my_tag = "something", thumbnail = "Thumbnails/SM_Rock_01.jpg" }
         # ...
 
     # skeletal meshes
     [assets.skeletal_meshes]
-        # SK_Better_Man = "Characters/SK_BetterMan_0"
+        # SK_Better_Man = "MyAssetPack/Characters/SK_BetterMan_0"
         # ...
 
     # sounds
     [assets.sounds]
-        # A_My_Sound = "Sounds/A_My_Sound"
+        # A_My_Sound = "MyAnotherContentFolder/Sounds/A_My_Sound"
         # ...
 
     # animations
     [assets.animations]
-        # A_Character_Jump = "Animations/A_Character_Jump"
+        # A_Character_Jump = "MyAssetPack/Animations/A_Character_Jump"
         # ...
 
     # particles
     [assets.particles]
-        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # P_Big_Explosion = "MyAnotherContentFolder/Particles/P_Big_Explosion"
         # ...
 
     # materials
     [assets.materials]
-        # M_Red_Textured = "Materials/M_Red_Textured"
+        # M_Red_Textured = "MyAssetPack/Materials/M_Red_Textured"
         # ...
 
     # blueprints
     [assets.blueprints]
-        # BP_Blueprint = "Blueprints/M_Red_Textured"
+        # BP_Blueprint = "MyAnotherContentFolder/Blueprints/BP_Blueprint"
         # ...
 
     # other assets (for not yet categorized ones)
     [assets.others]
-        # A_Audio_Rifle_Fire = "Audios/A_Audio_Rifle_Fire_03"
+        # A_Audio_Rifle_Fire = "MyAssetPack/Audios/A_Audio_Rifle_Fire"
         # ...
