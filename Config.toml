@@ -2,11 +2,11 @@
 [discover]
     # server name
     name =                   "nanos world server"
-    # server description (max 127 characters)
+    # server description (max 200 characters)
     description =            ""
     # language (country code)
     language =               "global"
-    # server IP. we recommend leaving it 0.0.0.0 for default
+    # server IP - we recommend leaving it 0.0.0.0 for default
     ip =                     "0.0.0.0"
     # server port (TCP and UDP)
     port =                   7777
@@ -64,11 +64,13 @@
 
 # optimization configurations
 [optimization]
-    # server max tick rate in Hz (ticks per second). Higher = more responsive but uses more CPU. 30 Hz = 33ms per tick (default and recommended). Use with caution
+    # server max tick rate in Hz (ticks per second) - higher is more responsive but uses more CPU - 30 Hz = 33ms per tick (default and recommended) - use with caution
     max_tick_rate =          30
-    # max send rate per client in MB/s (1 - 16) - limits overall bandwidth for each connected player - this only affects Dedicated Servers as P2P is naturally limited to 1 MB/s by Steam Datagram Relay service
-    max_send_rate =          8
-    # max file transfer rate per client in MB/s - limits file transfer bandwidth for each connected player - this will be limited by 'max_send_rate' setting
-    max_file_transfer_rate = 8
-    # sets the compression level to use in some networking operations (0 - 9) - (0) disables it, (1) is the fastest and (9) is the slowest but has the highest compression ratio
+    # max network send rate per client in KB/s (128 - 16.384) - recommended setting to the lowest needed value as higher rates may negatively impact the server performance when having players with bad connections - this only affects Dedicated Servers as P2P is naturally limited to 1.024 KB/s by Steam Datagram Relay service
+    max_send_rate =          512
+    # max file transfer rate per client in KB/s (128 - max_send_rate) - limits file transfer bandwidth for each connected player - this will be limited by 'max_send_rate' setting
+    max_file_transfer_rate = 512
+    # compression level to use in some networking operations (0 - 9) - (0) disables it, (1) is the fastest and already provides a good compression, (9) is the slowest but has the highest compression ratio
     compression =            1
+    # distance optimization level to improve network usage by reducing sync from distant actors (0 - 9) - (0) disables it, (4) is a good middle term, (9) is the most aggressive
+    distance_optimization =  4
