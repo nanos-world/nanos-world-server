@@ -66,6 +66,8 @@
 [optimization]
     # server max tick rate in Hz (ticks per second) - higher is more responsive but uses more CPU - 30 Hz = 33ms per tick (default and recommended) - use with caution
     max_tick_rate =          30
+    # max sync rate in Hz (syncs per second) (1 - 30) - controls the location/rotation/velocity actors synchronization rate from and to players - naturally limited by the tick rate
+    max_sync_rate =          30
     # max network send rate per client in KB/s (128 - 16.384) - recommended setting to the lowest needed value as higher rates may negatively impact the server performance when having players with bad connections - this only affects Dedicated Servers as P2P is naturally limited to 1.024 KB/s by Steam Datagram Relay service
     max_send_rate =          512
     # max file transfer rate per client in KB/s (128 - max_send_rate) - limits file transfer bandwidth for each connected player - this will be limited by 'max_send_rate' setting
