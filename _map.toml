@@ -33,7 +33,7 @@
     spawn_points = [
                             { location = "Vector(-140.000000, -120.000000, 100.000000)", rotation = "Rotator(0.000000, -60.000000, 0.000000)" }
     ]
-    # whether to enable water buoyancy components on Actors if you map uses Water Plugin - disable it for additional performance on maps that don't need it\n"
+    # whether to enable water buoyancy components on Actors if you map uses Water Plugin - disable it for additional performance on maps that don't need it
     enable_water_buoyancy = false
 
 # map custom data
