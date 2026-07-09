@@ -1577,6 +1577,13 @@
         P_Fire_Grd_02 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_Grd_01"
         P_Fire_Grd_03 = "NanosWorldAssets/Particles/M5VFXVOL2/Niagara/Fire/NFire_Grd_02"
 
+        # Bullet Hit
+        "P_Dirt_Impact" = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Dirt_Impact"
+        "P_Metal_Impact" = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Metal_Impact"
+        "P_Water_Impact" = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Water_Impact"
+        "P_Wood_Impact" = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Wood_Impact"
+        "P_Blood_Impact" = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Human/PS_Blood_Impact"
+
         # Grenade Explosions
         P_GrenadeEXP_Air = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Air"
         P_GrenadeEXP_Concrete = "NanosWorld/Effects/GrenadePack/Niagara/NS_GrenadeEXP_Concrete"
