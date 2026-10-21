@@ -314,7 +314,7 @@
         SM_Rocket_Thruster = { path = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/Thruster/Meshes/SM_Thruster", category = "funny" }
         SM_Lamp = { path = "NanosWorldAssets/Furniture/SM_Lamp", category = "furniture" }
         SM_Flashlight = { path = "NanosWorldAssets/Tools/SM_Flashlight", category = "funny" }
-        SM_RetroCamera = { path = "NanosWorldAssets/Funny/RetroCamera/SM_RetroCamera", category = "funny" }
+        SM_InstantCamera = { path = "NanosWorldAssets/Funny/InstantCamera/SM_InstantCamera", category = "funny" }
         SM_PhotoFrame = { path = "NanosWorldAssets/Funny/PhotoFrame/SM_PhotoFrame", category = "funny" }
 
         SM_PushButton = { path = "NanosWorldAssets/Logic/PushButton/SM_PushButton", category = "logic" }
@@ -353,18 +353,24 @@
         SM_CookerStove = { path = "NanosWorldAssets/Appliances/SM_CookerStove", category = "appliances" }
         SM_CoffeeMachine = { path = "NanosWorldAssets/Appliances/SM_CoffeeMachine", category = "appliances" }
 
-        SM_Grave_01 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_01", category = "uncategorized" }
-        SM_Grave_02 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_02", category = "uncategorized" }
-        SM_Grave_03 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_03", category = "uncategorized" }
-        SM_Grave_04 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_04", category = "uncategorized" }
-        SM_Grave_06 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_06", category = "uncategorized" }
-        SM_Grave_07 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_07", category = "uncategorized" }
-        SM_Grave_08 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_08", category = "uncategorized" }
-        SM_Grave_09 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_09", category = "uncategorized" }
-        SM_Grave_10 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_10", category = "uncategorized" }
-        SM_Grave_11 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_11", category = "uncategorized" }
-        SM_Grave_12 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_12", category = "uncategorized" }
-        SM_Grave_13 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_13", category = "uncategorized" }
+        # Halloween
+        SM_Grave_01 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_01", category = "halloween" }
+        SM_Grave_02 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_02", category = "halloween" }
+        SM_Grave_03 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_03", category = "halloween" }
+        SM_Grave_04 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_04", category = "halloween" }
+        SM_Grave_06 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_06", category = "halloween" }
+        SM_Grave_07 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_07", category = "halloween" }
+        SM_Grave_08 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_08", category = "halloween" }
+        SM_Grave_09 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_09", category = "halloween" }
+        SM_Grave_10 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_10", category = "halloween" }
+        SM_Grave_11 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_11", category = "halloween" }
+        SM_Grave_12 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_12", category = "halloween" }
+        SM_Grave_13 = { path = "NanosWorldAssets/Cemetery/Meshes/SM_Grave_13", category = "halloween" }
+        SM_Scarecrow = { path = "NanosWorldAssets/Scarecrow/Meshes/SM_Scarecrow", category = "halloween" }
+        SM_Pumpkin_Carved_00 = { path = "NanosWorldAssets/Halloween_Pumpkins/Pumpkins/SM_Pumpkin_Carved_00", category = "halloween" }
+        SM_Pumpkin_Carved_01 = { path = "NanosWorldAssets/Halloween_Pumpkins/Pumpkins/SM_Pumpkin_Carved_01", category = "halloween" }
+        SM_Pumpkin_Carved_02 = { path = "NanosWorldAssets/Halloween_Pumpkins/Pumpkins/SM_Pumpkin_Carved_02", category = "halloween" }
+        SM_Pumpkin_Carved_03 = { path = "NanosWorldAssets/Halloween_Pumpkins/Pumpkins/SM_Pumpkin_Carved_03", category = "halloween" }
 
         SM_Spool = { path = "NanosWorldAssets/Construction/SM_Spool", category = "construction" }
         SM_Shovel_01 = { path = "NanosWorldAssets/Construction/SM_Shovel_01", category = "construction" }
@@ -626,6 +632,98 @@
         SM_Steering_Wheel_01 = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SteeringWheels/SM_Steering_Wheel_01", category = "construction" }
         SM_FidgetSpinner = { path = "NanosWorldAssets/Vehicles/Common/Meshes/SM_FidgetSpinner", category = "funny" }
 
+        # Human Skeleton Bones
+        SM_HumanSkeleton_Arm_L = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Arm_L", category = "funny" }
+        SM_HumanSkeleton_Arm_R = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Arm_R", category = "funny" }
+        SM_HumanSkeleton_Chest = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Chest", category = "funny" }
+        SM_HumanSkeleton_Cranium = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Cranium", category = "funny" }
+        SM_HumanSkeleton_Feet_L = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Feet_L", category = "funny" }
+        SM_HumanSkeleton_Feet_R = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Feet_R", category = "funny" }
+        SM_HumanSkeleton_Femur = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Femur", category = "funny" }
+        SM_HumanSkeleton_Fibula = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Fibula", category = "funny" }
+        SM_HumanSkeleton_Hand_L = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Hand_L", category = "funny" }
+        SM_HumanSkeleton_Hand_R = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Hand_R", category = "funny" }
+        SM_HumanSkeleton_Head_Full = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Head_Full", category = "funny" }
+        SM_HumanSkeleton_Head_Half = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Head_Half", category = "funny" }
+        SM_HumanSkeleton_Hip = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Hip", category = "funny" }
+        SM_HumanSkeleton_Humerus = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Humerus", category = "funny" }
+        SM_HumanSkeleton_Jaw = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Jaw", category = "funny" }
+        SM_HumanSkeleton_Leg_L = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Leg_L", category = "funny" }
+        SM_HumanSkeleton_Leg_R = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Leg_R", category = "funny" }
+        SM_HumanSkeleton_Pelvis = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Pelvis", category = "funny" }
+        SM_HumanSkeleton_Radius = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Radius", category = "funny" }
+        SM_HumanSkeleton_RibCage = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_RibCage", category = "funny" }
+        SM_HumanSkeleton_Scapula = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Scapula", category = "funny" }
+        SM_HumanSkeleton_Spine = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Spine", category = "funny" }
+        SM_HumanSkeleton_Tibia = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Tibia", category = "funny" }
+        SM_HumanSkeleton_Ulna = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Parts/SM_Ulna", category = "funny" }
+
+        SM_Shell_12Gauge = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_12Gauge", category = "tools" }
+        SM_Shell_40mm_G = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_40mm_G", category = "tools" }
+        SM_Shell_45ap = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_45ap", category = "tools" }
+        SM_Shell_50Cal = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_50Cal", category = "tools" }
+        SM_Shell_545x39 = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_545x39", category = "tools" }
+        SM_Shell_556x45 = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_556x45", category = "tools" }
+        SM_Shell_762x39 = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_762x39", category = "tools" }
+        SM_Shell_762x51 = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_762x51", category = "tools" }
+        SM_Shell_9mm = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_9mm", category = "tools" }
+        SM_Shell_9x18 = { path = "NanosWorld/Weapons/Common/Ammunition/SM_Shell_9x18", category = "tools" }
+
+        # Treasures
+        SM_Bowl = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Bowl_01a", category = "treasure" }
+        SM_Chalice_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Chalice_01a", category = "treasure" }
+        SM_Chalice_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Chalice_02b", category = "treasure" }
+        SM_Chest_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Chest_01a", category = "treasure" }
+        SM_Chest_01_Open = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Chest_01b", category = "treasure" }
+        SM_Chest_01_NoLid = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Chest_01c", category = "treasure" }
+        SM_Chest_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Chest_02d", category = "treasure" }
+        SM_ChestCoins = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_ChestCoins_01a", category = "treasure" }
+        SM_ClayPot_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_ClayPot_01", category = "treasure" }
+        SM_ClayPot_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_ClayPot_02", category = "treasure" }
+        SM_Coin_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Coin_01a", category = "treasure" }
+        SM_Coin_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Coin_02a", category = "treasure" }
+        SM_Crown = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Crown_01a", category = "treasure" }
+        SM_Gems_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Gems_01a", category = "treasure" }
+        SM_Gems_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Gems_01b", category = "treasure" }
+        SM_Gems_03 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Gems_01c", category = "treasure" }
+        SM_Gems_04 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Gems_01d", category = "treasure" }
+        SM_GoldBar = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_GoldBar_01a", category = "treasure" }
+        SM_OrnateChest_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_OrnateChest_01a", category = "treasure" }
+        SM_OrnateChest_01_Open = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_OrnateChest_01b", category = "treasure" }
+        SM_OrnateChest_02_Open = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_OrnateChest_02b", category = "treasure" }
+        SM_OrnateChest_02_NoLid = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_OrnateChest_02c", category = "treasure" }
+        SM_OrnateChest_02_Lid = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_OrnateChest_02d", category = "treasure" }
+        SM_Statue_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Statue_01a", category = "treasure" }
+        SM_Statue_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Statue_02a", category = "treasure" }
+        SM_Urn_01 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Urn_01a", category = "treasure" }
+        SM_Urn_02 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Urn_02", category = "treasure" }
+        SM_Urn_03 = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_Urn_04a", category = "treasure" }
+        SM_WaterPot = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_WaterPot_01a", category = "treasure" }
+
+        SM_ParkBin = { path = "NanosWorldAssets/Street/SM_ParkBin", category = "street" }
+        SM_ParkLamp_Glow = { path = "NanosWorldAssets/Street/SM_ParkLamp_Glow", category = "hidden" }
+        SM_PG_Lever_Base = { path = "NanosWorldAssets/Playground/SM_PG_Lever_Base", category = "hidden" }
+        SM_PG_Lever_Handle = { path = "NanosWorldAssets/Playground/SM_PG_Lever_Handle", category = "hidden" }
+        SM_PG_PushButton_Base = { path = "NanosWorldAssets/Playground/SM_PG_PushButton_Base", category = "hidden" }
+        SM_PG_PushButton_Cap = { path = "NanosWorldAssets/Playground/SM_PG_PushButton_Cap", category = "hidden" }
+        SM_PG_Switch_Plate = { path = "NanosWorldAssets/Playground/SM_PG_Switch_Plate", category = "hidden" }
+        SM_PG_Switch_Toggle = { path = "NanosWorldAssets/Playground/SM_PG_Switch_Toggle", category = "hidden" }
+        SM_PG_TargetBase = { path = "NanosWorldAssets/Playground/SM_PG_TargetBase", category = "hidden" }
+        SM_PG_Target_Plate = { path = "NanosWorldAssets/Playground/SM_PG_Target_Plate", category = "hidden" }
+        SM_PG_TargetPopper_Plate = { path = "NanosWorldAssets/Playground/SM_PG_TargetPopper_Plate", category = "hidden" }
+        SM_PG_TargetRound_Plate = { path = "NanosWorldAssets/Playground/SM_PG_TargetRound_Plate", category = "hidden" }
+        SM_PG_TargetSteel_Plate = { path = "NanosWorldAssets/Playground/SM_PG_TargetSteel_Plate", category = "hidden" }
+        SM_PG_PaintingSquare = { path = "NanosWorldAssets/Playground/SM_PG_PaintingSquare", category = "hidden" }
+        SM_PG_PaintingWide = { path = "NanosWorldAssets/Playground/SM_PG_PaintingWide", category = "hidden" }
+        SM_PG_PaintingTall = { path = "NanosWorldAssets/Playground/SM_PG_PaintingTall", category = "hidden" }
+        SM_PG_Ball = { path = "NanosWorldAssets/Playground/SM_PG_Ball", category = "hidden" }
+        SM_PG_Bell = { path = "NanosWorldAssets/Playground/SM_PG_Bell", category = "hidden" }
+        SM_PG_DoorFrame_Wood = { path = "NanosWorldAssets/Playground/SM_PG_DoorFrame_Wood", category = "hidden" }
+        SM_PG_Door_Wood = { path = "NanosWorldAssets/Playground/SM_PG_Door_Wood", category = "hidden" }
+        SM_PG_DoorFrame_Glass = { path = "NanosWorldAssets/Playground/SM_PG_DoorFrame_Glass", category = "hidden" }
+        SM_PG_Door_Glass = { path = "NanosWorldAssets/Playground/SM_PG_Door_Glass", category = "hidden" }
+        SM_PG_DoorFrame_Metal = { path = "NanosWorldAssets/Playground/SM_PG_DoorFrame_Metal", category = "hidden" }
+        SM_PG_Door_Metal = { path = "NanosWorldAssets/Playground/SM_PG_Door_Metal", category = "hidden" }
 
     # Skeletal Meshes
     [assets.skeletal_meshes]
@@ -746,6 +844,30 @@
         SK_Adventure_05_Shoes = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Shoes"
         SK_Adventure_05_Sleeves = "NanosWorld/Characters/Adventures_Pack/Mesh/Adventure_05/Mesh_UE4/Separate/SK_UE4_Adventure_05_Sleeves"
 
+        SK_HumanSkeleton = { path = "NanosWorld/Characters/Human_Skeleton/Meshes/Merged/SK_HumanSkeleton", category = "character" }
+
+        # Animals
+        SK_Chicken = { path = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Meshes/SK_Chicken", category = "animal" }
+        SK_Goat = { path = "NanosWorldAssets/Animals/FarmAnimalsPack/Goat/Meshes/SK_Goat", category = "animal" }
+        SK_Cow = { path = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Meshes/SK_Cow", category = "animal" }
+        SK_Sheep = { path = "NanosWorldAssets/Animals/FarmAnimalsPack/Sheep/Meshes/SK_Sheep", category = "animal" }
+        SK_Pig = { path = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Meshes/SK_Pig", category = "animal" }
+        SK_Crocodile = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Meshes/SK_Crocodile", category = "animal" }
+        SK_Elephant = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Meshes/SK_Elephant", category = "animal" }
+        SK_ElephantTusksSmall = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Meshes/SK_ElephantTusksSmall", category = "animal" }
+        SK_ElephantTusksMedium = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Meshes/SK_ElephantTusksMedium", category = "animal" }
+        SK_ElephantTusksBig = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Meshes/SK_ElephantTusksBig", category = "animal" }
+        SK_Hippopotamus = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Hippopotamus/Meshes/SK_Hippopotamus", category = "animal" }
+        SK_Lion = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/LionAndLioness/Meshes/SK_Lion_LOD0", category = "animal" }
+        SK_Lioness = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/LionAndLioness/Meshes/SK_Lioness_LOD0", category = "animal" }
+        SK_Rhinoceros = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Rhinoceros/Meshes/SK_Rhinoceros", category = "animal" }
+        SK_Zebra = { path = "NanosWorldAssets/Animals/AfricanAnimalsPack/Zebra/Meshes/SK_Zebra", category = "animal" }
+        SK_Crow = { path = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Meshes/SK_Crow", category = "animal" }
+        SK_DeerDoe = { path = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe", category = "animal" }
+        SK_DeerStag = { path = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag", category = "animal" }
+        SK_Fox = { path = "NanosWorldAssets/Animals/AnimalVarietyPack/Fox/Meshes/SK_Fox", category = "animal" }
+        SK_Wolf = { path = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Meshes/SK_Wolf", category = "animal" }
+
         SK_Error = "NanosWorld/Props/Utils/SK_Error"
         SK_None = "NanosWorld/Props/Utils/SK_None"
 
@@ -785,6 +907,8 @@
         SK_Blaster = { path = "NanosWorld/Weapons/Tools/Blaster/SK_Blaster", category = "weapon" }
         SK_FlareGun = { path = "NanosWorld/Weapons/Tools/FlareGun/SK_FlareGun", category = "weapon" }
         SK_FlareGun_Short = { path = "NanosWorld/Weapons/Tools/FlareGun/SK_FlareGun_Short", category = "weapon" }
+        SK_GravityGun = { path = "NanosWorld/Weapons/Tools/GravityGun/SK_GravityGun", category = "weapon" }
+        SK_ToolGun = { path = "NanosWorld/Weapons/Tools/ToolGun/SK_ToolGun", category = "weapon" }
 
         # Vehicles
         SK_CamperVan = { path = "NanosWorldAssets/Vehicles/Variety/CamperVan/SK_CamperVan", category = "vehicle" }
@@ -1149,6 +1273,7 @@
         A_Gas_Leak_Loop_03 = "NanosWorld/Effects/Gas/A_Gas_Leak_Loop_03"
         A_BigHammer_Impact = "NanosWorld/Effects/Sounds/Impact/A_BigHammer_Impact_Cue"
         A_BigHammer_Land = "NanosWorld/Effects/Sounds/Impact/A_BigHammer_Land_Cue"
+        A_Ball_Impact = "NanosWorld/Effects/Sounds/Impact/A_Ball_Impact_Cue"
 
         # Robot
         A_Robot_Beep_Whistle = "NanosWorld/Effects/Sounds/Robot/A_Robot_Beep_Whistle_Cue"
@@ -1160,7 +1285,54 @@
         A_Baiana_Remix = "NanosWorld/Packs/UgandanKnuckles/A_Baiana_Remix"
         A_Baiana = "NanosWorld/Packs/UgandanKnuckles/A_Baiana"
         A_CoffinMusic = "NanosWorld/Packs/Coffin/A_CoffinMusic"
+        A_Midnight_Tides = "NanosWorld/Effects/Music/A_Midnight_Tides"
+        A_Stillness_at_Twilight = "NanosWorld/Effects/Music/A_Stillness_at_Twilight"
+        A_The_Open_Latitude = "NanosWorld/Effects/Music/A_The_Open_Latitude"
+        A_Velvet_Highway = "NanosWorld/Effects/Music/A_Velvet_Highway"
+        A_AirportLounge = "NanosWorld/UI/MainMenu/Music/A_AirportLounge"
+        A_Apero_Hour = "NanosWorld/UI/MainMenu/Music/A_Apero_Hour"
+        A_BackbayLounge = "NanosWorld/UI/MainMenu/Music/A_BackbayLounge"
+        A_BossaAntigua = "NanosWorld/UI/MainMenu/Music/A_BossaAntigua"
+        A_CoolVibes = "NanosWorld/UI/MainMenu/Music/A_CoolVibes"
+        A_CovertAffair = "NanosWorld/UI/MainMenu/Music/A_CovertAffair"
+        A_CrinolineDreams = "NanosWorld/UI/MainMenu/Music/A_CrinolineDreams"
+        A_Deuces = "NanosWorld/UI/MainMenu/Music/A_Deuces"
+        A_GeorgeStreetShuffle = "NanosWorld/UI/MainMenu/Music/A_GeorgeStreetShuffle"
+        A_GymnopedieNo1 = "NanosWorld/UI/MainMenu/Music/A_GymnopedieNo1"
+        A_InYourArms = "NanosWorld/UI/MainMenu/Music/A_InYourArms"
+        A_Jazz_Brunch = "NanosWorld/UI/MainMenu/Music/A_Jazz_Brunch"
+        A_LobbyTime = "NanosWorld/UI/MainMenu/Music/A_LobbyTime"
+        A_LocalForecast = "NanosWorld/UI/MainMenu/Music/A_LocalForecast"
+        A_LongStroll = "NanosWorld/UI/MainMenu/Music/A_LongStroll"
+        A_MiningByMoonlight = "NanosWorld/UI/MainMenu/Music/A_MiningByMoonlight"
+        A_NouvelleNoel = "NanosWorld/UI/MainMenu/Music/A_NouvelleNoel"
+        A_OpportunityWalks = "NanosWorld/UI/MainMenu/Music/A_OpportunityWalks"
+        A_PoppersAndProsecco = "NanosWorld/UI/MainMenu/Music/A_PoppersAndProsecco"
+        A_SmoothLovin = "NanosWorld/UI/MainMenu/Music/A_SmoothLovin"
 
+        A_Fart = "NanosWorld/UI/Sounds/Farts/A_Fart_Cue"
+        A_Bonk = "NanosWorld/Effects/Sounds/A_Bonk_Cue"
+        A_Pew = "NanosWorld/Effects/Sounds/A_Pew_Cue"
+        A_Metal_Clang = "NanosWorld/Effects/Sounds/A_Metal_Clang_Cue"
+        A_Skeleton_Falling = "NanosWorld/Effects/Sounds/PhysicsHit/A_Skeleton_Falling_Cue"
+        A_Waterfall = "NanosWorld/Effects/Water/A_Waterfall_Cue"
+        A_Applause = "NanosWorld/Effects/Sounds/A_Applause_Cue"
+        A_Referee_Whistle = "NanosWorld/Effects/Sounds/A_Referee_Whistle_Cue"
+
+        # Animals
+        A_Pig_Death = "NanosWorld/Effects/Sounds/Animals/Pig/A_Pig_Death_Cue"
+        A_Chicken = "NanosWorld/Effects/Sounds/Animals/Chicken/A_Chicken_All"
+        A_Crocodile = "NanosWorld/Effects/Sounds/Animals/Crocodile/A_Crocodile_All"
+        A_Crow = "NanosWorld/Effects/Sounds/Animals/Crow/A_Crow_All"
+        A_Elephant = "NanosWorld/Effects/Sounds/Animals/Elephant/A_Elephant_All"
+        A_Goat = "NanosWorld/Effects/Sounds/Animals/Goat/A_Goat_All"
+        A_Hippopotamus = "NanosWorld/Effects/Sounds/Animals/Hippopotamus/A_Hippopotamus_All"
+        A_Lion = "NanosWorld/Effects/Sounds/Animals/Lion/A_Lion_All"
+        A_Pig = "NanosWorld/Effects/Sounds/Animals/Pig/A_Pig_All"
+        A_Rhinoceros = "NanosWorld/Effects/Sounds/Animals/Rhinoceros/A_Rhinoceros_All"
+        A_Sheep = "NanosWorld/Effects/Sounds/Animals/Sheep/A_Sheep_All"
+        A_Wolf = "NanosWorld/Effects/Sounds/Animals/Wolf/A_Wolf_All"
+        A_Zebra = "NanosWorld/Effects/Sounds/Animals/Zebra/A_Zebra_All"
 
     # Animations
     [assets.animations]
@@ -1426,6 +1598,46 @@
         # Adventure Pack
         A_Adventure_Mouth_Talk = "NanosWorld/Characters/Adventures_Pack/Animations/A_Adventure_Mouth_Talk"
 
+        # Gravity Gun
+        A_GravityGun_Fire = "NanosWorld/Weapons/Tools/GravityGun/A_GravityGun_Fire"
+        A_GravityGun_Open = "NanosWorld/Weapons/Tools/GravityGun/A_GravityGun_Open"
+        A_GravityGun_Close = "NanosWorld/Weapons/Tools/GravityGun/A_GravityGun_Close"
+
+        # Animals
+        A_Chicken_Death = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Animations/ANIM_Chicken_Death"
+        A_Chicken_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Animations/ANIM_Chicken_GetHit"
+        A_Goat_Death = "NanosWorldAssets/Animals/FarmAnimalsPack/Goat/Animations/ANIM_Goat_Death"
+        A_Goat_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Goat/Animations/ANIM_Goat_GetHit"
+        A_Cow_Death = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Animations/ANIM_Cow_Death"
+        A_Cow_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Animations/ANIM_Cow_GetHit"
+        A_Sheep_Death = "NanosWorldAssets/Animals/FarmAnimalsPack/Sheep/Animations/ANIM_Sheep_Death"
+        A_Sheep_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Sheep/Animations/ANIM_Sheep_GetHit"
+        A_Pig_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Animations/ANIM_Pig_GetHit"
+        A_Crocodile_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Animations/ANIM_Crocodile_Death"
+        A_Crocodile_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Animations/ANIM_Crocodile_GetHit"
+        A_Elephant_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Animations/ANIM_Elephant_Death"
+        A_Elephant_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Animations/ANIM_Elephant_GetHit"
+        A_Hippopotamus_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/Hippopotamus/Animations/ANIM_Hippopotamus_Death"
+        A_Hippopotamus_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/Hippopotamus/Animations/ANIM_Hippopotamus_GetHit"
+        A_Lion_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/LionAndLioness/Animations/ANIM_Lion_Death"
+        A_Lion_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/LionAndLioness/Animations/ANIM_Lion_GetHit"
+        A_Rhinoceros_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/Rhinoceros/Animations/ANIM_Rhinoceros_Death"
+        A_Rhinoceros_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/Rhinoceros/Animations/ANIM_Rhinoceros_GetHit"
+        A_Zebra_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/Zebra/Animations/ANIM_Zebra_Death"
+        A_Zebra_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/Zebra/Animations/ANIM_Zebra_GetHit"
+        A_Crow_Death = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Animations/ANIM_Crow_DeathGrounded"
+        A_Crow_TakeOff = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Animations/ANIM_Crow_TakeOff"
+        A_Crow_Fly = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Fly"
+        A_Crow_Glide = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Glide"
+        A_Crow_Landing = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Landing"
+        A_DeerDoe_Death = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Death"
+        A_DeerDoe_GetHit = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GetHit"
+        A_DeerStag_Death = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Death"
+        A_DeerStag_GetHit = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GetHit"
+        A_Fox_Death = "NanosWorldAssets/Animals/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Death"
+        A_Fox_GetHit = "NanosWorldAssets/Animals/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitFront"
+        A_Wolf_Death = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Death"
+        A_Wolf_GetHit = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitFront"
 
     # Particles
     [assets.particles]
@@ -1628,6 +1840,13 @@
         P_RocketExhaust_White = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_White"
         P_RocketExhaust_Yellow = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/FX/NS_RocketExhaust_Yellow"
 
+        P_GooglyEye = "NanosWorld/Effects/Particles/GooglyEye/P_GooglyEye"
+
+        P_Dirt_Impact = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Dirt_Impact"
+        P_Metal_Impact = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Metal_Impact"
+        P_Water_Impact = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Water_Impact"
+        P_Wood_Impact = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Enviroment/PS_Wood_Impact"
+        P_Blood_Impact = "NanosWorld/Weapons/Common/Effects/ParticlesSystems/Impacts/Human/PS_Blood_Impact"
 
     # Materials
     [assets.materials]
@@ -1791,6 +2010,39 @@
         MI_Adventure_05_NoTattoo_02 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_02"
         MI_Adventure_05_NoTattoo_03 = "NanosWorld/Characters/Adventures_Pack/Materials/Adventure_05/Adventure_05/MI_Adventure_05_NoTattoo_03"
 
+        # Animals
+        MI_Chicken_A = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Materials/M_Chicken"
+        MI_Chicken_B = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Materials/MI_Chicken_B"
+        MI_Chicken_C = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Materials/MI_Chicken_C"
+        M_Cow1 = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Materials/M_Cow1"
+        M_Cow2 = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Materials/M_Cow2"
+        M_Cow3 = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Materials/M_Cow3"
+        M_CowFur1 = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Materials/M_CowFur1"
+        M_CowFur2 = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Materials/M_CowFur2"
+        M_CowFur3 = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Materials/M_CowFur3"
+        M_Pig = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Materials/M_Pig"
+        M_PigDirty = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Materials/M_PigDirty"
+        M_PigHair = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Materials/M_PigHair"
+        M_PigHairDirty = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Materials/M_PigHairDirty"
+        M_Wolf = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Materials/M_Wolf"
+        M_WolfArctic = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Materials/M_WolfArctic"
+        M_WolfDark = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Materials/M_WolfDark"
+        M_WolfFur = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Materials/M_WolfFur"
+        M_WolfFurArctic = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Materials/M_WolfFurArctic"
+        M_WolfFurDark = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Materials/M_WolfFurDark"
+        M_Crocodile = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Materials/M_Crocodile"
+        M_CrocodileDirty = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Materials/M_CrocodileDirty"
+
+        # Balls
+        MI_PG_Ball_Soccer = "NanosWorldAssets/Playground/MI_PG_Ball_Soccer"
+        MI_PG_Ball_Basketball = "NanosWorldAssets/Playground/MI_PG_Ball_Basketball"
+        MI_PG_Ball_Volleyball = "NanosWorldAssets/Playground/MI_PG_Ball_Volleyball"
+        MI_PG_Ball_Beach = "NanosWorldAssets/Playground/MI_PG_Ball_Beach"
+        MI_PG_Ball_Tennis = "NanosWorldAssets/Playground/MI_PG_Ball_Tennis"
+
+        # Playground
+        MI_PG_BouncyBall = "NanosWorldAssets/Playground/MI_PG_BouncyBall"
+        MI_PG_MissingProp = "NanosWorldAssets/Playground/MI_PG_MissingProp"
 
     # Blueprints
     [assets.blueprints]
@@ -1802,6 +2054,23 @@
         WBP_Error = "NanosWorld/Core/Widgets/WBP_Error"
         WBP_Empty = "NanosWorld/Core/Widgets/WBP_Empty"
 
+        # Animals
+        ABP_Chicken = "NanosWorldAssets/Animals/FarmAnimalsPack/Chicken/Animations/ABP_Chicken"
+        ABP_Goat = "NanosWorldAssets/Animals/FarmAnimalsPack/Goat/Animations/ABP_Goat"
+        ABP_Cow = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Animations/ABP_Cow"
+        ABP_Sheep = "NanosWorldAssets/Animals/FarmAnimalsPack/Sheep/Animations/ABP_Sheep"
+        ABP_Pig = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Animations/ABP_Pig"
+        ABP_Crocodile = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Animations/ABP_Crocodile"
+        ABP_Elephant = "NanosWorldAssets/Animals/AfricanAnimalsPack/Elephant/Animations/ABP_Elephant"
+        ABP_Hippopotamus = "NanosWorldAssets/Animals/AfricanAnimalsPack/Hippopotamus/Animations/ABP_Hippopotamus"
+        ABP_Lion = "NanosWorldAssets/Animals/AfricanAnimalsPack/LionAndLioness/Animations/ABP_Lion"
+        ABP_Rhinoceros = "NanosWorldAssets/Animals/AfricanAnimalsPack/Rhinoceros/Animations/ABP_Rhinoceros"
+        ABP_Zebra = "NanosWorldAssets/Animals/AfricanAnimalsPack/Zebra/Animations/ABP_Zebra"
+        ABP_Crow = "NanosWorldAssets/Animals/AnimalVarietyPack/Crow/Animations/ABP_Crow"
+        ABP_DeerDoe = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Animations/ABP_DeerDoe"
+        ABP_DeerStag = "NanosWorldAssets/Animals/AnimalVarietyPack/DeerStagAndDoe/Animations/ABP_DeerStag"
+        ABP_Fox = "NanosWorldAssets/Animals/AnimalVarietyPack/Fox/Animations/ABP_Fox"
+        ABP_Wolf = "NanosWorldAssets/Animals/AnimalVarietyPack/Wolf/Animations/ABP_Wolf"
 
     # Others
     [assets.others]
