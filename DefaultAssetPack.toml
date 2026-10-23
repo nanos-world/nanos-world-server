@@ -3,6 +3,7 @@
     # Maps
     [assets.maps]
         TestingMap = "NanosWorldMaps/Maps/Testing/NanosTestingMap"
+        PlaygroundMap = "NanosWorldMaps/Maps/Playground/PlaygroundMap"
         BlankMap = "NanosWorld/Maps/BlankMap/BlankMap"
         OceanMap = "NanosWorld/Maps/OceanMap/OceanMap"
         EmptyMap = "NanosWorld/Maps/EmptyMap/EmptyMap"
@@ -312,9 +313,16 @@
         SM_Kunai_01 = { path = "NanosWorldAssets/Tools/SM_Kunai_01", category = "tools" }
         SM_Jet_Thruster = { path = "NanosWorldAssets/Funny/SM_Jet_Thruster", category = "funny" }
         SM_Rocket_Thruster = { path = "NanosWorldAssets/Particles/RocketThrusterExhaustFX/Thruster/Meshes/SM_Thruster", category = "funny" }
-        SM_Lamp = { path = "NanosWorldAssets/Furniture/SM_Lamp", category = "furniture" }
+        SM_Lamp_Bulb = { path = "NanosWorldAssets/Lamps/Meshes/SM_Lamp_Bulb", category = "furniture" }
+        SM_Lamp_Bulkhead = { path = "NanosWorldAssets/Lamps/Meshes/SM_Lamp_Bulkhead", category = "furniture" }
+        SM_Lamp_Lantern = { path = "NanosWorldAssets/Lamps/Meshes/SM_Lamp_Lantern", category = "furniture" }
+        SM_Lamp_LED = { path = "NanosWorldAssets/Lamps/Meshes/SM_Lamp_LED", category = "furniture" }
         SM_Flashlight = { path = "NanosWorldAssets/Tools/SM_Flashlight", category = "funny" }
         SM_InstantCamera = { path = "NanosWorldAssets/Funny/InstantCamera/SM_InstantCamera", category = "funny" }
+        SM_Camera_Security = { path = "NanosWorldAssets/Cameras/Meshes/SM_Camera_Security", category = "funny" }
+        SM_Camera_Surveillance = { path = "NanosWorldAssets/Cameras/Meshes/SM_Camera_Surveillance", category = "funny" }
+        SM_Camera_CCTV = { path = "NanosWorldAssets/Cameras/Meshes/SM_Camera_CCTV", category = "funny" }
+        SM_Camera_Housing = { path = "NanosWorldAssets/Cameras/Meshes/SM_Camera_Housing", category = "funny" }
         SM_PhotoFrame = { path = "NanosWorldAssets/Funny/PhotoFrame/SM_PhotoFrame", category = "funny" }
 
         SM_PushButton = { path = "NanosWorldAssets/Logic/PushButton/SM_PushButton", category = "logic" }
@@ -701,7 +709,6 @@
         SM_WaterPot = { path = "NanosWorldAssets/AncientTreasures/Meshes/SM_WaterPot_01a", category = "treasure" }
 
         SM_ParkBin = { path = "NanosWorldAssets/Street/SM_ParkBin", category = "street" }
-        SM_ParkLamp_Glow = { path = "NanosWorldAssets/Street/SM_ParkLamp_Glow", category = "hidden" }
         SM_PG_Lever_Base = { path = "NanosWorldAssets/Playground/SM_PG_Lever_Base", category = "hidden" }
         SM_PG_Lever_Handle = { path = "NanosWorldAssets/Playground/SM_PG_Lever_Handle", category = "hidden" }
         SM_PG_PushButton_Base = { path = "NanosWorldAssets/Playground/SM_PG_PushButton_Base", category = "hidden" }
@@ -724,6 +731,8 @@
         SM_PG_Door_Glass = { path = "NanosWorldAssets/Playground/SM_PG_Door_Glass", category = "hidden" }
         SM_PG_DoorFrame_Metal = { path = "NanosWorldAssets/Playground/SM_PG_DoorFrame_Metal", category = "hidden" }
         SM_PG_Door_Metal = { path = "NanosWorldAssets/Playground/SM_PG_Door_Metal", category = "hidden" }
+        SM_PG_Chair = { path = "NanosWorldAssets/Playground/SM_PG_Chair", category = "hidden" }
+        SM_PG_Bench = { path = "NanosWorldAssets/Playground/SM_PG_Bench", category = "hidden" }
 
     # Skeletal Meshes
     [assets.skeletal_meshes]
@@ -1285,10 +1294,10 @@
         A_Baiana_Remix = "NanosWorld/Packs/UgandanKnuckles/A_Baiana_Remix"
         A_Baiana = "NanosWorld/Packs/UgandanKnuckles/A_Baiana"
         A_CoffinMusic = "NanosWorld/Packs/Coffin/A_CoffinMusic"
-        A_Midnight_Tides = "NanosWorld/Effects/Music/A_Midnight_Tides"
-        A_Stillness_at_Twilight = "NanosWorld/Effects/Music/A_Stillness_at_Twilight"
-        A_The_Open_Latitude = "NanosWorld/Effects/Music/A_The_Open_Latitude"
-        A_Velvet_Highway = "NanosWorld/Effects/Music/A_Velvet_Highway"
+        A_Playground_01 = "NanosWorld/Effects/Music/A_Playground_01"
+        A_Playground_02 = "NanosWorld/Effects/Music/A_Playground_02"
+        A_Playground_03 = "NanosWorld/Effects/Music/A_Playground_03"
+        A_Playground_04 = "NanosWorld/Effects/Music/A_Playground_04"
         A_AirportLounge = "NanosWorld/UI/MainMenu/Music/A_AirportLounge"
         A_Apero_Hour = "NanosWorld/UI/MainMenu/Music/A_Apero_Hour"
         A_BackbayLounge = "NanosWorld/UI/MainMenu/Music/A_BackbayLounge"
@@ -1299,6 +1308,17 @@
         A_Deuces = "NanosWorld/UI/MainMenu/Music/A_Deuces"
         A_GeorgeStreetShuffle = "NanosWorld/UI/MainMenu/Music/A_GeorgeStreetShuffle"
         A_GymnopedieNo1 = "NanosWorld/UI/MainMenu/Music/A_GymnopedieNo1"
+        A_BrandenburgNo4 = "NanosWorld/Effects/Music/Classical/A_BrandenburgNo4"
+        A_CanonInDMajor = "NanosWorld/Effects/Music/Classical/A_CanonInDMajor"
+        A_CelloSuite1InGPrelude = "NanosWorld/Effects/Music/Classical/A_CelloSuite1InGPrelude"
+        A_PreludeInC = "NanosWorld/Effects/Music/Classical/A_PreludeInC"
+        A_Deck_The_Halls = "NanosWorld/UI/Events/Christmas/Music/A_Deck_The_Halls"
+        A_Jingle_Bells = "NanosWorld/UI/Events/Christmas/Music/A_Jingle_Bells"
+        A_We_Wish_You_A_Merry_Christmas = "NanosWorld/UI/Events/Christmas/Music/A_We_Wish_You_A_Merry_Christmas"
+        A_Darkest_Child_Var = "NanosWorld/UI/Events/Halloween/Music/A_Darkest_Child_Var"
+        A_Evil_Plan = "NanosWorld/UI/Events/Halloween/Music/A_Evil_Plan"
+        A_Industrial_Music_Box = "NanosWorld/UI/Events/Halloween/Music/A_Industrial_Music_Box"
+        A_Iron_Horse = "NanosWorld/UI/Events/Halloween/Music/A_Iron_Horse"
         A_InYourArms = "NanosWorld/UI/MainMenu/Music/A_InYourArms"
         A_Jazz_Brunch = "NanosWorld/UI/MainMenu/Music/A_Jazz_Brunch"
         A_LobbyTime = "NanosWorld/UI/MainMenu/Music/A_LobbyTime"
@@ -1612,6 +1632,7 @@
         A_Cow_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Cow/Animations/ANIM_Cow_GetHit"
         A_Sheep_Death = "NanosWorldAssets/Animals/FarmAnimalsPack/Sheep/Animations/ANIM_Sheep_Death"
         A_Sheep_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Sheep/Animations/ANIM_Sheep_GetHit"
+        A_Pig_Death = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Animations/ANIM_Pig_Death"
         A_Pig_GetHit = "NanosWorldAssets/Animals/FarmAnimalsPack/Pig/Animations/ANIM_Pig_GetHit"
         A_Crocodile_Death = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Animations/ANIM_Crocodile_Death"
         A_Crocodile_GetHit = "NanosWorldAssets/Animals/AfricanAnimalsPack/Crocodile/Animations/ANIM_Crocodile_GetHit"
