@@ -960,6 +960,7 @@
         SK_Offroad = { path = "NanosWorld/Vehicles/OffroadCar/SK_Offroad", category = "vehicle" }
 
         SK_Motorboat = { path = "NanosWorld/Vehicles/Water/MotorBoat/SK_Motorboat_01", category = "vehicle" }
+        SK_FishingBoat = { path = "NanosWorldAssets/Vehicles/Water/FishingBoat/SK_FishingBoat", category = "vehicle" }
 
 
     # Sounds
