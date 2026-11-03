@@ -913,7 +913,7 @@
         SK_Lewis = { path = "NanosWorld/Weapons/Rifles/Lewis/SK_Lewis", category = "weapon" }
         SK_M1Garand = { path = "NanosWorld/Weapons/Rifles/M1Garand/SK_M1Garand", category = "weapon" }
         SK_Glock = { path = "NanosWorld/Weapons/Pistols/Glock/SK_Glock", category = "weapon" }
-        SK_ColtPython = { path = "NanosWorld/Weapons/Pistols/RevolverColt/SK_Colt_Python", category = "weapon" }
+        SK_ColtPython = { path = "NanosWorld/Weapons/Pistols/RevolverColt/SK_ColtPython", category = "weapon" }
         SK_DesertEagle = { path = "NanosWorld/Weapons/Pistols/DesertEagle/SK_DesertEagle", category = "weapon" }
         SK_AR4 = { path = "NanosWorld/Weapons/Rifles/AR4/SK_AR4", category = "weapon" }
         SK_Moss500 = { path = "NanosWorld/Weapons/Shotguns/Moss500/SK_Moss500", category = "weapon" }
