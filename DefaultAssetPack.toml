@@ -933,13 +933,16 @@
         SK_AWP = { path = "NanosWorld/Weapons/Rifles/AWP/SK_AWP", category = "weapon" }
         SK_AK5C = { path = "NanosWorld/Weapons/Rifles/AK5C/SK_AK5C", category = "weapon" }
         SK_AK5C_G203 = { path = "NanosWorld/Weapons/Rifles/AK5C/SK_AK5C_G203", category = "weapon" }
-        SK_DC15S = { path = "NanosWorld/Weapons/Rifles/DC15S/SK_DC15S", category = "weapon" }
+        SK_BlasterPistol = { path = "NanosWorld/Weapons/Pistols/BlasterPistol/SK_BlasterPistol", category = "weapon" }
+        SK_BlasterRifle = { path = "NanosWorld/Weapons/Rifles/BlasterRifle/SK_BlasterRifle", category = "weapon" }
         SK_Sten = { path = "NanosWorld/Weapons/SMGs/Sten/SK_Sten", category = "weapon" }
         SK_StG44 = { path = "NanosWorld/Weapons/Rifles/StG44/SK_StG44", category = "weapon" }
         SK_BAR = { path = "NanosWorld/Weapons/Rifles/BAR/SK_BAR", category = "weapon" }
 
+        # Special
+        SK_HFG = { path = "NanosWorld/Weapons/Special/HFG/SK_HFG", category = "weapon" }
+
         # Tools
-        SK_Blaster = { path = "NanosWorld/Weapons/Tools/Blaster/SK_Blaster", category = "weapon" }
         SK_FlareGun = { path = "NanosWorld/Weapons/Tools/FlareGun/SK_FlareGun", category = "weapon" }
         SK_FlareGun_Short = { path = "NanosWorld/Weapons/Tools/FlareGun/SK_FlareGun_Short", category = "weapon" }
         SK_GravityGun = { path = "NanosWorld/Weapons/Tools/GravityGun/SK_GravityGun", category = "weapon" }
