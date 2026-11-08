@@ -9,6 +9,8 @@
 
 # c module configurations
 [c_module]
+    # Lua version the modules were compiled on
+    lua_version =           "5.4"
     # list of modules to load (without file extension)
     modules = [
                             # "example",
