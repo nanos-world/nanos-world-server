@@ -385,7 +385,7 @@
         SM_Sander_01a = { path = "NanosWorldAssets/Construction/SM_Sander_01a", category = "construction" }
         SM_Roller_Machine = { path = "NanosWorldAssets/Construction/SM_Roller_Machine", category = "construction" }
         SM_RollerMachine_Wheel = { path = "NanosWorldAssets/Construction/SM_RollerMachine_Wheel", category = "construction" }
-        SM_RoadBlock_Flag_01 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_Flag_01", category = "construction" }
+        SM_RoadBlock_Flag_01 = { path = "NanosWorldMaps/Art/City/Construction_Props/Mesh/SM_RoadBlock_Flag_01", category = "furniture" }
         SM_RoadBlock_05 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_05", category = "construction" }
         SM_RoadBlock_04 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_04", category = "construction" }
         SM_RoadBlock_03 = { path = "NanosWorldAssets/Construction/SM_RoadBlock_03", category = "construction" }
@@ -963,7 +963,7 @@
         SK_Offroad = { path = "NanosWorld/Vehicles/OffroadCar/SK_Offroad", category = "vehicle" }
 
         SK_Motorboat = { path = "NanosWorld/Vehicles/Water/MotorBoat/SK_Motorboat_01", category = "vehicle" }
-        SK_FishingBoat = { path = "NanosWorldAssets/Vehicles/Water/FishingBoat/SK_FishingBoat", category = "vehicle" }
+        SK_FishingBoat = { path = "NanosWorldAssets/Vehicles/Water/FishingBoat/Meshes/SK_FishingBoat", category = "vehicle" }
 
 
     # Sounds
@@ -1027,6 +1027,7 @@
         A_AR15_C_Shot = "NanosWorld/Weapons/Common/Audios/A_AR15_C_Shot_Cue"
         A_BerretaM9_Shot = "NanosWorld/Weapons/Common/Audios/A_BerretaM9_Shot_Cue"
         A_Blast_Shot = "NanosWorld/Weapons/Common/Audios/A_Blast_Shot_Cue"
+        A_BlasterLaser_Shot = "NanosWorld/Weapons/Common/Audios/A_BlasterLaser_Shot_Cue"
         A_DesertEagle_B_Shot = "NanosWorld/Weapons/Common/Audios/A_DesertEagle_B_Shot_Cue"
         A_GunFire = "NanosWorld/Weapons/Common/Audios/A_GunFire_Cue"
         A_HeavyShot = "NanosWorld/Weapons/Common/Audios/A_HeavyShot_Cue"
@@ -1947,6 +1948,7 @@
         M_Noise = "NanosWorld/MaterialLibrary/M_Noise"
         M_Wireframe = "NanosWorld/MaterialLibrary/M_Wireframe"
         M_None = "NanosWorld/Props/Utils/M_None"
+        M_WaterMask = "NanosWorld/MaterialLibrary/M_SingleLayerWater"
 
         # Physical Materials
         PM_Concrete = "NanosWorld/MaterialLibrary/PhysicalMaterials/PM_Concrete"
